@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import ProjectComponent from "../components/component";
+import ProjectComponent from "../components/Component";
 
 const projects = [
     {id: "1", name: "Artsgoz Website", status: "completed", description: "A commercial project distributed by Arts Student Committee, joined as a full-stack contributor", links: "https://artsgoz.netlify.app/", img: 'https://legacy.dhanav.me/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fartsgoz_scr.a64ed4dd.png&w=3840&q=75' },
