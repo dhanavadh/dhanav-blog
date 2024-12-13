@@ -1,14 +1,13 @@
 
-import ProjectComponent from "./components/Component";
 import Footer from "./components/Footer";
 import { ProfileInfo } from "./components/ProfileInfo";
-import Image from "next/image";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
     <>
-      <ProfileInfo />
-      <ProjectComponent />
+      <ProfileInfo />      
+      <Projects />
       <Footer />
     </>
   );

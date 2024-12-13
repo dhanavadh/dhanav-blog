@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import React from 'react'
-
 const projects = [
     {id: "1", name: "Artsgoz Website", status: "Commercial", description: "A commercial project distributed by Arts Student Committee, joined as a full-stack contributor", links: "https://artsgoz.netlify.app/", img: './artsgoz.netlify.app_.png' },
     {id: "3", name: "Iconroof – ระแนงบังตา", status: "Commercial", description: "ดูแลทั้งหมดของเว็บไซต์เก่า (Wordpress) และเว็บไซต์ปัจจุบัน รวมไปถึงจัดการ Search SEO และดูแล Ads", links: "https://iconroof.dhanav.me/", img: './iconroof.dhanav.me_.png' },
@@ -8,7 +5,7 @@ const projects = [
     {id: "4", name: "Go Dict", status: "Planned", description: "Fetching Dict Dataset by Golang", links: "/", img: './go.svg' },
 ]
 
-const ProjectComponent = () => {
+const Projects = () => {
   return (
     <div className='grid w-full items-center font-[family-name:var(--font-noto-sans)]' id='product'>
         <div className="w-full overflow-x-auto scrollbar-hide">
@@ -44,4 +41,4 @@ const ProjectComponent = () => {
   )
 }
 
-export default ProjectComponent
+export default Projects
