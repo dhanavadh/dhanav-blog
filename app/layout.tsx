@@ -21,6 +21,7 @@ const ZenKurenaido = localFont({
 export const metadata: Metadata = {
   title: "Dhanavadh Saito",
   description: "An arts student who has interest in web development. Please come and check my profile.",
+  keywords: "Dhanavadh, Saito, Arts, arts chula, aksorn, dhanavadh saito, intern, internship, port, portfolio, ธนวัฒน์, ธนวัฒน์ ซาอิโตะ, ซาอิโตะ, นิสิต, นิสิตอักษร, อักษร, อักษร จุฬา ",
 };
 
 export default function RootLayout({
