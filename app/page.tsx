@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-[#f2f2f2]">
       <ProfileInfo />    
       <div className='mt-6 mx-10 mb-5 sm:mx-40'>
           <p className='h1'>Projects</p>          
@@ -17,6 +17,6 @@ export default function Home() {
       </div>
       <Experience />
       <Footer />
-    </>
+    </div>
   );
 }
