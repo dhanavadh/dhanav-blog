@@ -10,7 +10,7 @@ const Projects = () => {
     <div className='grid w-full items-center font-[family-name:var(--font-noto-sans)]' id='product'>
         <div className="w-full overflow-x-auto scrollbar-hide">
             <div className="whitespace-nowrap">
-                <ul className='flex mx-10 sm:mx-36 py-10 mb-10'>
+                <ul className='flex mx-10 mt-4 sm:mx-36 pb-10 mb-2'>
                     {projects.map((item) => (
                         <li key={item.id} className='mx-2 rounded-xl hover:shadow-xl'>
                             <div className='grid w-full shadow-lg hover:shadow-2xl duration-300'>
@@ -18,13 +18,13 @@ const Projects = () => {
                                 <div className='relative h-96'>
                                     <img src={item.img} className='w-full h-full rounded-lg object-cover absolute brightness-50' alt={item.name}></img>                                    
                                     <div className='absolute bottom-1 px-4 py-2'>
-                                        <div className='mb-1'>
+                                        <div className='mb-2'>
                                             <a className='text-white text-sm px-2 py-1 bg-pink-500 rounded-2xl'>{item.status}</a>    
                                         </div>                                        
                                         <p className='text-2xl font-medium text-white'>{item.name}</p>
                                         <p className='mt-1 text-white whitespace-normal'>{item.description}</p>
                                         <div className='my-2'>
-                                            <a className='text-lg font-medium text-white hover:underline hover:underline-offset-2'　href={item.links} target='_blank'>See Projects →</a>
+                                            <a className='text-lg font-medium text-white hover:underline hover:underline-offset-2'　href={item.links} target='_blank'>See Project →</a>
                                         </div>
                                     </div>
                                     

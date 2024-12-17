@@ -5,3 +5,20 @@
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
+
+.heading {
+  @apply text-4xl font-medium text-gray-800 underline-offset-4 underline decoration-4 decoration-wavy decoration-pink-500;
+}
+.sub-heading {
+  @apply text-2xl font-normal text-gray-600
+}
+.paragraph {
+  @apply text-lg font-normal text-gray-700
+}
+.h1 {
+  @apply text-3xl font-medium text-gray-800 underline-offset-8 underline decoration-4 decoration-wavy decoration-blue-500;
+}
+
+.link {
+  @apply font-medium text-gray-800 hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-pink-500;
+}
