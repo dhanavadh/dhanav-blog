@@ -69,7 +69,7 @@ const AboutMe = () => {
                         >
                         <Image
                             aria-hidden
-                            src="/linkedin.svg"
+                            src="/ln.svg"
                             alt="LinkedIn icon"
                             width={16}
                             height={16}
@@ -126,7 +126,7 @@ const AboutMe = () => {
                 
             </div>
         </div>
-  </div>
+    </div>
   )
 }
 
