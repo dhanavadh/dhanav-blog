@@ -2,12 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  background: #000;
+}
+body {
+  color: white;
+  background: #000;
+}
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
 
 .heading {
-  @apply text-4xl font-medium text-gray-800 underline-offset-4 underline decoration-4 decoration-wavy decoration-pink-500;
+  @apply text-4xl font-medium text-white underline-offset-4 underline decoration-4 decoration-wavy decoration-pink-500;
 }
 .sub-heading {
   @apply text-2xl font-normal text-gray-600
@@ -20,5 +27,34 @@
 }
 
 .link {
-  @apply font-medium text-gray-800 hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-pink-500;
+  @apply font-medium text-white underline-offset-4 
+  hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-pink-500;
+}
+.nav-link.hovered {
+  transition-duration: 300ms;
+  color: #b3b3b3c1;  
+}
+.nav-link {
+  transition-duration: 300ms;
+  color: white;
+}
+
+.title {
+  @apply text-4xl font-medium; 
+}
+
+.sub-title {
+  @apply text-2xl font-normal; 
+}
+.text-body {
+  @apply text-lg font-normal;
+}
+.p {
+  @apply text-lg font-normal leading-relaxed;
+}
+.underline-highlight {
+  @apply underline-offset-4 underline decoration-2 decoration-wavy decoration-blue-500;
+}
+.h3{
+  @apply text-xl font-bold;
 }

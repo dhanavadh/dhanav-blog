@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const NotoSans = localFont({
   src: "./fonts/NotoSansThai.ttf",
@@ -31,10 +33,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body
         className={`${NotoSans.variable} ${NotoSansJP.variable} ${ZenKurenaido.variable} antialiased`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

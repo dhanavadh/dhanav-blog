@@ -1,7 +1,18 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from 'next/image'
+import Link from 'next/link'
+import React from 'react'
 
-export default function Home() {
+const bio = `I’m a Japanese major with a passion for web development and UI design. I love coding because it lets me bring ideas to life while keeping things organized and structured, which I really enjoy.`
+const bio2 = `Outside of programming, I love playing karuta, a traditional Japanese card game. I’m also a member of the Bangkok Karuta Club. I’m always looking for new opportunities to learn and grow, so feel free to reach out to me!`
+
+const Skills = [
+    {id: 1, name: 'UX Researching/UI Designing', description: 'Experienced in Figma and Adobe XD'},
+    {id: 2, name: 'Fullstack Web Development', description: 'TypeScript, Node.js, TailwindCSS. Express.js are available'},
+    {id: 3, name: 'Data Analytics', description: 'Tools like Python, Pandas, NumPy, and Matplotlib are my go-to for data analysis.'},
+    
+]
+
+const AboutMe = () => {
   return (
     <div className='flex flex-col items-center justify-center min-h-screen font-[family-name:var(--font-noto-sans)] px-4'>    
         <div className='md:flex items-start'>
@@ -9,10 +20,9 @@ export default function Home() {
             <div className='px-4 py-2 text-white max-w-xl mb-4'> 
                     
                     {/* Heading */}
-                    <p className='text-7xl font-bold text-blue-500'>Hello !</p>       
-                    <p className='text-6xl font-bold mb-2'>I'm Teru</p>
-                    <p className='sub-title'>or Dhanavadh Saito</p>
-                    <p className='sub-title'>ธนวัฒน์ ซาอิโตะ</p>                         
+                    <p className='text-body mb-2'>About Me</p>       
+                    <p className='title'>Dhanavadh Saito</p>
+                    <p className='sub-title'>ธนวัฒน์ ซาอิโตะ</p>     
 
                     {/* Bio */}
                     <p className='p mt-4'>I’m a Japanese major with a passion for <a className='underline-highlight'>web development</a> and <a className='underline-highlight'>UI design</a>. I love coding because it lets me bring ideas to life while keeping things organized and structured, which I really enjoy.</p>
@@ -97,7 +107,17 @@ export default function Home() {
                     <div className='flex items-start'>
                         <Image src='./icons/star_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
                         <div>
-                            <p className='h3 pb-1'>Skills</p>                               
+                            <p className='h3 pb-1'>Skills</p> 
+                            <div className=''>
+                                {Skills.map((skill) => (
+                                    <ul key={skill.id} className='gap-2'>
+                                        <li className='list-item'>
+                                            <p className='text-base font-semibold mt-2 mb-1'> {skill.name}</p>
+                                            <p className='text-base w-64 ml-4'>{skill.description}</p>
+                                        </li>                                
+                                    </ul>
+                                ))}      
+                            </div>    
                         </div>  
                     </div>                
 
@@ -106,6 +126,8 @@ export default function Home() {
                 
             </div>
         </div>
-    </div>
-  );
+  </div>
+  )
 }
+
+export default AboutMe
