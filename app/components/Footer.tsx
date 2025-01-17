@@ -31,7 +31,7 @@ const Footer = () => {
         >
           <Image
             aria-hidden
-            src="/linkedin.svg"
+            src="/ln.svg"
             alt="LinkedIn icon"
             width={16}
             height={16}
