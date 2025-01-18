@@ -21,6 +21,11 @@ body {
   @apply text-lg font-normal text-gray-700
 }
 
+.link-title {
+  @apply underline-offset-4
+  hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-pink-500;
+}
+
 .link {
   @apply underline-offset-4 p
   hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-pink-500;
@@ -70,7 +75,7 @@ body {
   @apply text-base font-bold;
 }
 .head-page {
-  @apply flex flex-col items-center justify-start min-h-screen font-[family-name:var(--font-noto-sans)] mx-16 md:mx-32 mt-16;
+  @apply flex flex-col items-center justify-start min-h-full font-[family-name:var(--font-noto-sans)] mx-16 md:mx-32 mt-16;
 }
 .head-page-relative {
   @apply flex flex-col justify-start min-h-screen font-[family-name:var(--font-noto-sans)] mt-16;

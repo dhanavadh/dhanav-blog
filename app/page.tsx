@@ -77,37 +77,18 @@ export default function Home() {
                     <p className='title'>Dhanavadh Saito</p>
                     <p className='sub-title'>ธนวัฒน์ ซาอิโตะ</p>     
                 </li> */}
-                <li className='flex items-start px-4 py-2 text-white'>
-                    <Image src='./icons/lang_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
-                    <div>
-                    <p className='h3 pb-2'>Blogs</p>                
-                      <div className='border-b-2 border-neutral-800 pb-4'>
-                        <a className='bg-pink-500 px-2 py-0.5 rounded-full text-[12px]'>UI Design</a>
-                        <p className='text-white md:w-96 mt-1 text-lg font-medium' >เมื่อผมต้อง Redesign เว็บคณะใหม่</p>
-                        <p className='text-white md:w-96 mb-2 text-ิฟหำ' >ความรู้เรื่องหลักการออกแบบ รวมไปถึงการศึกษาผู้ใช้ ใช้กับเว็บไซต์</p>
-                        <a className='link' href='/blogs'>Read More →</a>
-                      </div>
-                    </div>
-
+                <li className='flex items-center px-4 py-2 text-white'>
+                    <Image src='./icons/work.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
+                    <Link className='h3 mb-2 link-title' href='/blogs'>Projects →</Link>
+                </li>
+                <li className='flex items-center px-4 py-2 text-white'>
+                    <Image src='./icons/blog.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
+                    <Link className='h3 mb-2 link-title' href='/blogs'>Blogs →</Link>
                 </li>
                 <li className='flex items-start px-4 py-2 text-white'>
-                    <Image src='./icons/school_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
-                    <div>
-                    <p className='h3 mb-2'>Projects</p>      
-                    <ProjectGroup />              
-                    </div>                    
-                </li>
-                
-                
-                <li className='text-white items-start px-4 py-2'>
-                    <div className='flex items-start'>
-                        <Image src='./icons/star_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
-                        <div>
-                            <p className='h3 pb-1'>Skills</p>                               
-                        </div>  
-                    </div>                
-
-                </li>
+                    <Image src='./icons/star.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
+                    <Link className='h3 mb-2 link-title' href='/experience'>Experience/Certifications →</Link>
+                </li>               
                 </ul>
                 
             </div>
