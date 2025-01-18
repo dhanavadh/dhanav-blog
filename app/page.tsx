@@ -86,15 +86,7 @@ export default function Home() {
                 {/* Blogs */}
                 <p className='h3 my-4'>Latest Blogs</p>
 
-                <LatestBlog /> 
-                <div className='flex max-h-1/2 max-w-full relative my-4 -z-[1]'>
-                    <img src='/go.svg' className='h-full w-full absolute object-cover -z-[1] brightness-[30%] rounded-xl'></img>                        
-                    <div className='mx-4 mt-32 w-full mb-4'>            
-                        <p className='h3'>เมื่อเราใช้ความรู้เรื่อง Design Principles มาเขียนเว็บจะเป็นอย่างไร</p>            
-                        <p className='p-white mb-2'>จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง User Experience เลย มาสู่การรีเมคเว็บไซต์ของตัวเองให้เข้าถึง user ทุกคน ผมจึงรู้สึกว่าความรู้เรื่อง UX สำคัญมาก ๆ สำหรับนักพัฒนาเว็บ frontend</p>   
-                        <Link href='/blogs/coding/port-redesign' className='link-white font-bold'>อ่านต่อ →</Link>         
-                    </div>
-                </div>               
+                <LatestBlog />                               
             </div>
         </div>
     </div>
