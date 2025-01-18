@@ -11,10 +11,16 @@ const Skills = [
     {id: 3, name: 'Data Analytics', description: 'Tools like Python, Pandas, NumPy, and Matplotlib are my go-to for data analysis.'},
     
 ]
+const Interests = [
+    {id: 1, name: 'Philosophy', description: 'Especially interested in Buddhism Philosophy and Japanese Philosophy which you can see articles in my blog.'},
+    {id: 2, name: 'Large Language Model', description: 'TypeScript, Node.js, TailwindCSS. Express.js are available'},
+    {id: 3, name: 'Data Analytics', description: 'Tools like Python, Pandas, NumPy, and Matplotlib are my go-to for data analysis.'},
+    
+]
 
 const AboutMe = () => {
   return (
-    <div className='flex flex-col items-center justify-center min-h-screen font-[family-name:var(--font-noto-sans)] px-4'>    
+    <div className='head-page'>    
         <div className='md:flex items-start'>
             {/* Info */}
             <div className='px-4 py-2 text-white max-w-xl mb-4'> 
@@ -110,6 +116,25 @@ const AboutMe = () => {
                             <p className='h3 pb-1'>Skills</p> 
                             <div className=''>
                                 {Skills.map((skill) => (
+                                    <ul key={skill.id} className='gap-2'>
+                                        <li className='list-item'>
+                                            <p className='text-base font-semibold mt-2 mb-1'> {skill.name}</p>
+                                            <p className='text-base w-64 ml-4'>{skill.description}</p>
+                                        </li>                                
+                                    </ul>
+                                ))}      
+                            </div>    
+                        </div>  
+                    </div>                
+
+                </li>
+                <li className='text-white items-start px-4 py-2'>
+                    <div className='flex items-start'>
+                        <Image src='./icons/interests.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
+                        <div>
+                            <p className='h3 pb-1'>Other Interests</p> 
+                            <div className=''>
+                                {Interests.map((skill) => (
                                     <ul key={skill.id} className='gap-2'>
                                         <li className='list-item'>
                                             <p className='text-base font-semibold mt-2 mb-1'> {skill.name}</p>

@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  background: #000;
-}
+
 body {
   color: white;
   background: #000;
@@ -23,11 +21,11 @@ body {
   @apply text-lg font-normal text-gray-700
 }
 .h1 {
-  @apply text-3xl font-medium text-gray-800 underline-offset-8 underline decoration-4 decoration-wavy decoration-blue-500;
+  @apply text-3xl font-semibold;
 }
 
 .link {
-  @apply font-medium text-white underline-offset-4 
+  @apply text-base text-white underline-offset-4 
   hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-pink-500;
 }
 .nav-link.hovered {
@@ -39,8 +37,12 @@ body {
   color: white;
 }
 
+.main-title {
+  @apply text-7xl font-bold; 
+}
+
 .title {
-  @apply text-4xl font-medium; 
+  @apply text-4xl font-semibold; 
 }
 
 .sub-title {
@@ -57,4 +59,23 @@ body {
 }
 .h3{
   @apply text-xl font-bold;
+}
+.h4{
+  @apply text-lg;
+}
+.head-page {
+  @apply flex flex-col items-center justify-start min-h-screen font-[family-name:var(--font-noto-sans)] px-4 mt-16;
+}
+.head-page-relative {
+  @apply flex flex-col justify-start min-h-screen font-[family-name:var(--font-noto-sans)] px-4 mt-16;
+}
+
+.badge-pink {
+  @apply px-2 py-0.5 bg-pink-500 rounded-full text-[12px] mb-3;
+}
+.badge-blue {
+  @apply px-2 py-0.5 bg-blue-500 rounded-full text-[12px] mb-3;
+}
+.badge-yellow {
+  @apply px-2 py-0.5 bg-yellow-500 rounded-full text-[12px] mb-3;
 }

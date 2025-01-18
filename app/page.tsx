@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import ProjectGroup from './components/ProjectGroup';
 
 export default function Home() {
   return (
-    <div className='flex flex-col items-center justify-center min-h-screen font-[family-name:var(--font-noto-sans)] px-4'>    
+    <div className='head-page'>    
         <div className='md:flex items-start'>
             {/* Info */}
             <div className='px-4 py-2 text-white max-w-xl mb-4'> 
@@ -70,6 +71,7 @@ export default function Home() {
             </div>
             {/* Skills */}
             <div className='border-l-4 border-pink-500'>
+                
                 <ul>          
                 {/* <li className='px-4 py-2 text-white'>       
                     <p className='text-body mb-4'>About Me</p>       
@@ -77,22 +79,27 @@ export default function Home() {
                     <p className='sub-title'>ธนวัฒน์ ซาอิโตะ</p>     
                 </li> */}
                 <li className='flex items-start px-4 py-2 text-white'>
-                    <Image src='./icons/school_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
+                    <Image src='./icons/lang_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
                     <div>
-                    <p className='h3'>3rd Year Student</p>
-                    <p className='text-base'>Faculty of Arts, Chulalongkorn University</p>
-                    <p className='text-base mt-2 w-64'>Majoring in Japanese Language, I find myself web developing when it was too late but it's possible so I started coding.</p>
+                    <p className='h3 pb-2'>Blogs</p>                
+                      <div className='border-b-2 border-neutral-800 pb-4'>
+                        <a className='bg-pink-500 px-2 py-0.5 rounded-full text-[12px]'>UI Design</a>
+                        <p className='text-white md:w-96 mt-1 text-lg font-medium' >เมื่อผมต้อง Redesign เว็บคณะใหม่</p>
+                        <p className='text-white md:w-96 mb-2 text-ิฟหำ' >ความรู้เรื่องหลักการออกแบบ รวมไปถึงการศึกษาผู้ใช้ เมื่อนำมาประยุกต์มช้กับเว็บไซต์</p>
+                        <a className='link' href='/blogs'>Read More →</a>
+                      </div>
                     </div>
 
                 </li>
                 <li className='flex items-start px-4 py-2 text-white'>
-                    <Image src='./icons/lang_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
+                    <Image src='./icons/school_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
                     <div>
-                    <p className='h3 pb-1'>Japanese, Thai, English Available!</p>                
-                    <p className='text-base mt-2 w-64'>N2 Certified for Japanese, Native Thai and, Professional Level English</p>
-                    </div>
-
+                    <p className='h3 mb-2'>Projects</p>      
+                    <ProjectGroup />              
+                    </div>                    
                 </li>
+                
+                
                 <li className='text-white items-start px-4 py-2'>
                     <div className='flex items-start'>
                         <Image src='./icons/star_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
