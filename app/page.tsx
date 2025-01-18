@@ -69,14 +69,8 @@ export default function Home() {
                     </div>
             </div>
             {/* Skills */}
-            <div className='border-l-4 border-pink-500'>
-                
+            <div className='border-l-4 border-pink-500'>                
                 <ul>          
-                {/* <li className='px-4 py-2 text-white'>       
-                    <p className='text-body mb-4'>About Me</p>       
-                    <p className='title'>Dhanavadh Saito</p>
-                    <p className='sub-title'>ธนวัฒน์ ซาอิโตะ</p>     
-                </li> */}
                 <li className='flex items-center px-4 py-2 text-white'>
                     <Image src='./icons/work.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
                     <Link className='h3 mb-2 link-title' href='/blogs'>Projects →</Link>
@@ -89,8 +83,7 @@ export default function Home() {
                     <Image src='./icons/star.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
                     <Link className='h3 mb-2 link-title' href='/experience'>Experience/Certifications →</Link>
                 </li>               
-                </ul>
-                
+                </ul>                
             </div>
         </div>
     </div>

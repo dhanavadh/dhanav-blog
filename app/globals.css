@@ -18,7 +18,7 @@ body {
   @apply text-2xl font-normal text-gray-600
 }
 .paragraph {
-  @apply text-lg font-normal text-gray-700
+  @apply text-xl font-medium leading-relaxed tracking-normal font-[family-name:var(--font-sarabun-regular)] my-8 lg:mx-24;
 }
 
 .link-title {
@@ -48,7 +48,7 @@ body {
 }
 
 .sub-title {
-  @apply text-2xl font-normal; 
+  @apply text-2xl font-normal text-neutral-300; 
 }
 .p {
   @apply text-base font-normal leading-relaxed text-neutral-300 tracking-wide;

@@ -9,10 +9,25 @@ const NotoSans = localFont({
   variable: "--font-noto-sans",
   weight: "100 200 300 400 500 600 700 800 900",
 });
+const IBMPlexSansThaiRegular = localFont({
+  src: "./fonts/IBMPlexSansThaiLooped-Regular.ttf",
+  variable: "--font-IBM-sans",
+  weight: "400",
+});
+const IBMPlexSansThaiMedium = localFont({
+  src: "./fonts/IBMPlexSansThaiLooped-Medium.ttf",
+  variable: "--font-IBM-sans-medium",
+  weight: "500",
+});
 const NotoSansJP = localFont({
   src: "./fonts/NotoSansJP.ttf",
   variable: "--font-noto-sansJP",
   weight: "100 200 300 400 500 600 700 800 900",
+});
+const SarabunRegular = localFont({
+  src: "./fonts/Sarabun-Regular.ttf",
+  variable: "--font-sarabun-regular",
+  weight: "4000",
 });
 const ZenKurenaido = localFont({
   src: "./fonts/ZenKurenaido.ttf",
@@ -35,7 +50,7 @@ export default function RootLayout({
     <html lang="en">
       
       <body
-        className={`${NotoSans.variable} ${NotoSansJP.variable} ${ZenKurenaido.variable} antialiased`}
+        className={`${NotoSans.variable} ${NotoSansJP.variable} ${ZenKurenaido.variable} ${IBMPlexSansThaiRegular.variable} ${IBMPlexSansThaiMedium.variable} ${SarabunRegular.variable} antialiased`}
       >
         <Navbar />
         {children}
