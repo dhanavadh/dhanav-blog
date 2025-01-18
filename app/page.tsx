@@ -73,7 +73,7 @@ export default function Home() {
                 <ul>          
                 <li className='flex items-center px-4 py-2 text-white'>
                     <Image src='./icons/work.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
-                    <Link className='h3 mb-2 link-title' href='/blogs'>Projects →</Link>
+                    <Link className='h3 mb-2 link-title' href='/projects'>Projects →</Link>
                 </li>
                 <li className='flex items-center px-4 py-2 text-white'>
                     <Image src='./icons/blog.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
