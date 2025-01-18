@@ -4,8 +4,8 @@ import BlogSection from '../components/BlogSection'
 
 const Blogs = () => {
   return (
-    <div className='mx-16 md:mx-32 font-[family-name:var(--font-noto-sans)]'>
-    <div className='lg:flex flex-row mt-16 items-start justify-center gap-4'>
+    <div className='head-page-relative'>
+    <div className='lg:flex flex-row items-start justify-center gap-4'>
         <div className='flex gap-2 border-b-2 pb-4 border-neutral-900 w-full'>
             <div className=''>
                 <p className='text-body mb-2'>Blogs</p>       

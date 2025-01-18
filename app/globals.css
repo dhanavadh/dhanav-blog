@@ -60,25 +60,25 @@ body {
   @apply underline-offset-4 underline decoration-2 decoration-wavy decoration-blue-500;
 }
 .h1 {
-  @apply text-3xl font-bold;
+  @apply text-3xl font-medium;
 }
 .h2{
-  @apply text-2xl font-bold;
+  @apply text-2xl font-medium;
 }
 .h3{
-  @apply text-xl font-bold;
+  @apply text-xl font-medium;
 }
 .h4{
-  @apply text-lg font-bold;
+  @apply text-lg font-medium;
 }
 .h5{
-  @apply text-base font-bold;
+  @apply text-base font-medium;
 }
 .head-page {
-  @apply flex flex-col items-center justify-start min-h-full font-[family-name:var(--font-noto-sans)] mx-16 md:mx-32 mt-16;
+  @apply flex flex-col items-center justify-start min-h-full font-[family-name:var(--font-noto-sans)] mx-6 md:mx-32 mt-16;
 }
 .head-page-relative {
-  @apply flex flex-col justify-start min-h-screen font-[family-name:var(--font-noto-sans)] mt-16;
+  @apply flex flex-col justify-start min-h-screen font-[family-name:var(--font-noto-sans)] mt-16 mx-6 md:mx-32;
 }
 
 .badge-pink {

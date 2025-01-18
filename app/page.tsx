@@ -7,11 +7,11 @@ export default function Home() {
     <div className='head-page'>    
         <div className='lg:flex flex-row items-start'>
             {/* Info */}
-            <div className='px-4 py-2 text-white max-w-xl mb-4'> 
+            <div className='py-2 text-white max-w-xl mb-4'> 
                     
                     {/* Heading */}
                     <p className='text-7xl font-bold text-blue-500'>Hello !</p>       
-                    <p className='text-6xl font-bold mb-2'>I'm Teru</p>
+                    <p className='text-6xl font-bold mb-2'>it's Teru</p>
                     <p className='sub-title'>Dhanavadh Saito</p>
 
                     {/* Bio */}
@@ -71,17 +71,14 @@ export default function Home() {
             {/* Skills */}
             <div className='border-l-4 border-pink-500'>                
                 <ul>          
-                <li className='flex items-center px-4 py-2 text-white'>
-                    <Image src='./icons/work.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
-                    <Link className='h3 mb-2 link-title' href='/projects'>Projects →</Link>
+                <li className='flex items-center px-4 py-2 text-white'>                    
+                    <Link className='p mb-2 link-title' href='/projects'>Projects →</Link>
                 </li>
-                <li className='flex items-center px-4 py-2 text-white'>
-                    <Image src='./icons/blog.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
-                    <Link className='h3 mb-2 link-title' href='/blogs'>Blogs →</Link>
+                <li className='flex items-center px-4 py-2 text-white'>                    
+                    <Link className='p mb-2 link-title' href='/blogs'>Blogs →</Link>
                 </li>
-                <li className='flex items-start px-4 py-2 text-white'>
-                    <Image src='./icons/star.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
-                    <Link className='h3 mb-2 link-title' href='/experience'>Experience/Certifications →</Link>
+                <li className='flex items-start px-4 py-2 text-white'>                    
+                    <Link className='p mb-2 link-title' href='/experience'>Experience/Certifications →</Link>
                 </li>               
                 </ul>                
             </div>

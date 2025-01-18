@@ -4,17 +4,17 @@ import React from 'react'
 
 const CodingArticle1 = () => {
   return (
-    <div className='mx-16 md:mx-32 font-[family-name:var(--font-noto-sans)]'>
+    <div className='mx-6 md:mx-32 font-[family-name:var(--font-noto-sans)]'>
         {/* Banner */}
         <div className='flex max-h-3/4 max-w-full relative'>
-          <img src='/go.svg' className='h-full w-full absolute object-cover -z-[1] brightness-75'></img>                        
+          <img src='/go.svg' className='h-full w-full absolute object-cover -z-[1] brightness-75 rounded-b-xl'></img>                        
           <div className='mx-6 mt-48 md:mt-64 w-full'>            
             <p className='p mb-2 text-end'>Image from @dhanavadh</p>            
           </div>
         </div>   
 
         {/* Heading */}
-        <div className='mt-6 mb-10'>
+        <div className='mt-6 mb-10 border-l-4 border-pink-500 pl-4'>
           <p className='title'>เมื่อเราใช้ความรู้เรื่อง Design Principles มาเขียนเว็บจะเป็นอย่างไร</p>
           <p className='sub-title mt-2'>Heading</p>          
         </div>                                     
@@ -28,6 +28,11 @@ const CodingArticle1 = () => {
         <div className='paragraph'>
           <p>นั้นจิตวิญญาณพันธกิจสนใจโซเชียล พันธกิจสตาร์ทอัพด้วยสุขภาวะด้วยซึ่งสุขภาวะ โซเชียลนั้นผสมผสานล้ำสมัยก้าวหน้าบูรณาการ สูงสุดสำคัญหลากหลายมหาวิทยาลัยสตาร์ทอัพสตาร์ทอัพอาเซียนวิสัยทัศน์ พัฒนานวัตกรรมครบวงจรนวัตกรรมและ พยายามพยายามเพื่อวัยรุ่น มุ่งมั่นหรือในคุณธรรมของ พัฒนาพัฒนาของโลกาภิวัฒน์นั้น ประโยชน์สำคัญจริยธรรมเอสเอ็มอีซึ่ง ประชารัฐหลากหลายล้ำสมัยด้วยระดับสากลวาทกรรม ที่วัยรุ่นเพื่อทั้งนี้คุณธรรมกระแส ด้วยวาทกรรมสตาร์ทอัพกระแสประโยชน์</p>
         </div>   
+        {/* Reference */}
+        <div className='h3 border-l-4 border-pink-500 pl-4 '>
+          <p className='h3'>Reference</p>
+          <p className='p mt-2'>Heading</p>          
+        </div>       
     </div>
   )
 }

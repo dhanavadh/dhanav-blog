@@ -18,7 +18,7 @@ const Navbar = () => {
     
 
   return (
-    <nav className="sticky top-0 flex items-center justify-between h-12 bg-black text-white w-full font-[family-name:var(--font-noto-sans)] px-16 md:px-32 border-b-2 border-neutral-950">
+    <nav className="sticky top-0 flex items-center justify-between h-12 bg-black text-white w-full font-[family-name:var(--font-noto-sans)] px-6 md:px-32 border-b-2 border-neutral-950">
             <Link href='/' className='flex items-center'>
             {/* <Image src='./icon.svg' alt='logo' width={48} height={48} className='p-0.5 mr-2'/>   */}
             <p className='h3'>Dhanavadh Saito        
@@ -49,8 +49,8 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <Dialog open={isOpen} onClose={() => setIsOpen(false)} className="relative z-50">
-        <div className="fixed inset-0 flex w-screen items-start justify-center backdrop-blur-xl">
-          <DialogPanel className="flex flex-col w-screen text-white px-16 md:px-32">
+        <div className="fixed inset-0 flex w-screen items-start justify-center backdrop-blur-xl font-[family-name:var(--font-noto-sans)]">
+          <DialogPanel className="flex flex-col w-screen text-white px-6 md:px-32">
             <div className="flex justify-between items-center border-b-2 border-gray-900  py-1">                
                 <p className="h3">Dhanavadh Saito</p>
                 <button onClick={() => setIsOpen(false)}>
