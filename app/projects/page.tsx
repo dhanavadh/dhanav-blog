@@ -2,8 +2,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
 import ProjectGroup from '../components/ProjectGroup'
-import Project2024 from '../components/Project2024'
+import Project2024 from '../components/ProjectItem'
 import Project2025 from '../components/Project2025'
+import ProjectItem from '../components/ProjectItem'
 
 const Projects = () => {
   return (
@@ -16,8 +17,7 @@ const Projects = () => {
             </div>
         </div>
             {/* Project Page*/}
-            <Project2025 />        
-            <Project2024 />
+            <ProjectItem />
     </div>
   )
 }

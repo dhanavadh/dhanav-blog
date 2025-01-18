@@ -2,40 +2,88 @@ import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
 
-const Project2024 = () => {
+const ProjectOf2024 = [
+    {
+        id: 1,
+        name:"Artsgoz Frontend",
+        status:"Completed",
+        img: "./banner/artsgoz.png",
+        description:"I'm assigned to create a new website for Arts Student Committee. Due to the old ones was using Wordpress, The club wants the new ones with the latest web technologies. The mostly used function is querying the professors' name.",
+        technologies: "Next.js, TailwindCSS, Heroicons, Editorjs",
+        github: "https://www.linkedin.com/in/dhanav/",
+        website: "https://www.linkedin.com/in/dhanav/",
+        article: "https://www.linkedin.com/in/dhanav/"
+    },
+    {
+        id: 2,
+        name:"Artsgoz Backend Server",
+        status:"Completed",
+        img: "./banner/artsgoz-backend.jpeg",
+        description:"I'm assigned to create a new website for Arts Student Committee. Due to the old ones was using Wordpress, The club wants the new ones with the latest web technologies. The mostly used function is querying the professors' name.",
+        technologies: "Express.js, AWS S3, MongoDB",
+        github: "https://www.linkedin.com/in/dhanav/",
+        website: "https://www.linkedin.com/in/dhanav/",
+        article: "https://www.linkedin.com/in/dhanav/"
+    }
+]
+
+const ProjectOf2025 = [
+    {
+        id: 1,
+        name:"My Portfolio Remake",
+        status:"Completed",
+        img: "./banner/artsgoz.png",
+        description:"I'm assigned to create a new website for Arts Student Committee. Due to the old ones was using Wordpress, The club wants the new ones with the latest web technologies. The mostly used function is querying the professors' name.",
+        technologies: "Next.js, TailwindCSS, Heroicons, Editorjs",
+        github: "https://www.linkedin.com/in/dhanav/",
+        website: "https://www.linkedin.com/in/dhanav/",
+        article: "https://www.linkedin.com/in/dhanav/"
+    },
+    {
+        id: 2,
+        name:"แผ่นหลังคา – Iconroof",
+        status:"In Progress",
+        img: "./banner/artsgoz-backend.jpeg",
+        description:"I'm assigned to create a new website for Arts Student Committee. Due to the old ones was using Wordpress, The club wants the new ones with the latest web technologies. The mostly used function is querying the professors' name.",
+        technologies: "Express.js, AWS S3, MongoDB",
+        github: "https://www.linkedin.com/in/dhanav/",
+        website: "https://www.linkedin.com/in/dhanav/",
+        article: "https://www.linkedin.com/in/dhanav/"
+    }
+]
+
+
+const ProjectItem = () => {
   return (
     <div>
         <div className='space-y-2 py-4'>
-            <p className='h1'>2024 Projects</p>
-            {/* Project 1*/}            
-            <div className='lg:flex flex-row gap-2 border-b-2 border-neutral-900 py-4'>  
-                <div className='lg:hidden w-full mb-2'>
-                    <img src='./banner/artsgoz.png' className='rounded-lg h-full w-full object-cover'></img>
+            <p className='h1'>2025 Projects</p>
+            {ProjectOf2025.map((item) => (
+                <div className='lg:flex flex-row gap-2 border-b-2 border-neutral-900 py-4' key={item.id}>  
+                <div className='lg:hidden w-full mb-4'>
+                    <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
                 </div>                   
                 <div>
                     {/* Main Project */}
                     <div>
-                        <a className='badge-blue'>Completed</a>
-                        <p className='h3 my-1'>Artsgoz Frontend</p>
-                        <p className='text-base'>I'm assigned to create a new website for Arts Student Committee. Due to the old ones was using Wordpress, The club wants the new ones with the latest web technologies. The mostly used function is querying the professors' name.</p>
+                        <a className={item.status === "In Progress" ? 'badge-yellow' : 'badge-blue'}>{item.status}</a>
+                        <p className='h3 my-1'>{item.name}</p>
+                        <p className='p'>{item.description}</p>
                     </div>
                     {/* Used Technologies */}
                     <div>
-                        <p className='h4 mt-2 font-semibold'>Used Technologies</p>
+                        <p className='h5 mt-2 font-semibold'>Used Technologies</p>
                         <div className='flex gap-2'>
-                            <a className='text-base mt-1'>Next.js</a>
-                            <a className='text-base mt-1'>TailwindCSS</a>
-                            <a className='text-base mt-1'>Heroicons</a>
-                            <a className='text-base mt-1'>Editorjs</a>
+                            <a className='p mt-1'>{item.technologies}</a>
                         </div>
                     </div>
 
                     {/* Link to read more */}
-                    <p className='h4 mt-2 font-semibold'>Read more about this</p>
+                    <p className='h5 mt-2 font-semibold'>Read more about this</p>
                     <div className='flex gap-4'>
                         <Link
                             className="flex items-center link gap-2"
-                            href="https://www.linkedin.com/in/dhanav/"
+                            href={item.github}
                             target="_blank"
                             rel="noopener noreferrer"
                         >      
@@ -50,7 +98,7 @@ const Project2024 = () => {
                         </Link>                   
                         <Link
                             className="flex items-center link gap-2"
-                            href="https://www.linkedin.com/in/dhanav/"
+                            href={item.website}
                             target="_blank"
                             rel="noopener noreferrer"
                             >      
@@ -65,7 +113,7 @@ const Project2024 = () => {
                         </Link>                   
                         <Link
                             className="flex items-center link gap-2"
-                            href="https://www.linkedin.com/in/dhanav/"
+                            href={item.article}
                             target="_blank"
                             rel="noopener noreferrer"
                             >      
@@ -82,30 +130,28 @@ const Project2024 = () => {
                     
                 </div>
                 <div className='hidden lg:flex w-1/2'>
-                    <img src='./banner/artsgoz.png' className='rounded-lg h-full w-full object-cover'></img>
+                    <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
                 </div>
             </div>
-
-            {/* Project 2*/}
-
-            <div className='lg:flex flex-row gap-2 border-b-2 border-neutral-900 py-4'>  
-                <div className='lg:hidden flex w-full mb-2'>
-                    <img src='./banner/artsgoz-backend.jpeg' className='rounded-lg h-full w-full object-cover'></img>
-                </div>                
+            ))}                    
+            <p className='h1 pt-4'>2024 Projects</p> 
+            {ProjectOf2024.map((item) => (
+                <div className='lg:flex flex-row gap-2 border-b-2 border-neutral-900 py-4' key={item.id}>  
+                <div className='lg:hidden w-full mb-2'>
+                    <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
+                </div>                   
                 <div>
                     {/* Main Project */}
                     <div>
-                        <a className='badge-blue'>Completed</a>
-                        <p className='h3 my-1'>Artsgoz Backend Server</p>
-                        <p className='text-base'>I'm assigned to create a new website for Arts Student Committee. Due to the old ones was using Wordpress, The club wants the new ones with the latest web technologies. The mostly used function is querying the professors' name.</p>
+                        <a className={item.status === "In Progress" ? 'badge-yellow' : 'badge-blue'}>{item.status}</a>
+                        <p className='h3 my-1'>{item.name}</p>
+                        <p className='text-base'>{item.description}</p>
                     </div>
                     {/* Used Technologies */}
                     <div>
                         <p className='h4 mt-2 font-semibold'>Used Technologies</p>
                         <div className='flex gap-2'>
-                            <a className='text-base mt-1'>Express.js</a>
-                            <a className='text-base mt-1'>AWS S3</a>
-                            <a className='text-base mt-1'>MongoDB</a>
+                            <a className='text-base mt-1'>{item.technologies}</a>
                         </div>
                     </div>
 
@@ -114,7 +160,7 @@ const Project2024 = () => {
                     <div className='flex gap-4'>
                         <Link
                             className="flex items-center link gap-2"
-                            href="https://www.linkedin.com/in/dhanav/"
+                            href={item.github}
                             target="_blank"
                             rel="noopener noreferrer"
                         >      
@@ -129,7 +175,7 @@ const Project2024 = () => {
                         </Link>                   
                         <Link
                             className="flex items-center link gap-2"
-                            href="https://www.linkedin.com/in/dhanav/"
+                            href={item.website}
                             target="_blank"
                             rel="noopener noreferrer"
                             >      
@@ -144,7 +190,7 @@ const Project2024 = () => {
                         </Link>                   
                         <Link
                             className="flex items-center link gap-2"
-                            href="https://www.linkedin.com/in/dhanav/"
+                            href={item.article}
                             target="_blank"
                             rel="noopener noreferrer"
                             >      
@@ -161,12 +207,13 @@ const Project2024 = () => {
                     
                 </div>
                 <div className='hidden lg:flex w-1/2'>
-                    <img src='./banner/artsgoz-backend.jpeg' className='rounded-lg h-full w-full object-cover'></img>
+                    <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
                 </div>
-            </div>                        
+            </div>
+            ))}             
         </div>
     </div>
   )
 }
 
-export default Project2024
+export default ProjectItem

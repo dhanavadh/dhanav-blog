@@ -31,8 +31,8 @@ const AboutMe = () => {
                     <p className='sub-title'>ธนวัฒน์ ซาอิโตะ</p>     
 
                     {/* Bio */}
-                    <p className='p mt-4'>I’m a Japanese major with a passion for <a className='underline-highlight'>web development</a> and <a className='underline-highlight'>UI design</a>. I love coding because it lets me bring ideas to life while keeping things organized and structured, which I really enjoy.</p>
-                    <p className='p mt-2'>Outside of programming, I love playing <a className='underline-highlight'>karuta</a>, a traditional Japanese card game. I’m also a member of the Bangkok Karuta Club. I’m always looking for new opportunities to learn and grow, so feel free to reach out to me!</p>
+                    <p className='p-title mt-4'>I’m a Japanese major with a passion for <a className='underline-highlight'>web development</a> and <a className='underline-highlight'>UI design</a>. I love coding because it lets me bring ideas to life while keeping things organized and structured, which I really enjoy.</p>
+                    <p className='p-title mt-2'>Outside of programming, I love playing <a className='underline-highlight'>karuta</a>, a traditional Japanese card game. I’m also a member of the Bangkok Karuta Club. I’m always looking for new opportunities to learn and grow, so feel free to reach out to me!</p>
 
                     {/* Contact */}
                     <p className='h3 mt-6 mb-2'>Reach me via</p>
@@ -87,17 +87,12 @@ const AboutMe = () => {
             {/* Skills */}
             <div className='border-l-4 border-pink-500'>
                 <ul>          
-                {/* <li className='px-4 py-2 text-white'>       
-                    <p className='text-body mb-4'>About Me</p>       
-                    <p className='title'>Dhanavadh Saito</p>
-                    <p className='sub-title'>ธนวัฒน์ ซาอิโตะ</p>     
-                </li> */}
                 <li className='flex items-start px-4 py-2 text-white'>
                     <Image src='./icons/school_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
                     <div>
                     <p className='h3'>3rd Year Student</p>
-                    <p className='text-base'>Faculty of Arts, Chulalongkorn University</p>
-                    <p className='text-base mt-2 w-64'>Majoring in Japanese Language, I find myself web developing when it was too late but it's possible so I started coding.</p>
+                    <p className='p'>Faculty of Arts, Chulalongkorn University</p>
+                    <p className='p mt-2 w-64'>Majoring in Japanese Language, I find myself web developing when it was too late but it's possible so I started coding.</p>
                     </div>
 
                 </li>
@@ -105,7 +100,7 @@ const AboutMe = () => {
                     <Image src='./icons/lang_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
                     <div>
                     <p className='h3 pb-1'>Japanese, Thai, English Available!</p>                
-                    <p className='text-base mt-2 w-64'>N2 Certified for Japanese, Native Thai and, Professional Level English</p>
+                    <p className='p mt-2 w-64'>N2 Certified for Japanese, Native Thai and, Professional Level English</p>
                     </div>
 
                 </li>
@@ -118,8 +113,8 @@ const AboutMe = () => {
                                 {Skills.map((skill) => (
                                     <ul key={skill.id} className='gap-2'>
                                         <li className='list-item'>
-                                            <p className='text-base font-semibold mt-2 mb-1'> {skill.name}</p>
-                                            <p className='text-base w-64 ml-4'>{skill.description}</p>
+                                            <p className='h5 font-semibold mt-2 mb-1'> {skill.name}</p>
+                                            <p className='p w-64 ml-4'>{skill.description}</p>
                                         </li>                                
                                     </ul>
                                 ))}      
@@ -137,8 +132,8 @@ const AboutMe = () => {
                                 {Interests.map((skill) => (
                                     <ul key={skill.id} className='gap-2'>
                                         <li className='list-item'>
-                                            <p className='text-base font-semibold mt-2 mb-1'> {skill.name}</p>
-                                            <p className='text-base w-64 ml-4'>{skill.description}</p>
+                                            <p className='h5 mt-2 mb-1'> {skill.name}</p>
+                                            <p className='p w-64 ml-4'>{skill.description}</p>
                                         </li>                                
                                     </ul>
                                 ))}      
