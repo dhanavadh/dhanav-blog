@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import ProjectGroup from './components/ProjectGroup';
+import LatestBlog from './components/LatestBlog';
 
 export default function Home() {
   return (
     <div className='head-page'>    
-        <div className='lg:flex flex-row items-start'>
+        <div className='lg:flex flex-row items-start gap-6'>
             {/* Info */}
             <div className='py-2 text-white max-w-xl mb-4'> 
                     
@@ -69,8 +70,8 @@ export default function Home() {
                     </div>
             </div>
             {/* Skills */}
-            <div className='border-l-4 border-pink-500'>                
-                <ul>          
+            <div className=''>                
+                <ul className='border-l-4 border-blue-500'>          
                 <li className='flex items-center px-4 py-2 text-white'>                    
                     <Link className='p mb-2 link-title' href='/projects'>Projects →</Link>
                 </li>
@@ -80,7 +81,20 @@ export default function Home() {
                 <li className='flex items-start px-4 py-2 text-white'>                    
                     <Link className='p mb-2 link-title' href='/experience'>Experience/Certifications →</Link>
                 </li>               
-                </ul>                
+                </ul>
+
+                {/* Blogs */}
+                <p className='h3 my-4'>Latest Blogs</p>
+
+                <LatestBlog /> 
+                <div className='flex max-h-1/2 max-w-full relative my-4 -z-[1]'>
+                    <img src='/go.svg' className='h-full w-full absolute object-cover -z-[1] brightness-[30%] rounded-xl'></img>                        
+                    <div className='mx-4 mt-32 w-full mb-4'>            
+                        <p className='h3'>เมื่อเราใช้ความรู้เรื่อง Design Principles มาเขียนเว็บจะเป็นอย่างไร</p>            
+                        <p className='p-white mb-2'>จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง User Experience เลย มาสู่การรีเมคเว็บไซต์ของตัวเองให้เข้าถึง user ทุกคน ผมจึงรู้สึกว่าความรู้เรื่อง UX สำคัญมาก ๆ สำหรับนักพัฒนาเว็บ frontend</p>   
+                        <Link href='/blogs/coding/port-redesign' className='link-white font-bold'>อ่านต่อ →</Link>         
+                    </div>
+                </div>               
             </div>
         </div>
     </div>

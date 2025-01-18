@@ -5,7 +5,7 @@ const OtherArticles = [
     {
         id: 1, name:"Buddhist Philosophy", description:"หนึ่งในปัญหาที่เกิดการตั้งคำถามกับพุทธศาสนาคือเรื่อง เจตจำนงเสรี (free will) และ นิยัตินิยม (determinism) ประเด็นศึกษาดังกล่าวมีการศึกษาที่หลากหลายและนำเสนอในมุมมองที่แตกต่างกันไป การยกประเด็นศึกษาเรื่องเจตจำนงเสรีในพุทธศาสนานั้น อาจเป็นเนื่องมาจากที่ว่าพุทธศาสนาไม่ได้มีมุมมองหรือให้นิยมที่ชัดเจนว่าเป็นโลกทัศน์ที่มนุษย์มีเจตจำนงเสรี", 
         badge:"Buddhist Philosophy",
-        link:"/blogs"
+        link:"/blogs/other/buddhism-freewill"
     },
     {
         id: 2, name:"New Religion Movement – Heaven’s Gate",

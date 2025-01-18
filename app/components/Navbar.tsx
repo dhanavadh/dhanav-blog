@@ -18,7 +18,7 @@ const Navbar = () => {
     
 
   return (
-    <nav className="sticky top-0 flex items-center justify-between h-12 bg-black text-white w-full font-[family-name:var(--font-noto-sans)] px-6 md:px-32 border-b-2 border-neutral-950">
+    <nav className="sticky top-0 z-50 flex items-center justify-between h-12 bg-black text-white w-full font-[family-name:var(--font-noto-sans)] px-6 md:px-32 border-b-2 border-neutral-950">
             <Link href='/' className='flex items-center'>
             {/* <Image src='./icon.svg' alt='logo' width={48} height={48} className='p-0.5 mr-2'/>   */}
             <p className='h3'>Dhanavadh Saito        

@@ -12,23 +12,27 @@ body {
   }
 
 .heading {
-  @apply text-4xl font-medium text-white underline-offset-4 underline decoration-4 decoration-wavy decoration-pink-500;
+  @apply text-4xl font-medium text-white underline-offset-4 underline decoration-4 decoration-wavy decoration-blue-500;
 }
 .sub-heading {
   @apply text-2xl font-normal text-gray-600
 }
 .paragraph {
-  @apply text-xl font-medium leading-relaxed tracking-normal font-[family-name:var(--font-sarabun-regular)] my-8 lg:mx-24;
+  @apply text-xl font-medium leading-loose tracking-normal font-[family-name:var(--font-sarabun-regular)] my-8 lg:mx-24;
 }
 
 .link-title {
   @apply underline-offset-4
-  hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-pink-500;
+  hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-blue-500;
 }
 
 .link {
   @apply underline-offset-4 p
-  hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-pink-500;
+  hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-blue-500;
+}
+.link-white {
+  @apply underline-offset-4 p-white
+  hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-blue-500;
 }
 .nav-link.hovered {
   transition-duration: 300ms;
@@ -52,6 +56,9 @@ body {
 }
 .p {
   @apply text-base font-normal leading-relaxed text-neutral-300 tracking-wide;
+}
+.p-white {
+  @apply text-base text-white;
 }
 .p-title {
   @apply text-lg font-normal leading-relaxed tracking-wide text-neutral-300;
