@@ -8,7 +8,10 @@ const Project2024 = () => {
         <div className='space-y-2 py-4'>
             <p className='h1'>2024 Projects</p>
             {/* Project 1*/}            
-            <div className='flex gap-2 border-b-2 border-neutral-900 py-4'>                
+            <div className='lg:flex flex-row gap-2 border-b-2 border-neutral-900 py-4'>  
+                <div className='lg:hidden w-full mb-2'>
+                    <img src='./banner/artsgoz.png' className='rounded-lg h-full w-full object-cover'></img>
+                </div>                   
                 <div>
                     {/* Main Project */}
                     <div>
@@ -39,7 +42,7 @@ const Project2024 = () => {
                             <Image
                                 aria-hidden
                                 src="/github-mark.svg"
-                                alt="LinkedIn icon"
+                                alt="GitRepo"
                                 width={16}
                                 height={16}
                             />                  
@@ -53,8 +56,8 @@ const Project2024 = () => {
                             >      
                             <Image
                                 aria-hidden
-                                src="/icons/read.svg"
-                                alt="LinkedIn icon"
+                                src="/icons/website.svg"
+                                alt="website"
                                 width={16}
                                 height={16}
                             />                  
@@ -68,8 +71,8 @@ const Project2024 = () => {
                             >      
                             <Image
                                 aria-hidden
-                                src="/icons/website.svg"
-                                alt="LinkedIn icon"
+                                src="/icons/read.svg"
+                                alt="Article"
                                 width={16}
                                 height={16}
                             />                  
@@ -78,14 +81,17 @@ const Project2024 = () => {
                     </div>
                     
                 </div>
-                <div className='w-1/2'>
+                <div className='hidden lg:flex w-1/2'>
                     <img src='./banner/artsgoz.png' className='rounded-lg h-full w-full object-cover'></img>
                 </div>
             </div>
 
             {/* Project 2*/}
 
-            <div className='flex gap-2 border-b-2 border-neutral-900 py-4'>                
+            <div className='lg:flex flex-row gap-2 border-b-2 border-neutral-900 py-4'>  
+                <div className='lg:hidden flex w-full mb-2'>
+                    <img src='./banner/artsgoz-backend.jpeg' className='rounded-lg h-full w-full object-cover'></img>
+                </div>                
                 <div>
                     {/* Main Project */}
                     <div>
@@ -115,7 +121,7 @@ const Project2024 = () => {
                             <Image
                                 aria-hidden
                                 src="/github-mark.svg"
-                                alt="LinkedIn icon"
+                                alt="GitRepo"
                                 width={16}
                                 height={16}
                             />                  
@@ -129,8 +135,8 @@ const Project2024 = () => {
                             >      
                             <Image
                                 aria-hidden
-                                src="/icons/read.svg"
-                                alt="LinkedIn icon"
+                                src="/icons/website.svg"
+                                alt="website"
                                 width={16}
                                 height={16}
                             />                  
@@ -144,8 +150,8 @@ const Project2024 = () => {
                             >      
                             <Image
                                 aria-hidden
-                                src="/icons/website.svg"
-                                alt="LinkedIn icon"
+                                src="/icons/read.svg"
+                                alt="Article"
                                 width={16}
                                 height={16}
                             />                  
@@ -154,7 +160,7 @@ const Project2024 = () => {
                     </div>
                     
                 </div>
-                <div className='w-1/2'>
+                <div className='hidden lg:flex w-1/2'>
                     <img src='./banner/artsgoz-backend.jpeg' className='rounded-lg h-full w-full object-cover'></img>
                 </div>
             </div>                        

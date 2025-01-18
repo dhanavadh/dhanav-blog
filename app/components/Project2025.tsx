@@ -8,7 +8,10 @@ const Project2025 = () => {
         <div className='space-y-2 py-4'>
             <p className='h1'>2025 Projects</p>
             {/* Project 1*/}            
-            <div className='flex gap-2 border-b-2 border-neutral-900 py-4'>                
+            <div className='lg:flex flex-row gap-2 border-b-2 border-neutral-900 py-4'> 
+                <div className='lg:hidden w-full h-64 mb-2'>
+                    <img src='./banner/artsgoz.png' className='rounded-lg h-full w-full object-cover'></img>
+                </div>               
                 <div>
                     {/* Main Project */}
                     <div>
@@ -22,8 +25,6 @@ const Project2025 = () => {
                         <div className='flex gap-2'>
                             <a className='text-base mt-1'>Next.js</a>
                             <a className='text-base mt-1'>TailwindCSS</a>
-                            <a className='text-base mt-1'>Heroicons</a>
-                            <a className='text-base mt-1'>Editorjs</a>
                         </div>
                     </div>
 
@@ -39,7 +40,7 @@ const Project2025 = () => {
                             <Image
                                 aria-hidden
                                 src="/github-mark.svg"
-                                alt="LinkedIn icon"
+                                alt="GitRepo"
                                 width={16}
                                 height={16}
                             />                  
@@ -47,14 +48,14 @@ const Project2025 = () => {
                         </Link>                   
                         <Link
                             className="flex items-center link gap-2"
-                            href="/"
-                            target=""
+                            href="https://www.linkedin.com/in/dhanav/"
+                            target="_blank"
                             rel="noopener noreferrer"
                             >      
                             <Image
                                 aria-hidden
-                                src="/icons/read.svg"
-                                alt="LinkedIn icon"
+                                src="/icons/website.svg"
+                                alt="website"
                                 width={16}
                                 height={16}
                             />                  
@@ -68,8 +69,8 @@ const Project2025 = () => {
                             >      
                             <Image
                                 aria-hidden
-                                src="/icons/website.svg"
-                                alt="LinkedIn icon"
+                                src="/icons/read.svg"
+                                alt="Article"
                                 width={16}
                                 height={16}
                             />                  
@@ -78,14 +79,17 @@ const Project2025 = () => {
                     </div>
                     
                 </div>
-                <div className='w-1/2'>
+                <div className='hidden lg:flex w-1/2'>
                     <img src='./banner/artsgoz.png' className='rounded-lg h-full w-full object-cover'></img>
                 </div>
             </div>
 
             {/* Project 2*/}
 
-            <div className='flex gap-2 border-b-2 border-neutral-900 py-4'>                
+            <div className='lg:flex flex-row gap-2 border-b-2 border-neutral-900 py-4'>  
+                <div className='lg:hidden flex w-full h-64 mb-2'>
+                    <img src='./banner/iconroof.png' className='rounded-lg h-full w-full object-cover'></img>
+                </div>              
                 <div>
                     {/* Main Project */}
                     <div>
@@ -115,7 +119,7 @@ const Project2025 = () => {
                             <Image
                                 aria-hidden
                                 src="/github-mark.svg"
-                                alt="LinkedIn icon"
+                                alt="GitRepo"
                                 width={16}
                                 height={16}
                             />                  
@@ -129,8 +133,8 @@ const Project2025 = () => {
                             >      
                             <Image
                                 aria-hidden
-                                src="/icons/read.svg"
-                                alt="LinkedIn icon"
+                                src="/icons/website.svg"
+                                alt="website"
                                 width={16}
                                 height={16}
                             />                  
@@ -144,8 +148,8 @@ const Project2025 = () => {
                             >      
                             <Image
                                 aria-hidden
-                                src="/icons/website.svg"
-                                alt="LinkedIn icon"
+                                src="/icons/read.svg"
+                                alt="Article"
                                 width={16}
                                 height={16}
                             />                  
@@ -154,8 +158,8 @@ const Project2025 = () => {
                     </div>
                     
                 </div>
-                <div className='w-1/2'>
-                    <img src='./banner/artsgoz-backend.jpeg' className='rounded-lg h-full w-full object-cover'></img>
+                <div className='hidden lg:flex w-1/2'>
+                    <img src='./banner/iconroof.png' className='rounded-lg h-full w-full object-cover'></img>
                 </div>
             </div>                        
         </div>

@@ -7,7 +7,7 @@ import Project2025 from '../components/Project2025'
 
 const Projects = () => {
   return (
-    <div className='head-page-relative items-start mx-32'>
+    <div className='head-page-relative items-start mx-16 md:mx-32'>
         <div className='flex gap-2 border-b-2 pb-4 border-neutral-900'>
             <div className=''>
                 <p className='text-body mb-2'>Projecs</p>       
@@ -17,7 +17,6 @@ const Projects = () => {
         </div>
             {/* Project Page*/}
             <Project2025 />        
-            <br />
             <Project2024 />
     </div>
   )

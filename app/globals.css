@@ -64,10 +64,10 @@ body {
   @apply text-lg;
 }
 .head-page {
-  @apply flex flex-col items-center justify-start min-h-screen font-[family-name:var(--font-noto-sans)] px-4 mt-16;
+  @apply flex flex-col items-center justify-start min-h-screen font-[family-name:var(--font-noto-sans)] mx-16 md:mx-32 mt-16;
 }
 .head-page-relative {
-  @apply flex flex-col justify-start min-h-screen font-[family-name:var(--font-noto-sans)] px-4 mt-16;
+  @apply flex flex-col justify-start min-h-screen font-[family-name:var(--font-noto-sans)] mt-16;
 }
 
 .badge-pink {
