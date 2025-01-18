@@ -79,7 +79,7 @@ const Project2025 = () => {
                     </div>
                     
                 </div>
-                <div className='hidden lg:flex w-1/2'>
+                <div className='hidden lg:flex h-64 w-1/2'>
                     <img src='./banner/artsgoz.png' className='rounded-lg h-full w-full object-cover'></img>
                 </div>
             </div>
@@ -158,7 +158,7 @@ const Project2025 = () => {
                     </div>
                     
                 </div>
-                <div className='hidden lg:flex w-1/2'>
+                <div className='hidden lg:flex h-64 w-1/2'>
                     <img src='./banner/iconroof.png' className='rounded-lg h-full w-full object-cover'></img>
                 </div>
             </div>                        

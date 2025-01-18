@@ -10,7 +10,7 @@ const Projects = () => {
     <div className='head-page-relative items-start mx-16 md:mx-32'>
         <div className='flex gap-2 border-b-2 pb-4 border-neutral-900'>
             <div className=''>
-                <p className='text-body mb-2'>Projecs</p>       
+                <p className='text-body mb-2'>Projects</p>       
                 <p className='title mb-1'>What I've done recently</p>
                 <p className='sub-title text-gray-400'>My projects mainly are about front-end web developing</p>
             </div>
