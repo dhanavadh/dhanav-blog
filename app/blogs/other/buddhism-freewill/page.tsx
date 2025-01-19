@@ -141,13 +141,13 @@ const BlogBuddhism = () => {
           <p></p>
         </div>   
         {/* Reference */}
-        <div className='h3 border-l-4 border-blue-500 pl-4 '>
+        <div className='h3 border-l-4 border-blue-500 pl-4'>
           <p className='h3'>Reference</p>
           {Reference.map((item) => (
             <ul className='p my-2' key={item.id}>
             <li>
                 <p>- {item.name}</p>
-                <Link href={item.link} className='link'>{item.link}</Link>
+                <Link href={item.link} className='link'>Get this reference →</Link>
             </li>
             </ul>      
           ))}    
