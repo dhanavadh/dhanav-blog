@@ -48,7 +48,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">      
-      <meta property="og:title" content="Dhanavadh - A UX Designer &amp; Front-end Developer Blog" />
+      <meta property="og:title" content="Dhanavadh Saito - A UX Designer &amp; Front-end Developer Blog" />
+      <meta property="og:description" content="An arts student who has interest in web development. Please come and check my profile." />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="/banner-og.png" />
       <meta property="og:url" content="https://beta.dhanav.me/" />
