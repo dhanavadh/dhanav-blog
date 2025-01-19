@@ -151,7 +151,8 @@ const BlogBuddhism = () => {
             </li>
             </ul>      
           ))}    
-        </div>       
+        </div>  
+        {/* Navigator */}          
     </div>
   )
 }

@@ -13,17 +13,16 @@ const Skills = [
 ]
 const Interests = [
     {id: 1, name: 'Philosophy', description: 'Especially interested in Buddhism Philosophy and Japanese Philosophy which you can see articles in my blog.'},
-    {id: 2, name: 'Large Language Model', description: 'TypeScript, Node.js, TailwindCSS. Express.js are available'},
-    {id: 3, name: 'Data Analytics', description: 'Tools like Python, Pandas, NumPy, and Matplotlib are my go-to for data analysis.'},
+    {id: 2, name: 'Large Language Model', description: `Currently, I am conducting projects related LLM for school's work`},    
     
 ]
 
 const AboutMe = () => {
   return (
     <div className='head-page'>    
-        <div className='md:flex items-start'>
+        <div className='lg:flex items-start'>
             {/* Info */}
-            <div className='px-4 py-2 text-white max-w-xl mb-4'> 
+            <div className='px-4 py-2 text-white lg:w-2/3 w-full mb-4'> 
                     
                     {/* Heading */}
                     <p className='text-body mb-2'>About Me</p>       
@@ -85,7 +84,7 @@ const AboutMe = () => {
                     </div>
             </div>
             {/* Skills */}
-            <div className='border-l-4 border-pink-500'>
+            <div className='border-l-4 border-pink-500 lg:w-1/3 w-full'>
                 <ul>          
                 <li className='flex items-start px-4 py-2 text-white'>
                     <Image src='./icons/school_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>

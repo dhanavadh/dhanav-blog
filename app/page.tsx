@@ -8,7 +8,7 @@ export default function Home() {
     <div className='head-page'>    
         <div className='lg:flex flex-row items-start gap-6'>
             {/* Info */}
-            <div className='py-2 text-white max-w-xl mb-4'> 
+            <div className='py-2 text-white lg:w-2/3 w-full mb-4'> 
                     
                     {/* Heading */}
                     <p className='text-7xl font-bold text-blue-500'>Hello !</p>       
@@ -70,16 +70,16 @@ export default function Home() {
                     </div>
             </div>
             {/* Skills */}
-            <div className=''>                
+            <div className='lg:w-1/3 w-full'>                
                 <ul className='border-l-4 border-blue-500'>          
                 <li className='flex items-center px-4 py-2 text-white'>                    
-                    <Link className='p mb-2 link-title' href='/projects'>Projects →</Link>
+                    <Link className='mb-2 link-title' href='/projects'>Projects →</Link>
                 </li>
                 <li className='flex items-center px-4 py-2 text-white'>                    
-                    <Link className='p mb-2 link-title' href='/blogs'>Blogs →</Link>
+                    <Link className='mb-2 link-title' href='/blogs'>Blogs →</Link>
                 </li>
                 <li className='flex items-start px-4 py-2 text-white'>                    
-                    <Link className='p mb-2 link-title' href='/experience'>Experience/Certifications →</Link>
+                    <Link className='mb-2 link-title' href='/experience'>Experience/Certifications →</Link>
                 </li>               
                 </ul>
 

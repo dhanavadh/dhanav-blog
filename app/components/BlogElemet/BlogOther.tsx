@@ -9,7 +9,7 @@ const Blog = [
         description:"จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง User Experience เลย มาสู่การรีเมคเว็บไซต์ของตัวเองให้เข้าถึง user ทุกคน ผมจึงรู้สึกว่าความรู้เรื่อง UX สำคัญมาก ๆ สำหรับนักพัฒนาเว็บ frontend",
         badge:"UI Design",
         link:"/blogs/coding/port-redesign",
-        img:"/banner/webremake.svg"
+        img:"/go.svg"
     },
     {
         id:2,
@@ -17,7 +17,7 @@ const Blog = [
         description:"ความรู้เรื่องหลักการออกแบบ รวมไปถึงการศึกษาผู้ใช้ ใช้กับเว็บไซต์",
         badge:"Coding",
         link:"/blogs/coding/port-redesign",
-        img:"/banner/dict.svg"
+        img:"/dict.svg"
     },
     {
         id:3,
@@ -29,7 +29,7 @@ const Blog = [
     },
 ]
 
-const LatestBlog = () => {
+const BlogOther = () => {
   return (
     <div className='hover:shadow-lg shadow-white'>
         {Blog.map((item) => (
@@ -47,4 +47,4 @@ const LatestBlog = () => {
   )
 }
 
-export default LatestBlog
+export default BlogOther

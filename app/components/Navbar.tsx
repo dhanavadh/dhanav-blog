@@ -25,7 +25,7 @@ const Navbar = () => {
             </p>    
             
             </Link>
-            <div className='hidden lg:flex items-center h-full space-x-8 py-2 px-4 bg-black'>
+            <div className='hidden lg:flex p items-center h-full space-x-8 py-2 px-4 bg-black'>
             {NavLink.map((index) => (
                 <Link
                     key={index.name}
@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
         <div className="flex lg:hidden">
             <button onClick={() => setIsOpen(true)} className='hover:underline hover:underline-offset-2'>
-                <Image src='./icons/menu_w.svg' width={36} height={36} alt='menu'></Image>
+                <Image src='/icons/menu_w.svg' width={36} height={36} alt='menu'></Image>
             </button>
         </div>
 
@@ -51,25 +51,25 @@ const Navbar = () => {
         <Dialog open={isOpen} onClose={() => setIsOpen(false)} className="relative z-50">
         <div className="fixed inset-0 flex w-screen items-start justify-center backdrop-blur-xl font-[family-name:var(--font-noto-sans)]">
           <DialogPanel className="flex flex-col w-screen text-white px-6 md:px-32">
-            <div className="flex justify-between items-center border-b-2 border-gray-900  py-1">                
+            <div className="flex justify-between items-center py-1">                
                 <p className="h3">Dhanavadh Saito</p>
                 <button onClick={() => setIsOpen(false)}>
-                    <Image src='./icons/close_w.svg' width={36} height={36} alt='menu'></Image>
+                    <Image src='/icons/close_w.svg' width={36} height={36} alt='menu'></Image>
                 </button>
             </div>
-                <div className="flex flex-col ">
-                {NavLink.map((index) => (
-                    <Link
-                    key={index.name}
-                    href={index.href}
-                    className={`nav-link ${hoveredIndex !== null && hoveredIndex !== index ? 'hovered' : ''} px-4 py-2 text-xl`}
-                    onMouseEnter={() => setHoveredIndex(index)}
-                    onMouseLeave={() => setHoveredIndex(null)}
-                >
-                    {index.name}
-                </Link>
-                ))}
-                </div>                
+            <div className="flex flex-col mt-2">
+            {NavLink.map((index) => (
+                <Link
+                key={index.name}
+                href={index.href}
+                className={`nav-link ${hoveredIndex !== null && hoveredIndex !== index ? 'hovered' : ''} py-2 p`}
+                onMouseEnter={() => setHoveredIndex(index)}
+                onMouseLeave={() => setHoveredIndex(null)}
+                onClick={() => setIsOpen(false)}>
+                {index.name}
+            </Link>
+            ))}
+            </div>                
           </DialogPanel>
         </div>
         </Dialog>

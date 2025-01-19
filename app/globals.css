@@ -7,9 +7,6 @@ body {
   color: white;
   background: #000;
 }
-.scrollbar-hide::-webkit-scrollbar {
-    display: none;
-  }
 
 .heading {
   @apply text-4xl font-medium text-white underline-offset-4 underline decoration-4 decoration-wavy decoration-blue-500;
@@ -22,7 +19,7 @@ body {
 }
 
 .link-title {
-  @apply underline-offset-4
+  @apply underline-offset-4 h4
   hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-blue-500;
 }
 
@@ -44,11 +41,11 @@ body {
 }
 
 .main-title {
-  @apply text-7xl font-bold; 
+  @apply text-7xl font-medium; 
 }
 
 .title {
-  @apply text-4xl font-semibold; 
+  @apply text-4xl font-medium; 
 }
 
 .sub-title {
@@ -89,17 +86,33 @@ body {
 }
 
 .badge-pink {
-  @apply px-2 py-0.5 bg-pink-500 rounded-full text-[12px] mb-3 font-semibold;
+  @apply px-2 py-0.5 bg-pink-500 rounded-full text-[12px] mb-3 font-medium;
 }
 .badge-blue {
-  @apply px-2 py-0.5 bg-blue-500 rounded-full text-[12px] mb-3 font-semibold;
+  @apply px-2 py-0.5 bg-blue-500 rounded-full text-[12px] mb-3 font-medium;
 }
 .badge-yellow {
-  @apply px-2 py-0.5 bg-yellow-500 text-black rounded-full text-[12px] mb-3 font-semibold;
+  @apply px-2 py-0.5 bg-yellow-500 text-black rounded-full text-[12px] mb-3 font-medium;
 }
 .badge-green {
-  @apply px-2 py-0.5 bg-green-800 rounded-full text-[12px] font-semibold mb-3;
+  @apply px-2 py-0.5 bg-green-800 rounded-full text-[12px] font-medium mb-3;
 }
 .badge-orange {
-  @apply px-2 py-0.5 bg-orange-700 rounded-full text-[12px] font-semibold mb-3;
+  @apply px-2 py-0.5 bg-orange-700 rounded-full text-[12px] font-medium mb-3;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 16px;               /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;        /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fafafa;    /* color of the scroll thumb */
+  border-radius: 100px;       /* roundness of the scroll thumb */
+  border: 3px solid black;  /* creates padding around scroll thumb */
+  
 }
