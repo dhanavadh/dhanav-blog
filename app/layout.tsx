@@ -47,8 +47,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      
+    <html lang="en">      
+      <meta property="og:title" content="Dhanavadh - A UX Designer &amp; Front-end Developer Blog" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="/banner-og.png" />
+      <meta property="og:url" content="https://beta.dhanav.me/" />
       <body
         className={`${NotoSans.variable} ${NotoSansJP.variable} ${ZenKurenaido.variable} ${IBMPlexSansThaiRegular.variable} ${IBMPlexSansThaiMedium.variable} ${SarabunRegular.variable} antialiased`}
       >
