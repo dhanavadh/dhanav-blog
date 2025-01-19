@@ -10,9 +10,9 @@ const ProjectOf2024 = [
         img: "./banner/artsgoz.png",
         description:"I'm assigned to create a new website for Arts Student Committee. Due to the old ones was using Wordpress, The club wants the new ones with the latest web technologies. The mostly used function is querying the professors' name.",
         technologies: "Next.js, TailwindCSS, Heroicons, Editorjs",
-        github: "https://www.linkedin.com/in/dhanav/",
-        website: "https://www.linkedin.com/in/dhanav/",
-        article: "https://www.linkedin.com/in/dhanav/"
+        github: "https://github.com/dhanavadh/Artsgoz-frontend",
+        website: "https://artsgoz.netlify.app/",
+        article: "/blogs/coding/artsgoz-frontend"
     },
     {
         id: 2,
@@ -32,7 +32,7 @@ const ProjectOf2025 = [
         id: 1,
         name:"My Portfolio Remake",
         status:"Completed",
-        img: "./banner/artsgoz.png",
+        img: "./banner/blog-4.svg",
         description:"I'm assigned to create a new website for Arts Student Committee. Due to the old ones was using Wordpress, The club wants the new ones with the latest web technologies. The mostly used function is querying the professors' name.",
         technologies: "Next.js, TailwindCSS, Heroicons, Editorjs",
         github: "https://www.linkedin.com/in/dhanav/",
@@ -43,7 +43,7 @@ const ProjectOf2025 = [
         id: 2,
         name:"แผ่นหลังคา – Iconroof",
         status:"In Progress",
-        img: "./banner/artsgoz-backend.jpeg",
+        img: "./banner/iconroof.png",
         description:"I'm assigned to create a new website for Arts Student Committee. Due to the old ones was using Wordpress, The club wants the new ones with the latest web technologies. The mostly used function is querying the professors' name.",
         technologies: "Express.js, AWS S3, MongoDB",
         github: "https://www.linkedin.com/in/dhanav/",

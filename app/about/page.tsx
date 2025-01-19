@@ -22,7 +22,7 @@ const AboutMe = () => {
     <div className='head-page'>    
         <div className='lg:flex flex-row items-start gap-6'>
             {/* Info */}
-            <div className='px-4 py-2 text-white lg:w-2/3 w-full mb-4'> 
+            <div className='py-2 text-white lg:w-2/3 w-full mb-4'> 
                     
                     {/* Heading */}
                     <p className='text-body mb-2'>About Me</p>       
