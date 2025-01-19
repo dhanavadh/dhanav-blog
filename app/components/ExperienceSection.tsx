@@ -66,7 +66,7 @@ const Certificates = [
 
 const ExperienceSection = () => {
   return (
-    <div className='md:flex flex-row gap-4 mt-4 min-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>            
+    <div className='md:flex flex-row gap-6 mt-4 min-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>            
             <div className='flex-col-1 md:w-1/2 mt-4 w-full'>
                 <p className='h1 truncate'>Jobs/Internship</p>                
                 {Jobs.map((article) => (

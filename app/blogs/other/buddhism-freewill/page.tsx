@@ -71,7 +71,7 @@ const BlogBuddhism = () => {
         <div className='mt-6 mb-10 border-l-4 border-blue-500 pl-4'>
             <p className='p'>20 minutes Reading</p>
           <p className='title'>พุทธศาสนาและเจตจำนงเสรีบางประการ</p>
-          <p className='sub-title mt-2'>แนวคิดพุทธศาสนาเกี่ยวกับเจตจำนงเสรีนั้นมีจริงหรือไม่ และถ้ามีจริง มีผลต่อการทำความเข้าใจเรื่องการกระทำของมนุษย์หรือไม่?</p>          
+          <p className='sub-title-article mt-2'>แนวคิดพุทธศาสนาเกี่ยวกับเจตจำนงเสรีนั้นมีจริงหรือไม่ และถ้ามีจริง มีผลต่อการทำความเข้าใจเรื่องการกระทำของมนุษย์หรือไม่?</p>          
         </div>                                     
         {/* Paragraph */}
         <div className='paragraph'>
@@ -144,10 +144,10 @@ const BlogBuddhism = () => {
         <div className='h3 border-l-4 border-blue-500 pl-4'>
           <p className='h3'>Reference</p>
           {Reference.map((item) => (
-            <ul className='p my-2' key={item.id}>
+            <ul className='p my-2 list-disc ml-4' key={item.id}>
             <li>
-                <p>- {item.name}</p>
-                <Link href={item.link} className='link'>Get this reference →</Link>
+                <p>{item.name}</p>
+                <Link href={item.link} className='link' target='_blank'>Get this reference →</Link>
             </li>
             </ul>      
           ))}    

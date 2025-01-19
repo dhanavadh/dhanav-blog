@@ -20,7 +20,7 @@ const Interests = [
 const AboutMe = () => {
   return (
     <div className='head-page'>    
-        <div className='lg:flex items-start'>
+        <div className='lg:flex flex-row items-start gap-6'>
             {/* Info */}
             <div className='px-4 py-2 text-white lg:w-2/3 w-full mb-4'> 
                     
@@ -91,7 +91,7 @@ const AboutMe = () => {
                     <div>
                     <p className='h3'>3rd Year Student</p>
                     <p className='p'>Faculty of Arts, Chulalongkorn University</p>
-                    <p className='p mt-2 w-64'>Majoring in Japanese Language, I find myself web developing when it was too late but it's possible so I started coding.</p>
+                    <p className='p mt-2'>Majoring in Japanese Language, I find myself web developing when it was too late but it's possible so I started coding.</p>
                     </div>
 
                 </li>
@@ -99,7 +99,7 @@ const AboutMe = () => {
                     <Image src='./icons/lang_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
                     <div>
                     <p className='h3 pb-1'>Japanese, Thai, English Available!</p>                
-                    <p className='p mt-2 w-64'>N2 Certified for Japanese, Native Thai and, Professional Level English</p>
+                    <p className='p mt-2'>N2 Certified for Japanese, Native Thai and, Professional Level English</p>
                     </div>
 
                 </li>
@@ -113,7 +113,7 @@ const AboutMe = () => {
                                     <ul key={skill.id} className='gap-2'>
                                         <li className='list-item'>
                                             <p className='h5 font-semibold mt-2 mb-1'> {skill.name}</p>
-                                            <p className='p w-64 ml-4'>{skill.description}</p>
+                                            <p className='p ml-4'>{skill.description}</p>
                                         </li>                                
                                     </ul>
                                 ))}      
@@ -132,7 +132,7 @@ const AboutMe = () => {
                                     <ul key={skill.id} className='gap-2'>
                                         <li className='list-item'>
                                             <p className='h5 mt-2 mb-1'> {skill.name}</p>
-                                            <p className='p w-64 ml-4'>{skill.description}</p>
+                                            <p className='p ml-4'>{skill.description}</p>
                                         </li>                                
                                     </ul>
                                 ))}      

@@ -5,27 +5,27 @@ import Image from 'next/image'
 const Blog = [
     {
         id:1,
-        name:"เมื่อเราใช้ความรู้เรื่อง Design Principles มาเขียนเว็บจะเป็นอย่างไร",
+        name:"เมื่อผมเอา UX/UI Design Principles มาปรับปรุง Portfolio ของผม",
         description:"จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง User Experience เลย มาสู่การรีเมคเว็บไซต์ของตัวเองให้เข้าถึง user ทุกคน ผมจึงรู้สึกว่าความรู้เรื่อง UX สำคัญมาก ๆ สำหรับนักพัฒนาเว็บ frontend",
         badge:"UI Design",
-        link:"/blogs/coding/port-redesign",
-        img:"/banner/webremake.svg"
+        img:"/banner/blog-1.svg",
+        link:"/blogs/coding/port-redesign"
     },
     {
         id:2,
-        name:"สร้าง backend server ด้วย free service ที่รองรับ traffic มากกว่า 3k ต่อเดือน",
-        description:"ความรู้เรื่องหลักการออกแบบ รวมไปถึงการศึกษาผู้ใช้ ใช้กับเว็บไซต์",
-        badge:"Coding",
-        link:"/blogs/coding/port-redesign",
-        img:"/banner/dict.svg"
+        name:"Buddhist Philosophy", 
+        description:"หนึ่งในปัญหาที่เกิดการตั้งคำถามกับพุทธศาสนาคือเรื่อง เจตจำนงเสรี (free will) และ นิยัตินิยม (determinism) ประเด็นศึกษาดังกล่าวมีการศึกษาที่หลากหลายและนำเสนอในมุมมองที่แตกต่างกันไป การยกประเด็นศึกษาเรื่องเจตจำนงเสรีในพุทธศาสนานั้น อาจเป็นเนื่องมาจากที่ว่าพุทธศาสนาไม่ได้มีมุมมองหรือให้นิยมที่ชัดเจนว่าเป็นโลกทัศน์ที่มนุษย์มีเจตจำนงเสรี", 
+        badge:"Buddhist Philosophy",
+        img:"/banner/buddhism.svg",
+        link:"/blogs/other/buddhism-freewill"
     },
     {
         id:3,
-        name:"พุทธศาสนาและเจตจำนงเสรีบางประการ",
-        description:"แนวคิดพุทธศาสนาเกี่ยวกับเจตจำนงเสรีนั้นมีจริงหรือไม่ และถ้ามีจริง มีผลต่อการทำความเข้าใจเรื่องการกระทำของมนุษย์หรือไม่?",
-        badge:"Philosophy",
-        link:"/blogs/other/buddhism-freewill",
-        img:"/banner/buddhism.svg"
+        name:"日本における就職活動", 
+        description:"現在、日本の就職活動、いわゆる「就活」についていえば、多くの学生がインターンシップに参加することがよく見られ、卒業後すぐに働く学生もよく見られる。だが、タイの状況を見ると、学生の就活に対する関心は日本ほど高くないように思われる。", 
+        badge:"Japanese Culture",
+        img:"/banner/blog-2.svg",
+        link:"/blogs/other/shukatsu"
     },
 ]
 

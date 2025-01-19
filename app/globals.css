@@ -51,6 +51,9 @@ body {
 .sub-title {
   @apply text-2xl font-normal text-neutral-300; 
 }
+.sub-title-article {
+  @apply text-xl font-normal text-neutral-300; 
+}
 .p {
   @apply text-base font-normal leading-relaxed text-neutral-300 tracking-wide;
 }

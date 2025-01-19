@@ -137,7 +137,7 @@ const ProjectItem = () => {
             <p className='h1 pt-4'>2024 Projects</p> 
             {ProjectOf2024.map((item) => (
                 <div className='lg:flex flex-row gap-2 border-b-2 border-neutral-900 py-4' key={item.id}>  
-                <div className='lg:hidden w-full mb-2'>
+                <div className='lg:hidden w-full mb-4'>
                     <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
                 </div>                   
                 <div>
@@ -145,18 +145,18 @@ const ProjectItem = () => {
                     <div>
                         <a className={item.status === "In Progress" ? 'badge-yellow' : 'badge-blue'}>{item.status}</a>
                         <p className='h3 my-1'>{item.name}</p>
-                        <p className='text-base'>{item.description}</p>
+                        <p className='p'>{item.description}</p>
                     </div>
                     {/* Used Technologies */}
                     <div>
-                        <p className='h4 mt-2 font-semibold'>Used Technologies</p>
+                        <p className='h5 mt-2 font-semibold'>Used Technologies</p>
                         <div className='flex gap-2'>
-                            <a className='text-base mt-1'>{item.technologies}</a>
+                            <a className='p mt-1'>{item.technologies}</a>
                         </div>
                     </div>
 
                     {/* Link to read more */}
-                    <p className='h4 mt-2 font-semibold'>Read more about this</p>
+                    <p className='h5 mt-2 font-semibold'>Read more about this</p>
                     <div className='flex gap-4'>
                         <Link
                             className="flex items-center link gap-2"
@@ -210,7 +210,7 @@ const ProjectItem = () => {
                     <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
                 </div>
             </div>
-            ))}             
+            ))}            
         </div>
     </div>
   )

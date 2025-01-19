@@ -5,7 +5,7 @@ import ExperienceSection from '../components/ExperienceSection'
 const Experience = () => {
   return (
     <div className='head-page-relative'>
-    <div className='lg:flex flex-row gap-4'>
+    <div className='lg:flex flex-row'>
         <div className='flex gap-2 border-b-2 pb-4 border-neutral-900'>
             <div className=''>
                 <p className='text-body mb-2'>Experience</p>       
