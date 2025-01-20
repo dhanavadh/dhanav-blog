@@ -11,7 +11,7 @@ const ProjectOf2024 = [
         description:"I'm assigned to create a new website for Arts Student Committee. Due to the old ones was using Wordpress, The club wants the new ones with the latest web technologies. The mostly used function is querying the professors' name.",
         technologies: "Next.js, TailwindCSS, Heroicons, Editorjs",
         github: "https://github.com/dhanavadh/Artsgoz-frontend",
-        website: "https://artsgoz.netlify.app/",
+        website: "https://www.arts.chula.ac.th/goz/",
         article: "/blogs/coding/artsgoz-frontend"
     },
     {
@@ -21,9 +21,9 @@ const ProjectOf2024 = [
         img: "./banner/artsgoz-backend.jpeg",
         description:"I'm assigned to create a new website for Arts Student Committee. Due to the old ones was using Wordpress, The club wants the new ones with the latest web technologies. The mostly used function is querying the professors' name.",
         technologies: "Express.js, AWS S3, MongoDB",
-        github: "https://www.linkedin.com/in/dhanav/",
-        website: "https://www.linkedin.com/in/dhanav/",
-        article: "https://www.linkedin.com/in/dhanav/"
+        github: "https://github.com/artsgoz/artsgoz-backend",
+        website: "https://artsgoz.netlify.app/",
+        article: "/blogs/coding/artsgoz-backend-drawback"
     }
 ]
 
@@ -32,15 +32,26 @@ const ProjectOf2025 = [
         id: 1,
         name:"My Portfolio Remake",
         status:"Completed",
-        img: "./banner/blog-4.svg",
-        description:"I'm assigned to create a new website for Arts Student Committee. Due to the old ones was using Wordpress, The club wants the new ones with the latest web technologies. The mostly used function is querying the professors' name.",
+        img: "./banner/blog-1.svg",
+        description:"I have been using my old portfolio for a long time. I decided to remake it with the adaptation of UI design principles. ",
         technologies: "Next.js, TailwindCSS, Heroicons, Editorjs",
+        github: "https://github.com/dhanavadh/dhanav-main-blog",
+        website: "/",
+        article: "/blogs/coding/port-redesign"
+    },
+    {
+        id: 2,
+        name:"ใบฟ้า – แอปช่วยจัดตารางเรียน",
+        status:"In Progress",
+        img: "./banner/blog-4.svg",
+        description:"This project is formed by a problem that students cannot manage their curriculum properly. I decided to create a web application that helps students to manage their whole curriculum.",
+        technologies: "N/A",
         github: "https://www.linkedin.com/in/dhanav/",
         website: "https://www.linkedin.com/in/dhanav/",
         article: "https://www.linkedin.com/in/dhanav/"
     },
     {
-        id: 2,
+        id: 3,
         name:"แผ่นหลังคา – Iconroof",
         status:"In Progress",
         img: "./banner/iconroof.png",
@@ -56,161 +67,171 @@ const ProjectOf2025 = [
 const ProjectItem = () => {
   return (
     <div>
-        <div className='space-y-2 py-4'>
-            <p className='h1'>2025 Projects</p>
-            {ProjectOf2025.map((item) => (
-                <div className='lg:flex flex-row gap-2 border-b-2 border-neutral-900 py-4' key={item.id}>  
-                <div className='lg:hidden w-full mb-4'>
-                    <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
-                </div>                   
-                <div>
-                    {/* Main Project */}
-                    <div>
-                        <a className={item.status === "In Progress" ? 'badge-yellow' : 'badge-blue'}>{item.status}</a>
-                        <p className='h3 my-1'>{item.name}</p>
-                        <p className='p'>{item.description}</p>
-                    </div>
-                    {/* Used Technologies */}
-                    <div>
-                        <p className='h5 mt-2 font-semibold'>Used Technologies</p>
-                        <div className='flex gap-2'>
-                            <a className='p mt-1'>{item.technologies}</a>
-                        </div>
-                    </div>
+        <div className='lg:flex gap-6 mt-4 max-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>
+            <div className='lg:w-1/2 mt-4'>
+                <p className='h1'>2025 Projects</p>
+                {ProjectOf2025.map((item) => (
+                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-900 py-4' key={item.id}>  
+                    <div className='lg:hidden w-full h-32 mb-4'>
+                        <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
+                    </div>                   
+                    <div className='flex'>
+                        <div className='lg:w-3/4'>
+                            {/* Main Project */}
+                            <div>
+                                <a className={item.status === "Completed" ? 'badge-blue' : item.status === "In Progress" ? 'badge-yellow' : 'badge-yellow'}>{item.status}</a>
+                                <p className='h3 my-1'>{item.name}</p>
+                                <p className='p w-full'>{item.description}</p>                        
+                            </div>
 
-                    {/* Link to read more */}
-                    <p className='h5 mt-2 font-semibold'>Read more about this</p>
-                    <div className='flex gap-4'>
-                        <Link
-                            className="flex items-center link gap-2"
-                            href={item.github}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >      
-                            <Image
-                                aria-hidden
-                                src="/github-mark.svg"
-                                alt="GitRepo"
-                                width={16}
-                                height={16}
-                            />                  
-                            GitRepo                        
-                        </Link>                   
-                        <Link
-                            className="flex items-center link gap-2"
-                            href={item.website}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >      
-                            <Image
-                                aria-hidden
-                                src="/icons/website.svg"
-                                alt="website"
-                                width={16}
-                                height={16}
-                            />                  
-                            Website                       
-                        </Link>                   
-                        <Link
-                            className="flex items-center link gap-2"
-                            href={item.article}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >      
-                            <Image
-                                aria-hidden
-                                src="/icons/read.svg"
-                                alt="Article"
-                                width={16}
-                                height={16}
-                            />                  
-                            Full Article               
-                        </Link>                   
-                    </div>
-                    
-                </div>
-                <div className='hidden lg:flex w-1/2'>
-                    <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
-                </div>
-            </div>
-            ))}                    
-            <p className='h1 pt-4'>2024 Projects</p> 
-            {ProjectOf2024.map((item) => (
-                <div className='lg:flex flex-row gap-2 border-b-2 border-neutral-900 py-4' key={item.id}>  
-                <div className='lg:hidden w-full mb-4'>
-                    <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
-                </div>                   
-                <div>
-                    {/* Main Project */}
-                    <div>
-                        <a className={item.status === "In Progress" ? 'badge-yellow' : 'badge-blue'}>{item.status}</a>
-                        <p className='h3 my-1'>{item.name}</p>
-                        <p className='p'>{item.description}</p>
-                    </div>
-                    {/* Used Technologies */}
-                    <div>
-                        <p className='h5 mt-2 font-semibold'>Used Technologies</p>
-                        <div className='flex gap-2'>
-                            <a className='p mt-1'>{item.technologies}</a>
-                        </div>
-                    </div>
+                            {/* Used Technologies */}
+                            <div>
+                                <p className='h5 mt-2 font-semibold'>Used Technologies</p>
+                                <div className='flex gap-2'>
+                                    <a className='p mt-1'>{item.technologies}</a>
+                                </div>
+                            </div>
 
-                    {/* Link to read more */}
-                    <p className='h5 mt-2 font-semibold'>Read more about this</p>
-                    <div className='flex gap-4'>
-                        <Link
-                            className="flex items-center link gap-2"
-                            href={item.github}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >      
-                            <Image
-                                aria-hidden
-                                src="/github-mark.svg"
-                                alt="GitRepo"
-                                width={16}
-                                height={16}
-                            />                  
-                            GitRepo                        
-                        </Link>                   
-                        <Link
-                            className="flex items-center link gap-2"
-                            href={item.website}
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            {/* Link to read more */}                    
+                            <p className='h5 mt-2 font-semibold'>Read more about this</p>
+                        <div className='flex gap-4'>
+                            <Link
+                                className="flex items-center link gap-2"
+                                href={item.github}
+                                target="_blank"
+                                rel="noopener noreferrer"
                             >      
-                            <Image
-                                aria-hidden
-                                src="/icons/website.svg"
-                                alt="website"
-                                width={16}
-                                height={16}
-                            />                  
-                            Website                       
-                        </Link>                   
-                        <Link
-                            className="flex items-center link gap-2"
-                            href={item.article}
-                            target="_blank"
-                            rel="noopener noreferrer"
+                                <Image
+                                    aria-hidden
+                                    src="/github-mark.svg"
+                                    alt="GitRepo"
+                                    width={16}
+                                    height={16}
+                                />                  
+                                GitRepo                        
+                            </Link>                   
+                            <Link
+                                className="flex items-center link gap-2"
+                                href={item.website}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >      
+                                <Image
+                                    aria-hidden
+                                    src="/icons/website.svg"
+                                    alt="website"
+                                    width={16}
+                                    height={16}
+                                />                  
+                                Website                       
+                            </Link>                   
+                            <Link
+                                className="flex items-center link gap-2"
+                                href={item.article}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >      
+                                <Image
+                                    aria-hidden
+                                    src="/icons/read.svg"
+                                    alt="Article"
+                                    width={16}
+                                    height={16}
+                                />                  
+                                Full Article               
+                            </Link>                   
+                        </div>
+                                
+                        </div>
+                        <div className='hidden lg:flex lg:w-1/4 ml-2'>
+                            <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
+                        </div>
+                    </div> 
+                </div>
+                ))}                         
+            </div>                
+            <div className='lg:w-1/2 mt-4'>
+                <p className='h1'>2024 Projects</p>
+                {ProjectOf2024.map((item) => (
+                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-900 py-4' key={item.id}>  
+                    <div className='lg:hidden w-full h-32 mb-4'>
+                        <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
+                    </div>                   
+                    <div className='flex'>
+                        <div className='lg:w-3/4'>
+                            {/* Main Project */}
+                            <div>
+                                <a className={item.status === "Completed" ? 'badge-blue' : item.status === "In Progress" ? 'badge-yellow' : 'badge-yellow'}>{item.status}</a>
+                                <p className='h3 my-1'>{item.name}</p>
+                                <p className='p w-full'>{item.description}</p>                        
+                            </div>
+
+                            {/* Used Technologies */}
+                            <div>
+                                <p className='h5 mt-2 font-semibold'>Used Technologies</p>
+                                <div className='flex gap-2'>
+                                    <a className='p mt-1'>{item.technologies}</a>
+                                </div>
+                            </div>
+
+                            {/* Link to read more */}                    
+                            <p className='h5 mt-2 font-semibold'>Read more about this</p>
+                        <div className='flex gap-4'>
+                            <Link
+                                className="flex items-center link gap-2"
+                                href={item.github}
+                                target="_blank"
+                                rel="noopener noreferrer"
                             >      
-                            <Image
-                                aria-hidden
-                                src="/icons/read.svg"
-                                alt="Article"
-                                width={16}
-                                height={16}
-                            />                  
-                            Full Article               
-                        </Link>                   
-                    </div>
-                    
+                                <Image
+                                    aria-hidden
+                                    src="/github-mark.svg"
+                                    alt="GitRepo"
+                                    width={16}
+                                    height={16}
+                                />                  
+                                GitRepo                        
+                            </Link>                   
+                            <Link
+                                className="flex items-center link gap-2"
+                                href={item.website}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >      
+                                <Image
+                                    aria-hidden
+                                    src="/icons/website.svg"
+                                    alt="website"
+                                    width={16}
+                                    height={16}
+                                />                  
+                                Website                       
+                            </Link>                   
+                            <Link
+                                className="flex items-center link gap-2"
+                                href={item.article}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >      
+                                <Image
+                                    aria-hidden
+                                    src="/icons/read.svg"
+                                    alt="Article"
+                                    width={16}
+                                    height={16}
+                                />                  
+                                Full Article               
+                            </Link>                   
+                        </div>
+                                
+                        </div>
+                        <div className='hidden lg:flex lg:w-1/4 ml-2'>
+                            <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
+                        </div>
+                    </div> 
                 </div>
-                <div className='hidden lg:flex w-1/2'>
-                    <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
-                </div>
-            </div>
-            ))}            
+                ))}                         
+            </div>                         
         </div>
     </div>
   )
