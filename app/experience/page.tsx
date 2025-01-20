@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div className='head-page-relative'>
     <div className='lg:flex flex-row'>
-        <div className='flex gap-2 border-b-2 pb-4 border-neutral-900'>
+        <div className='flex gap-2 border-b-2 pb-4 border-neutral-300'>
             <div className=''>
                 <p className='text-body mb-2'>Experience</p>       
                 <p className='title mb-1'>See how I grew up!</p>

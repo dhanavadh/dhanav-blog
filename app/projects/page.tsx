@@ -8,8 +8,8 @@ import ProjectItem from '../components/ProjectItem'
 
 const Projects = () => {
   return (
-    <div className='head-page-relative items-start'>
-        <div className='flex gap-2 border-b-2 pb-4 border-neutral-900'>
+    <div className='head-page-relative'>
+        <div className='flex gap-2 border-b-2 pb-4 border-neutral-300'>
             <div className=''>
                 <p className='text-body mb-2'>Projects</p>       
                 <p className='title mb-1'>What I've done recently</p>

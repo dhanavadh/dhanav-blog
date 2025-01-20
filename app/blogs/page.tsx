@@ -6,7 +6,7 @@ const Blogs = () => {
   return (
     <div className='head-page-relative'>
     <div className='lg:flex flex-row items-start justify-center gap-4'>
-        <div className='flex gap-2 border-b-2 pb-4 border-neutral-900 w-full'>
+        <div className='flex gap-2 border-b-2 pb-4 border-neutral-300 w-full'>
             <div className=''>
                 <p className='text-body mb-2'>Blogs</p>       
                 <p className='title mb-1'>Here it is my playground!</p>

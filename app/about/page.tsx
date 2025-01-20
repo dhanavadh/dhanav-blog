@@ -22,7 +22,7 @@ const AboutMe = () => {
     <div className='head-page'>    
         <div className='lg:flex flex-row items-start gap-6'>
             {/* Info */}
-            <div className='py-2 text-white lg:w-2/3 w-full mb-4'> 
+            <div className='py-2 lg:w-2/3 w-full mb-4'> 
                     
                     {/* Heading */}
                     <p className='text-body mb-2'>About Me</p>       
@@ -86,7 +86,7 @@ const AboutMe = () => {
             {/* Skills */}
             <div className='border-l-4 border-pink-500 lg:w-1/3 w-full'>
                 <ul>          
-                <li className='flex items-start px-4 py-2 text-white'>
+                <li className='flex items-start px-4 py-2'>
                     <Image src='./icons/school_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
                     <div>
                     <p className='h3'>3rd Year Student</p>
@@ -95,7 +95,7 @@ const AboutMe = () => {
                     </div>
 
                 </li>
-                <li className='flex items-start px-4 py-2 text-white'>
+                <li className='flex items-start px-4 py-2'>
                     <Image src='./icons/lang_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
                     <div>
                     <p className='h3 pb-1'>Japanese, Thai, English Available!</p>                
@@ -103,7 +103,7 @@ const AboutMe = () => {
                     </div>
 
                 </li>
-                <li className='text-white items-start px-4 py-2'>
+                <li className='items-start px-4 py-2'>
                     <div className='flex items-start'>
                         <Image src='./icons/star_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
                         <div>
@@ -122,7 +122,7 @@ const AboutMe = () => {
                     </div>                
 
                 </li>
-                <li className='text-white items-start px-4 py-2'>
+                <li className='items-start px-4 py-2'>
                     <div className='flex items-start'>
                         <Image src='./icons/interests.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
                         <div>

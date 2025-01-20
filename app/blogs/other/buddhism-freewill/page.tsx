@@ -63,7 +63,7 @@ const BlogBuddhism = () => {
         <div className='flex max-h-3/4 max-w-full relative -z-[1]'>
           <img src='/banner/buddhism.svg' className='h-full w-full absolute object-cover -z-[1] brightness-75 rounded-b-xl'></img>                        
           <div className='mx-6 mt-48 md:mt-64 w-full'>            
-            <p className='p mb-2 text-end'>Image from @dhanavadh</p>            
+            <p className='ref-image'>Image from @dhanavadh</p>            
           </div>
         </div>   
 

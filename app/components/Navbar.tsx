@@ -18,14 +18,14 @@ const Navbar = () => {
     
 
   return (
-    <nav className="sticky top-0 z-50 flex items-center justify-between h-12 bg-black text-white w-full font-[family-name:var(--font-noto-sans)] px-6 md:px-32 border-b-2 border-neutral-950">
+    <nav className="sticky top-0 z-50 flex items-center justify-between h-12 w-full font-[family-name:var(--font-noto-sans)] px-6 md:px-32 border-b-2 border-neutral-300 bg-neutral-50">
             <Link href='/' className='flex items-center'>
             {/* <Image src='./icon.svg' alt='logo' width={48} height={48} className='p-0.5 mr-2'/>   */}
             <p className='h3'>Dhanavadh Saito        
             </p>    
             
             </Link>
-            <div className='hidden lg:flex p items-center h-full space-x-8 py-2 px-4 bg-black'>
+            <div className='hidden lg:flex p items-center h-full space-x-8 py-2 px-4'>
             {NavLink.map((index) => (
                 <Link
                     key={index.name}
@@ -38,8 +38,8 @@ const Navbar = () => {
                 </Link>
             ))}
         </div>
-        <div className="hidden lg:flex items-center py-2 px-4 bg-black">
-            <Link href='https://github.com/dhanavadh' className='hover:underline hover:underline-offset-2'>Github</Link>
+        <div className="hidden lg:flex items-center py-2 px-4">
+            <Link href='https://github.com/dhanavadh' className='link'>Github</Link>
         </div>
         <div className="flex lg:hidden">
             <button onClick={() => setIsOpen(true)} className='hover:underline hover:underline-offset-2'>
@@ -50,8 +50,8 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <Dialog open={isOpen} onClose={() => setIsOpen(false)} className="relative z-50">
         <div className="fixed inset-0 flex w-screen items-start justify-center backdrop-blur-xl font-[family-name:var(--font-noto-sans)]">
-          <DialogPanel className="flex flex-col w-screen text-white px-6 md:px-32">
-            <div className="flex justify-between items-center py-1">                
+          <DialogPanel className="flex flex-col w-screen px-6 md:px-32">
+            <div className="flex justify-between items-center py-2">                
                 <p className="h3">Dhanavadh Saito</p>
                 <button onClick={() => setIsOpen(false)}>
                     <Image src='/icons/close_w.svg' width={36} height={36} alt='menu'></Image>

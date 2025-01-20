@@ -8,7 +8,7 @@ export default function Home() {
     <div className='head-page'>    
         <div className='lg:flex flex-row items-start gap-6'>
             {/* Info */}
-            <div className='py-2 text-white lg:w-2/3 w-full mb-4'> 
+            <div className='py-2 lg:w-2/3 w-full mb-4'> 
                     
                     {/* Heading */}
                     <p className='text-7xl font-bold text-blue-500'>Hello !</p>       
@@ -72,21 +72,25 @@ export default function Home() {
             {/* Skills */}
             <div className='lg:w-1/3 w-full'>                
                 <ul className='border-l-4 border-blue-500'>          
-                <li className='flex items-center px-4 py-2 text-white'>                    
+                <li className='flex items-center px-4 py-2'>                    
                     <Link className='mb-2 link-title' href='/projects'>Projects →</Link>
                 </li>
-                <li className='flex items-center px-4 py-2 text-white'>                    
+                <li className='flex items-center px-4 py-2'>                    
                     <Link className='mb-2 link-title' href='/blogs'>Blogs →</Link>
                 </li>
-                <li className='flex items-start px-4 py-2 text-white'>                    
-                    <Link className='mb-2 link-title' href='/experience'>Experience/Certifications →</Link>
+                <li className='flex items-start px-4 py-2'>                    
+                    <Link className='mb-2 link-title' href='/experience'>Experience →</Link>
+                </li>               
+                <li className='flex items-start px-4 py-2'>                    
+                    <Link className='mb-2 link-title' href='/about'>About me →</Link>
                 </li>               
                 </ul>
 
                 {/* Blogs */}
                 <p className='h3 my-4'>Latest Blogs</p>
 
-                <LatestBlog />                               
+                <LatestBlog />    
+                <Link href='/blog' className='link'>See more →</Link>                           
             </div>
         </div>
     </div>

@@ -4,8 +4,8 @@
 
 
 body {
-  color: white;
-  background: #000;
+  color: #0a0a0a;
+  background: #fafafa;
 }
 
 .heading {
@@ -29,8 +29,13 @@ body {
   @apply text-2xl font-medium leading-loose tracking-normal font-[family-name:var(--font-noto-sans)] lg:mx-24;
 }
 .image-description {
-  @apply text-sm leading-loose tracking-normal font-[family-name:var(--font-sarabun-regular)] lg:mx-24;
+  @apply text-base leading-loose tracking-normal font-[family-name:var(--font-sarabun-regular)] lg:mx-24;
 }
+.ref-image {
+  @apply text-base leading-loose tracking-normal text-white  mb-2 text-end;
+}
+
+
 
 .link-title {
   @apply underline-offset-4 h4
@@ -47,11 +52,11 @@ body {
 }
 .nav-link.hovered {
   transition-duration: 300ms;
-  color: #b3b3b3c1;  
+  color: #a3a3a3;  
 }
 .nav-link {
   transition-duration: 300ms;
-  color: white;
+  color: #0a0a0a;
 }
 
 .main-title {
@@ -63,19 +68,19 @@ body {
 }
 
 .sub-title {
-  @apply text-2xl font-normal text-neutral-300; 
+  @apply text-2xl font-normal text-neutral-800; 
 }
 .sub-title-article {
-  @apply text-xl font-normal text-neutral-300; 
+  @apply text-xl font-normal text-neutral-800; 
 }
 .p {
-  @apply text-base font-normal leading-relaxed text-neutral-300 tracking-wide;
+  @apply text-base font-normal leading-relaxed text-neutral-800 tracking-wide;
 }
 .p-white {
   @apply text-base text-white;
 }
 .p-title {
-  @apply text-lg font-normal leading-relaxed tracking-wide text-neutral-300;
+  @apply text-lg font-normal leading-relaxed tracking-wide text-neutral-800;
 }
 .underline-highlight {
   @apply underline-offset-4 underline decoration-2 decoration-wavy decoration-blue-500;
@@ -102,20 +107,21 @@ body {
   @apply flex flex-col justify-start min-h-screen font-[family-name:var(--font-noto-sans)] mt-16 mx-6 md:mx-32;
 }
 
+/* Badge */
 .badge-pink {
-  @apply px-2 py-0.5 bg-pink-500 rounded-full text-[12px] mb-3 font-medium;
+  @apply px-2 py-0.5 bg-pink-600 rounded-full text-[12px] mb-3 font-medium text-white;
 }
 .badge-blue {
-  @apply px-2 py-0.5 bg-blue-500 rounded-full text-[12px] mb-3 font-medium;
+  @apply px-2 py-0.5 bg-blue-500 rounded-full text-[12px] mb-3 font-medium text-white;
 }
 .badge-yellow {
   @apply px-2 py-0.5 bg-yellow-500 text-black rounded-full text-[12px] mb-3 font-medium;
 }
 .badge-green {
-  @apply px-2 py-0.5 bg-green-800 rounded-full text-[12px] font-medium mb-3;
+  @apply px-2 py-0.5 bg-green-800 rounded-full text-[12px] font-medium text-white mb-3;
 }
 .badge-orange {
-  @apply px-2 py-0.5 bg-orange-700 rounded-full text-[12px] font-medium mb-3;
+  @apply px-2 py-0.5 bg-orange-700 rounded-full text-[12px] font-medium text-white mb-3;
 }
 
 /* Scroll Bar */
@@ -124,12 +130,12 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0a0a0a;        /* color of the tracking area */
+  background: #d4d4d4;        /* color of the tracking area */
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #fafafa;    /* color of the scroll thumb */
   border-radius: 100px;       /* roundness of the scroll thumb */
-  border: 3px solid black;  /* creates padding around scroll thumb */
+  border: 1px solid #a3a3a3;  /* creates padding around scroll thumb */
   
 }

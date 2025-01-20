@@ -73,13 +73,13 @@ const CodingArticles = [
 
 const BlogSection = () => {
   return (
-    <div className='lg:flex gap-6 mt-4 max-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>            
+    <div className='lg:flex gap-8 mt-4 max-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>            
             <div className='lg:w-1/2 mt-4'>
                 <p className='h1'>Coding Related Articles</p>
                 {CodingArticles.map((item) => (
-                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-900 py-4' key={item.id}>  
+                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-300 py-4' key={item.id}>  
                     <div className='lg:hidden w-full h-32 mb-4'>
-                        <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
+                        <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                     </div>                   
                     <div className='flex'>
                         <div className='lg:w-3/4'>
@@ -102,7 +102,7 @@ const BlogSection = () => {
                                 
                         </div>
                         <div className='hidden lg:flex lg:w-1/4 ml-2'>
-                            <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
+                            <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                         </div>
                     </div> 
                 </div>
@@ -112,9 +112,9 @@ const BlogSection = () => {
             <div className='lg:w-1/2 mt-4'>
                 <p className='h1'>Other Articles</p>
                 {OtherArticles.map((item) => (
-                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-900 py-4' key={item.id}>  
-                    <div className='lg:hidden w-full h-32 mb-4'>
-                        <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
+                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-300 py-4' key={item.id}>  
+                    <div className='lg:hidden w-full h-32 mb-4 shadow-lg'>
+                        <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                     </div>                   
                     <div className='flex'>
                         <div className='lg:w-3/4'>
@@ -136,7 +136,7 @@ const BlogSection = () => {
                             </div>
                                 
                         </div>
-                        <div className='hidden lg:flex lg:w-1/4 ml-2'>
+                        <div className='hidden lg:flex lg:w-1/4 ml-2 brightness-75'>
                             <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
                         </div>
                     </div> 

@@ -66,11 +66,11 @@ const Certificates = [
 
 const ExperienceSection = () => {
   return (
-    <div className='md:flex flex-row gap-6 mt-4 min-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>            
+    <div className='md:flex flex-row gap-8 mt-4 min-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>            
             <div className='flex-col-1 md:w-1/2 mt-4 w-full'>
                 <p className='h1 truncate'>Jobs/Internship</p>                
                 {Jobs.map((article) => (
-                    <div className='border-b-2 border-neutral-800 py-4' key={article.id}>         
+                    <div className='border-b-2 border-neutral-300 py-4' key={article.id}>         
                     <a className='badge-orange mr-2'>{article.role}</a>                                           
                     <p className='h3 mt-1' >{article.name}</p>
                     <p className='h5' >{article.corp}</p>
@@ -84,8 +84,8 @@ const ExperienceSection = () => {
                     <p className='lg:hidden flex h1'>Participations/</p>
                     <p className='lg:hidden flex h1'>Certifications</p>
                 {Certificates.map((article) => (
-                    <div className='border-b-2 border-neutral-800 py-4' key={article.id}>         
-                    <a className={article.status === "Certification" ? 'badge-yellow' : 'badge-green'}>{article.status}</a>                                           
+                    <div className='border-b-2 border-neutral-300 py-4' key={article.id}>         
+                    <a className={article.status === "Certification" ? 'badge-blue' : 'badge-green'}>{article.status}</a>                                           
                     <p className='h3 mt-1' >{article.name}</p>
                     <p className='h5' >{article.place}</p>
                     <p className='p mb-2' >{article.duration}</p>

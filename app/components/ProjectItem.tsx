@@ -67,13 +67,13 @@ const ProjectOf2025 = [
 const ProjectItem = () => {
   return (
     <div>
-        <div className='lg:flex gap-6 mt-4 max-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>
+        <div className='lg:flex gap-8 mt-4 max-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>
             <div className='lg:w-1/2 mt-4'>
                 <p className='h1'>2025 Projects</p>
                 {ProjectOf2025.map((item) => (
-                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-900 py-4' key={item.id}>  
+                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-300 py-4' key={item.id}>  
                     <div className='lg:hidden w-full h-32 mb-4'>
-                        <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
+                        <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                     </div>                   
                     <div className='flex'>
                         <div className='lg:w-3/4'>
@@ -144,7 +144,7 @@ const ProjectItem = () => {
                                 
                         </div>
                         <div className='hidden lg:flex lg:w-1/4 ml-2'>
-                            <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
+                            <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                         </div>
                     </div> 
                 </div>
@@ -153,9 +153,9 @@ const ProjectItem = () => {
             <div className='lg:w-1/2 mt-4'>
                 <p className='h1'>2024 Projects</p>
                 {ProjectOf2024.map((item) => (
-                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-900 py-4' key={item.id}>  
+                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-300 py-4' key={item.id}>  
                     <div className='lg:hidden w-full h-32 mb-4'>
-                        <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
+                        <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                     </div>                   
                     <div className='flex'>
                         <div className='lg:w-3/4'>
@@ -226,7 +226,7 @@ const ProjectItem = () => {
                                 
                         </div>
                         <div className='hidden lg:flex lg:w-1/4 ml-2'>
-                            <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
+                            <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                         </div>
                     </div> 
                 </div>
