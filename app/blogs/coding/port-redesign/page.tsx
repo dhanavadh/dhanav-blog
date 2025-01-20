@@ -24,7 +24,7 @@ const BlogPortRemake = () => {
 
         {/* Heading */}
         <div className='mt-6 mb-10 border-l-4 border-blue-500 pl-4'>
-            <p className='p'>N/A minutes Reading</p>
+            <p className='p mb-1'>N/A minutes Reading</p>
           <p className='title'>เมื่อผมเอา UX/UI Design Principles มาปรับปรุง Portfolio ของผม</p>
           <p className='sub-title-article mt-2'>จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง User Experience เลย มาสู่การรีเมคเว็บไซต์ของตัวเองให้เข้าถึง user ทุกคน ผมจึงรู้สึกว่าความรู้เรื่อง UX สำคัญมาก ๆ สำหรับนักพัฒนาเว็บ frontend</p>          
         </div>                                     

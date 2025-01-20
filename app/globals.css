@@ -14,8 +14,22 @@ body {
 .sub-heading {
   @apply text-2xl font-normal text-gray-600
 }
+
+/* Blog */
 .paragraph {
   @apply text-xl font-medium leading-loose tracking-normal font-[family-name:var(--font-sarabun-regular)] my-8 lg:mx-24;
+}
+.paragraph-next-to-heading {
+  @apply text-xl font-medium leading-loose tracking-normal font-[family-name:var(--font-sarabun-regular)] mb-8 lg:mx-24;
+}
+.h1-blog {
+  @apply text-3xl font-medium leading-loose tracking-normal font-[family-name:var(--font-noto-sans)] lg:mx-24;
+}
+.h2-blog {
+  @apply text-2xl font-medium leading-loose tracking-normal font-[family-name:var(--font-noto-sans)] lg:mx-24;
+}
+.image-description {
+  @apply text-sm leading-loose tracking-normal font-[family-name:var(--font-sarabun-regular)] lg:mx-24;
 }
 
 .link-title {

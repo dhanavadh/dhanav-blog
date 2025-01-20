@@ -44,7 +44,7 @@ const ProjectOf2025 = [
         name:"ใบฟ้า – แอปช่วยจัดตารางเรียน",
         status:"In Progress",
         img: "./banner/blog-4.svg",
-        description:"This project is formed by a problem that students cannot manage their curriculum properly. I decided to create a web application that helps students to manage their whole curriculum.",
+        description:"The goal of this project is to design an app and a responsive website that help Arts students manage their curriculum because now students are managing their curriculum on paper.",
         technologies: "N/A",
         github: "https://www.linkedin.com/in/dhanav/",
         website: "https://www.linkedin.com/in/dhanav/",

@@ -5,11 +5,11 @@ import Image from 'next/image'
 const Blog = [
     {
         id:1,
-        name:"เมื่อผมเอา UX/UI Design Principles มาปรับปรุง Portfolio ของผม",
-        description:"จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง User Experience เลย มาสู่การรีเมคเว็บไซต์ของตัวเองให้เข้าถึง user ทุกคน ผมจึงรู้สึกว่าความรู้เรื่อง UX สำคัญมาก ๆ สำหรับนักพัฒนาเว็บ frontend",
+        name:"Review พอร์ตโฟลิโอของผมที่สร้างแบบยังไม่รู้เรื่อง UX",
+        description:"จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง UX เลย ผมจะพาไปดูว่ากว่าจะมาเป็นพอร์ตเวอร์ชั่นปัจจุบันนั้น ผมเคยปรับเปลี่ยนพอร์ตของตัวเองมายังไงบ้าง",
         badge:"UI Design",
-        img:"/banner/blog-1.svg",
-        link:"/blogs/coding/port-redesign"
+        img:"/banner/webremake.svg",
+        link:"/blogs/coding/recap-port"
     },
     {
         id:2,
