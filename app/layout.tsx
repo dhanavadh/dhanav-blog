@@ -38,7 +38,7 @@ const ZenKurenaido = localFont({
 
 export const metadata: Metadata = {
   title: "Dhanavadh Saito",
-  description: "An arts student who has interest in web development. Please come and check my profile.",
+  description: "An arts student who has interest in web development. I’m always eager to explore new opportunities for learning and personal growth, so feel free to reach out to me anytime!",
   keywords: "Dhanavadh, Saito, Arts, arts chula, aksorn, dhanavadh saito, intern, internship, port, portfolio, ธนวัฒน์, ธนวัฒน์ ซาอิโตะ, ซาอิโตะ, นิสิต, นิสิตอักษร, อักษร, อักษร จุฬา ",
 };
 
@@ -50,7 +50,7 @@ export default function RootLayout({
   return (
     <html lang="en">      
       <meta property="og:title" content="Dhanavadh Saito - A UX Designer &amp; Front-end Developer Blog" />
-      <meta property="og:description" content="An arts student who has interest in web development. Please come and check my profile." />
+      <meta property="og:description" content="An arts student who has interest in web development. I’m always eager to explore new opportunities for learning and personal growth, so feel free to reach out to me anytime!" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="/banner-og.png" />
       <meta property="og:url" content="https://beta.dhanav.me/" />
