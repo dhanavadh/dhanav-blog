@@ -6,11 +6,11 @@ const Blogs = () => {
   return (
     <div className='head-page-relative'>
     <div className='lg:flex flex-row items-start justify-center gap-4'>
-        <div className='flex gap-2 border-b-2 pb-4 border-neutral-300 w-full'>
+        <div className='flex gap-2 border-b-2 pb-4 border-neutral-200 w-full'>
             <div className=''>
                 <p className='text-body mb-2'>Blogs</p>       
                 <p className='title mb-1'>Here it is my playground!</p>
-                <p className='sub-title text-gray-400'>This is my notebook to keep the things I'm working around.</p>                
+                <p className='sub-title'>This is my notebook to keep the things I'm working around.</p>                
             </div>                              
         </div>
         {/* Note */}

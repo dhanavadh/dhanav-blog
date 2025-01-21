@@ -18,7 +18,7 @@ const Navbar = () => {
     
 
   return (
-    <nav className="sticky top-0 z-50 flex items-center justify-between h-12 w-full font-[family-name:var(--font-noto-sans)] px-6 md:px-32 border-b-2 border-neutral-300 bg-neutral-50">
+    <nav className="sticky top-0 z-50 flex items-center justify-between h-12 w-full font-[family-name:var(--font-noto-sans)] px-6 md:px-32 border-b-2 border-neutral-200 bg-neutral-50">
             <Link href='/' className='flex items-center'>
             {/* <Image src='./icon.svg' alt='logo' width={48} height={48} className='p-0.5 mr-2'/>   */}
             <p className='h3'>Dhanavadh Saito        
@@ -49,7 +49,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <Dialog open={isOpen} onClose={() => setIsOpen(false)} className="relative z-50">
-        <div className="fixed inset-0 flex w-screen items-start justify-center backdrop-blur-xl font-[family-name:var(--font-noto-sans)]">
+        <div className="fixed inset-0 flex w-screen items-start justify-center backdrop-blur-3xl font-[family-name:var(--font-noto-sans)]">
           <DialogPanel className="flex flex-col w-screen px-6 md:px-32">
             <div className="flex justify-between items-center py-2">                
                 <p className="h3">Dhanavadh Saito</p>
@@ -62,7 +62,7 @@ const Navbar = () => {
                 <Link
                 key={index.name}
                 href={index.href}
-                className={`nav-link ${hoveredIndex !== null && hoveredIndex !== index ? 'hovered' : ''} py-2 p`}
+                className={`nav-mobile ${hoveredIndex !== null && hoveredIndex !== index ? 'hovered' : ''} py-2 p`}
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
                 onClick={() => setIsOpen(false)}>

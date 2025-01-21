@@ -38,18 +38,18 @@ const Reference = [
 
 const BlogBuddhism = () => {
   return (
-    <div className='mx-6 md:mx-32 font-[family-name:var(--font-noto-sans)]'>
+    <div className='blog-panel'>
         {/* Banner */}
         <div className='flex max-h-3/4 max-w-full relative -z-[1]'>
-          <img src='/banner/blog-2.svg' className='h-full w-full absolute object-cover -z-[1] brightness-75 rounded-b-xl'></img>                        
-          <div className='mx-6 mt-48 md:mt-64 w-full'>            
+          <img src='/banner/blog-2.svg' className='blog-banner'></img>                        
+          <div className='blog-panel-object'>            
             <p className='ref-image'>Image from @dhanavadh</p>            
           </div>
         </div>   
 
         {/* Heading */}
-        <div className='mt-6 mb-10 border-l-4 border-blue-500 pl-4'>
-            <p className='p'>20 minutes Reading</p>
+        <div className='blog-heading'>
+            <p className='blog-reading'>20 minutes Reading</p>
           <p className='title'>日本における就職活動</p>
           <p className='sub-title-article mt-2'>現在、日本の就職活動、いわゆる「就活」についていえば、多くの学生がインターンシップに参加することがよく見られ、卒業後すぐに働く学生もよく見られる。だが、タイの状況を見ると、学生の就活に対する関心は日本ほど高くないように思われる。</p>          
         </div>                                     

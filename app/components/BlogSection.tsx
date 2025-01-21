@@ -77,7 +77,7 @@ const BlogSection = () => {
             <div className='lg:w-1/2 mt-4'>
                 <p className='h1'>Coding Related Articles</p>
                 {CodingArticles.map((item) => (
-                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-300 py-4' key={item.id}>  
+                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-200 py-4' key={item.id}>  
                     <div className='lg:hidden w-full h-32 mb-4'>
                         <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                     </div>                   
@@ -112,7 +112,7 @@ const BlogSection = () => {
             <div className='lg:w-1/2 mt-4'>
                 <p className='h1'>Other Articles</p>
                 {OtherArticles.map((item) => (
-                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-300 py-4' key={item.id}>  
+                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-200 py-4' key={item.id}>  
                     <div className='lg:hidden w-full h-32 mb-4 shadow-lg'>
                         <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                     </div>                   

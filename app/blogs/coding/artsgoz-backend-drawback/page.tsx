@@ -1,4 +1,4 @@
-import { link } from 'fs'
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -13,18 +13,18 @@ const Reference = [
 
 const BlogArtsgozBE = () => {
   return (
-    <div className='mx-6 md:mx-32 font-[family-name:var(--font-noto-sans)]'>
+    <div className='blog-panel'>
         {/* Banner */}
         <div className='flex max-h-3/4 max-w-full relative -z-[1]'>
-          <img src='/banner/artsgoz-backend.jpeg' className='h-full w-full absolute object-cover -z-[1] brightness-75 rounded-b-xl'></img>                        
-          <div className='mx-6 mt-48 md:mt-64 w-full'>            
+          <img src='/banner/artsgoz-backend.jpeg' className='blog-banner'></img>                        
+          <div className='blog-banner-object'>            
             <p className='ref-image'>Image from @dhanavadh</p>            
           </div>
         </div>   
 
         {/* Heading */}
-        <div className='mt-6 mb-10 border-l-4 border-blue-500 pl-4'>
-            <p className='p mb-1'>N/A minutes Reading</p>
+        <div className='blog-heading'>
+            <p className='bloh-reading'>N/A minutes Reading</p>
           <p className='title'>Drawback ของการสร้าง backend server ด้วย free service</p>
           <p className='sub-title-article mt-2'>Drawback ของการสร้าง backend server ด้วย free service</p>          
         </div>                                     
@@ -32,6 +32,19 @@ const BlogArtsgozBE = () => {
         <div className='paragraph'>
           <p>บทความยังไม่เผยแพร่</p>
         </div>   
+
+        {/* Author */}
+        <div className='blog-author'>
+          <p className='h3 mb-2'>Crafted by</p>
+          <div className='flex items-center'>
+            <Image src='/profile.png' alt='writer-img' width={64} height={64} className='rounded-full brightness-110'></Image>
+            <div className='ml-3'>
+              <p className='h4'>Dhanavadh Saito</p>
+              <Link href='/' className='link'>@dhanavadh</Link>
+            </div>
+          </div>            
+        </div>
+
         {/* Reference */}
         <div className='h3 border-l-4 border-blue-500 pl-4'>
           <p className='h3'>Reference</p>

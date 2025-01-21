@@ -17,28 +17,68 @@ body {
 
 /* Blog */
 .paragraph {
-  @apply text-xl font-medium leading-loose tracking-normal font-[family-name:var(--font-sarabun-regular)] my-8 lg:mx-24;
+  @apply text-xl font-medium leading-loose tracking-normal font-[family-name:var(--font-sarabun-regular)] my-8 lg:mx-32;
 }
 .paragraph-next-to-heading {
-  @apply text-xl font-medium leading-loose tracking-normal font-[family-name:var(--font-sarabun-regular)] mb-8 lg:mx-24;
+  @apply text-xl font-medium leading-loose tracking-normal font-[family-name:var(--font-sarabun-regular)] mb-8 lg:mx-32;
 }
 .h1-blog {
-  @apply text-3xl font-medium leading-loose tracking-normal font-[family-name:var(--font-noto-sans)] lg:mx-24;
+  @apply text-3xl font-medium leading-loose tracking-normal font-[family-name:var(--font-noto-sans)] lg:mx-32;
 }
 .h2-blog {
-  @apply text-2xl font-medium leading-loose tracking-normal font-[family-name:var(--font-noto-sans)] lg:mx-24;
+  @apply text-2xl font-medium leading-loose tracking-normal font-[family-name:var(--font-noto-sans)] lg:mx-32;
 }
 .image-description {
-  @apply text-base leading-loose tracking-normal font-[family-name:var(--font-sarabun-regular)] lg:mx-24;
+  @apply text-base leading-loose tracking-normal font-[family-name:var(--font-sarabun-regular)] lg:mx-32;
 }
 .ref-image {
   @apply text-base leading-loose tracking-normal text-white  mb-2 text-end;
 }
 
 
+/* Blog Heading */
+.blog-panel {
+  @apply mx-6 md:mx-32 font-[family-name:var(--font-noto-sans)];
+}
+.blog-heading {
+  @apply mt-3 mb-5 border-l-4 border-blue-500 pl-4;
+}
+.blog-author {
+  @apply my-10 border-l-4 border-blue-500 pl-4;
+}
+.blog-reading{
+  @apply p mb-1
+}
+/* Blog Banner */
+.blog-banner {
+  @apply h-full w-full absolute object-cover -z-[1] brightness-75 rounded-b-xl;
+}
+.blog-banner-object {
+  @apply mx-6 mt-48 md:mt-64 w-full;
+}
+
+.blog-image-div {
+  @apply flex flex-col items-center justify-center lg:mx-24;
+}
+.blog-image-object {
+  @apply max-h-min rounded-lg;
+}
+
+
+
+
+
+
+
+
+
 
 .link-title {
   @apply underline-offset-4 h4
+  hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-blue-500;
+}
+.link-h3 {
+  @apply underline-offset-4 h3
   hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-blue-500;
 }
 
@@ -59,6 +99,17 @@ body {
   color: #0a0a0a;
 }
 
+/* NavBar Mobile */
+.nav-mobile.hovered {
+  transition-duration: 300ms;
+  color: #f5f5f5;  
+}
+.nav-mobile {
+  transition-duration: 300ms;
+  color: #0a0a0a;
+}
+
+
 .main-title {
   @apply text-7xl font-medium; 
 }
@@ -68,7 +119,7 @@ body {
 }
 
 .sub-title {
-  @apply text-2xl font-normal text-neutral-800; 
+  @apply text-2xl font-normal text-neutral-500; 
 }
 .sub-title-article {
   @apply text-xl font-normal text-neutral-800; 

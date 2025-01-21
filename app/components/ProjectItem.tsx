@@ -57,9 +57,9 @@ const ProjectOf2025 = [
         img: "./banner/iconroof.png",
         description:"I'm assigned to create a new website for Arts Student Committee. Due to the old ones was using Wordpress, The club wants the new ones with the latest web technologies. The mostly used function is querying the professors' name.",
         technologies: "Express.js, AWS S3, MongoDB",
-        github: "https://www.linkedin.com/in/dhanav/",
-        website: "https://www.linkedin.com/in/dhanav/",
-        article: "https://www.linkedin.com/in/dhanav/"
+        github: "/noentry",
+        website: "https://iconroof.dhanav.me/",
+        article: "/noentry"
     }
 ]
 
@@ -71,7 +71,7 @@ const ProjectItem = () => {
             <div className='lg:w-1/2 mt-4'>
                 <p className='h1'>2025 Projects</p>
                 {ProjectOf2025.map((item) => (
-                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-300 py-4' key={item.id}>  
+                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-200 py-4' key={item.id}>  
                     <div className='lg:hidden w-full h-32 mb-4'>
                         <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                     </div>                   
@@ -80,7 +80,9 @@ const ProjectItem = () => {
                             {/* Main Project */}
                             <div>
                                 <a className={item.status === "Completed" ? 'badge-blue' : item.status === "In Progress" ? 'badge-yellow' : 'badge-yellow'}>{item.status}</a>
-                                <p className='h3 my-1'>{item.name}</p>
+                                <div className='mt-2'>
+                                    <Link href={item.website} className='link-h3 my-1'>{item.name}</Link>
+                                </div>
                                 <p className='p w-full'>{item.description}</p>                        
                             </div>
 
@@ -153,7 +155,7 @@ const ProjectItem = () => {
             <div className='lg:w-1/2 mt-4'>
                 <p className='h1'>2024 Projects</p>
                 {ProjectOf2024.map((item) => (
-                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-300 py-4' key={item.id}>  
+                <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-200 py-4' key={item.id}>  
                     <div className='lg:hidden w-full h-32 mb-4'>
                         <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                     </div>                   

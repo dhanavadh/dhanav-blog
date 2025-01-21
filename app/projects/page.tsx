@@ -9,11 +9,11 @@ import ProjectItem from '../components/ProjectItem'
 const Projects = () => {
   return (
     <div className='head-page-relative'>
-        <div className='flex gap-2 border-b-2 pb-4 border-neutral-300'>
+        <div className='flex gap-2 border-b-2 pb-4 border-neutral-200'>
             <div className=''>
                 <p className='text-body mb-2'>Projects</p>       
                 <p className='title mb-1'>What I've done recently</p>
-                <p className='sub-title text-gray-400'>My projects mainly are about front-end web developing</p>
+                <p className='sub-title '>My projects mainly are about front-end web developing</p>
             </div>
         </div>
             {/* Project Page*/}
