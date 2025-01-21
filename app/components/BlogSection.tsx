@@ -8,7 +8,7 @@ const OtherArticles = [
     {
         id: 1, 
         name:"Buddhist Philosophy", 
-        description:"หนึ่งในปัญหาที่เกิดการตั้งคำถามกับพุทธศาสนาคือเรื่อง เจตจำนงเสรี (free will) และ นิยัตินิยม (determinism) ประเด็นศึกษาดังกล่าวมีการศึกษาที่หลากหลายและนำเสนอในมุมมองที่แตกต่างกันไป การยกประเด็นศึกษาเรื่องเจตจำนงเสรีในพุทธศาสนานั้น อาจเป็นเนื่องมาจากที่ว่าพุทธศาสนาไม่ได้มีมุมมองหรือให้นิยมที่ชัดเจนว่าเป็นโลกทัศน์ที่มนุษย์มีเจตจำนงเสรี", 
+        description:"แนวคิดพุทธศาสนาเกี่ยวกับเจตจำนงเสรีนั้นมีจริงหรือไม่ และถ้ามีจริง มีผลต่อการทำความเข้าใจเรื่องการกระทำของมนุษย์หรือไม่?", 
         badge:"Buddhist Philosophy",
         img:"/banner/buddhism.svg",
         link:"/blogs/other/buddhism-freewill"
@@ -16,7 +16,7 @@ const OtherArticles = [
     {
         id: 2, 
         name:"New Religion Movement – Heaven’s Gate",
-        description:"Heaven’s Gate เป็นกลุ่มศาสนาเกิดใหม่ หรือ New Religion Movement และเป็นที่รู้จักอย่างกว้างขวางจากเหตุการณ์อัตวินิบาตกรรมหมู่ของกลุ่มคนที่มีความเชื่อทางศาสนาที่เมือง Rancho Santa Fe มลรัฐ California สหรัฐอเมริกา",
+        description:"Heaven’s Gate เป็นกลุ่มศาสนาเกิดใหม่ หรือ New Religion Movement และเป็นที่รู้จักอย่างกว้างขวางจากเหตุการณ์อัตวินิบาตกรรมหมู่ของกลุ่มคนที่มีความเชื่อทางศาสนาที่รัฐ California สหรัฐอเมริกา",
         badge:"Religious philosophy",
         img:"/banner/blog-3.svg",
         link:"/blogs/other/heavengate"
@@ -64,7 +64,7 @@ const CodingArticles = [
         id: 4, 
         name:"Drawback ของการสร้าง backend server ด้วย free service",
         description:"จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง User Experience เลย มาสู่การรีเมคเว็บไซต์ของตัวเองให้เข้าถึง user ทุกคน ผมจึงรู้สึกว่าความรู้เรื่อง UX สำคัญมาก ๆ สำหรับนักพัฒนาเว็บ frontend",
-        badge:"UI Design",
+        badge:"Coding",
         img:"/banner/artsgoz-backend.jpeg",
         link:"/blogs/coding/artsgoz-backend-drawback"
         

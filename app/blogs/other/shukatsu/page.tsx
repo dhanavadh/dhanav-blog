@@ -1,4 +1,4 @@
-import { link } from 'fs'
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -42,10 +42,10 @@ const BlogBuddhism = () => {
         {/* Banner */}
         <div className='flex max-h-3/4 max-w-full relative -z-[1]'>
           <img src='/banner/blog-2.svg' className='blog-banner'></img>                        
-          <div className='blog-panel-object'>            
+          <div className='blog-banner-object'>            
             <p className='ref-image'>Image from @dhanavadh</p>            
           </div>
-        </div>   
+        </div>
 
         {/* Heading */}
         <div className='blog-heading'>
@@ -68,7 +68,20 @@ const BlogBuddhism = () => {
         </div>   
         <div className='paragraph'>
           <p>　つまり、日本とタイの就活には大きな違いがある。日本では大学生活の一環として多くの学生がインターンや就活に参加し、新卒一括採用の制度により学部を問わず採用されるが、タイでは大学生のうちの就活意識が低く、卒業後に始めるケースが多い。また、日本政府がインターンシップ推進を支援する一方、タイではその支援が少ないため、就活の取り組みに違いが見られる。さらに、転職に対する価値観も異なり、日本は終身雇用が重視され、転職がネガティブ視される傾向にあるが、タイではポジティブに捉えられている。</p>
-        </div>           
+        </div>          
+
+        {/* Author */}
+        <div className='blog-author'>
+          <p className='h3 mb-2'>Crafted by</p>
+          <div className='flex items-center'>
+            <Image src='/profile.png' alt='writer-img' width={64} height={64} className='rounded-full brightness-110'></Image>
+            <div className='ml-3'>
+              <p className='h4'>Dhanavadh Saito</p>
+              <Link href='/' className='link'>@dhanavadh</Link>
+            </div>
+          </div>            
+        </div>
+
         {/* Reference */}
         <div className='h3 border-l-4 border-blue-500 pl-4'>
           <p className='h3'>Reference</p>
