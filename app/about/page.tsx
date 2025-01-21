@@ -88,7 +88,7 @@ const AboutMe = () => {
                     </div>
             </div>
             {/* Skills */}
-            <div className='border-l-4 border-pink-500 lg:w-1/3 w-full mt-6 lg:mt-0'>
+            <div className='border-l-4 border-blue-500 lg:w-1/3 w-full mt-6 lg:mt-0'>
                 <ul>          
                 <li className='flex items-start px-4 py-2'>
                     <Image src='./icons/school_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
