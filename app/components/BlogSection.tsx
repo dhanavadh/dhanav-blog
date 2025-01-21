@@ -74,7 +74,7 @@ const CodingArticles = [
 const BlogSection = () => {
   return (
     <div className='lg:flex gap-8 mt-4 max-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>            
-            <div className='lg:w-1/2 mt-4'>
+            <div className='lg:w-1/2 mt-6'>
                 <p className='h1'>Coding Related Articles</p>
                 {CodingArticles.map((item) => (
                 <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-200 py-4' key={item.id}>  
@@ -109,7 +109,7 @@ const BlogSection = () => {
                 ))}      
                    
             </div>
-            <div className='lg:w-1/2 mt-4'>
+            <div className='lg:w-1/2 mt-6'>
                 <p className='h1'>Other Articles</p>
                 {OtherArticles.map((item) => (
                 <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-200 py-4' key={item.id}>  

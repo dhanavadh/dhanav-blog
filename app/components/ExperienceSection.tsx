@@ -66,8 +66,8 @@ const Certificates = [
 
 const ExperienceSection = () => {
   return (
-    <div className='md:flex flex-row gap-8 mt-4 min-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>            
-            <div className='flex-col-1 md:w-1/2 mt-4 w-full'>
+    <div className='lg:flex flex-row gap-8 mt-4 min-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>            
+            <div className='flex-col-1 lg:w-1/2 mt-6 w-full'>
                 <p className='h1 truncate'>Jobs/Internship</p>                
                 {Jobs.map((article) => (
                     <div className='border-b-2 border-neutral-200 py-4' key={article.id}>         
@@ -79,7 +79,7 @@ const ExperienceSection = () => {
                 </div>
                 ))}                
             </div>
-            <div className='flex-col-1 md:w-1/2 mt-4 w-full'>
+            <div className='flex-col-1 lg:w-1/2 mt-6 w-full'>
                 <p className='hidden lg:flex h1'>Participations/Certifications</p>
                     <p className='lg:hidden flex h1'>Participations/</p>
                     <p className='lg:hidden flex h1'>Certifications</p>

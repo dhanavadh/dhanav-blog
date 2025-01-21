@@ -52,7 +52,7 @@ const Navbar = () => {
         <div className="fixed inset-0 flex w-screen items-start justify-center backdrop-blur-3xl font-[family-name:var(--font-noto-sans)]">
           <DialogPanel className="flex flex-col w-screen px-6 md:px-32">
             <div className="flex justify-between items-center py-2">                
-                <p className="h3">Dhanavadh Saito</p>
+                <Link href='/' className="h3" onClick={() => setIsOpen(false)}>Dhanavadh Saito</Link>
                 <button onClick={() => setIsOpen(false)}>
                     <Image src='/icons/close_w.svg' width={36} height={36} alt='menu'></Image>
                 </button>

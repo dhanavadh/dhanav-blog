@@ -46,9 +46,9 @@ const ProjectOf2025 = [
         img: "./banner/blog-4.svg",
         description:"The goal of this project is to design an app and a responsive website that help Arts students manage their curriculum because now students are managing their curriculum on paper.",
         technologies: "N/A",
-        github: "https://www.linkedin.com/in/dhanav/",
-        website: "https://www.linkedin.com/in/dhanav/",
-        article: "https://www.linkedin.com/in/dhanav/"
+        github: "/noentry",
+        website: "/noentry",
+        article: "/noentry"
     },
     {
         id: 3,
@@ -68,7 +68,7 @@ const ProjectItem = () => {
   return (
     <div>
         <div className='lg:flex gap-8 mt-4 max-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>
-            <div className='lg:w-1/2 mt-4'>
+            <div className='lg:w-1/2 mt-6'>
                 <p className='h1'>2025 Projects</p>
                 {ProjectOf2025.map((item) => (
                 <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-200 py-4' key={item.id}>  
@@ -76,7 +76,7 @@ const ProjectItem = () => {
                         <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                     </div>                   
                     <div className='flex'>
-                        <div className='lg:w-3/4'>
+                        <div className='lg:w-3/4 pr-4'>
                             {/* Main Project */}
                             <div>
                                 <a className={item.status === "Completed" ? 'badge-blue' : item.status === "In Progress" ? 'badge-yellow' : 'badge-yellow'}>{item.status}</a>
@@ -152,7 +152,7 @@ const ProjectItem = () => {
                 </div>
                 ))}                         
             </div>                
-            <div className='lg:w-1/2 mt-4'>
+            <div className='lg:w-1/2 mt-6'>
                 <p className='h1'>2024 Projects</p>
                 {ProjectOf2024.map((item) => (
                 <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-200 py-4' key={item.id}>  
@@ -160,7 +160,7 @@ const ProjectItem = () => {
                         <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                     </div>                   
                     <div className='flex'>
-                        <div className='lg:w-3/4'>
+                        <div className='lg:w-3/4 pr-4'>
                             {/* Main Project */}
                             <div>
                                 <a className={item.status === "Completed" ? 'badge-blue' : item.status === "In Progress" ? 'badge-yellow' : 'badge-yellow'}>{item.status}</a>
