@@ -11,14 +11,14 @@ const Blog = [
         img:"/banner/webremake.svg",
         link:"/blogs/coding/recap-port"
     },
-    // {
-    //     id:2,
-    //     name:"Buddhist Philosophy", 
-    //     description:"หนึ่งในปัญหาที่เกิดการตั้งคำถามกับพุทธศาสนาคือเรื่อง เจตจำนงเสรี (free will) และ นิยัตินิยม (determinism) ประเด็นศึกษาดังกล่าวมีการศึกษาที่หลากหลายและนำเสนอในมุมมองที่แตกต่างกันไป การยกประเด็นศึกษาเรื่องเจตจำนงเสรีในพุทธศาสนานั้น อาจเป็นเนื่องมาจากที่ว่าพุทธศาสนาไม่ได้มีมุมมองหรือให้นิยมที่ชัดเจนว่าเป็นโลกทัศน์ที่มนุษย์มีเจตจำนงเสรี", 
-    //     badge:"Buddhist Philosophy",
-    //     img:"/banner/buddhism.svg",
-    //     link:"/blogs/other/buddhism-freewill"
-    // },
+    {
+        id:2,
+        name:"เมื่อผมเอา UX/UI Design Principles มาปรับปรุง Portfolio ของผม", 
+        description:"ความรู้เรื่อง User Experience นับว่าสำคัญมากสำหรับการพัฒนาเว็บไซต์ ผมจึงเอาความรู้เรื่อง UX/UI Design Principles มาปรับปรุง Portfolio ของตัวเอง", 
+        badge:"UI Design",
+        img:"/banner/blog-1.svg",
+        link:"/blogs/other/buddhism-freewill"
+    },
     // {
     //     id:3,
     //     name:"日本における就職活動", 
@@ -35,10 +35,10 @@ const LatestBlog = () => {
         {Blog.map((item) => (
             <div className='flex max-h-1/2 relative my-4 -z[1] ' key={item.id}>
             <img src={item.img} className='h-full w-full absolute object-cover -z-[1] brightness-[30%] rounded-xl'></img>                        
-            <div className='mx-4 mt-32 w-full mb-4 -z'>            
+            <div className='mx-4 mt-6 w-full mb-4 -z'>            
                 <a className={item.badge === "UI Design" ? 'badge-blue' : item.badge === "Coding" ? 'badge-pink' : 'badge-yellow'}>{item.badge}</a>
                 <p className='h3 text-white mt-1'>{item.name}</p>            
-                <p className='p-white mb-2'>{item.description}</p>   
+                <p className='p-white mb-2 line-clamp-3'>{item.description}</p>   
                 <Link href={item.link} className='link-white'>อ่านต่อ →</Link>         
             </div>
         </div> 

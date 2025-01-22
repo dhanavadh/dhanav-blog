@@ -1,6 +1,6 @@
 const projects = [
     {id: "1", name: "Social Media Contact Center Agent", status: "Full-time Jobber", place: "Advanced Info Services Plc. (AIS)", duration: "Oct 2021 - Aug 2022 · 11 mos", links: "https://www.linkedin.com/in/dhanav/", img: 'https://media.jobthai.com/v1/images/logo/128591_logo_201909200928.png' },
-    {id: "2", name: "Accessibility Hackathon 2024", status: "Hackathon", place: "Microsoft ASEAN AI for Accessibility Hackathon 2024", duration: "June 12, 2024", links: "./Hackathon/Hackathon-microsoft.pdf", img: './Hackathon/1734420054083-4f0b50e9-38e9-4022-b96f-5ebf8c01b375_1.jpg' },    
+    {id: "2", name: "Accessibility Hackathon 2024", status: "Participation", place: "Microsoft ASEAN AI for Accessibility Hackathon 2024", duration: "June 12, 2024", links: "./Hackathon/Hackathon-microsoft.pdf", img: './Hackathon/1734420054083-4f0b50e9-38e9-4022-b96f-5ebf8c01b375_1.jpg' },    
 ]
 
 const Experience = () => {

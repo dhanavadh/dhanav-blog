@@ -9,14 +9,17 @@ body {
 }
 
 .heading {
-  @apply text-4xl font-medium text-white underline-offset-4 underline decoration-4 decoration-wavy decoration-blue-500;
+  @apply text-4xl font-medium text-white underline-offset-4 underline decoration-4  decoration-blue-500;
 }
 .sub-heading {
   @apply text-2xl font-normal text-gray-600
 }
 
+.underlined-body-1 {
+  @apply underline underline-offset-4 decoration-4 decoration-blue-200;
+}
 .underlined-body {
-  @apply underline underline-offset-4 decoration-4 decoration-blue-500;
+  @apply bg-blue-100;
 }
 
 /* Blog */
@@ -78,21 +81,24 @@ body {
 
 
 .link-title {
-  @apply underline-offset-4 h4
-  hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-blue-500;
+  @apply h4
+  hover:underline-offset-8 hover:underline decoration-4  decoration-blue-500;
 }
 .link-h3 {
-  @apply underline-offset-4 h3
-  hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-blue-500;
+  @apply h3
+  hover:underline-offset-8 hover:underline decoration-4  decoration-blue-500;
 }
 
 .link {
-  @apply underline-offset-4 p
-  hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-blue-500;
+  @apply p hover:underline-offset-4 hover:underline decoration-4  decoration-blue-500;
 }
 .link-white {
-  @apply underline-offset-4 p-white
-  hover:underline-offset-4 hover:underline decoration-2 decoration-wavy decoration-blue-500;
+  @apply p-white
+  hover:underline-offset-4 hover:underline decoration-4  decoration-blue-500;
+}
+.link-noapply {
+  @apply
+  hover:underline-offset-8 hover:underline decoration-4 decoration-blue-500;
 }
 .nav-link.hovered {
   transition-duration: 300ms;
@@ -138,7 +144,7 @@ body {
   @apply text-lg font-normal leading-relaxed tracking-wide text-neutral-800;
 }
 .underline-highlight {
-  @apply underline-offset-4 underline decoration-2 decoration-wavy decoration-blue-500;
+  @apply underline-offset-4 underline decoration-2  decoration-blue-500;
 }
 .h1 {
   @apply text-3xl font-medium;

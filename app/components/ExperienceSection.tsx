@@ -19,7 +19,7 @@ const Jobs = [
 const Certificates = [    
     {   id: "1", 
         name: "Accessibility Hackathon 2024 – Participation", 
-        status: "Hackathon", 
+        status: "Participation", 
         place: "Microsoft ASEAN AI for Accessibility Hackathon 2024", 
         duration: "June 12, 2024", 
         link: "./certificate/Hackathon-microsoft.pdf", 

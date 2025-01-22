@@ -67,7 +67,7 @@ const ProjectOf2025 = [
 const ProjectItem = () => {
   return (
     <div>
-        <div className='lg:flex gap-8 mt-4 max-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>
+        <div className='lg:flex gap-10 mt-4 max-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>
             <div className='lg:w-1/2 mt-6'>
                 <p className='h1'>2025 Projects</p>
                 {ProjectOf2025.map((item) => (
@@ -81,9 +81,9 @@ const ProjectItem = () => {
                             <div>
                                 <a className={item.status === "Completed" ? 'badge-blue' : item.status === "In Progress" ? 'badge-yellow' : 'badge-yellow'}>{item.status}</a>
                                 <div className='mt-2'>
-                                    <Link href={item.website} className='link-h3 my-1'>{item.name}</Link>
+                                    <Link href={item.article} className='link-h3 my-1'>{item.name}</Link>
                                 </div>
-                                <p className='p w-full'>{item.description}</p>                        
+                                <p className='p w-full line-clamp-3'>{item.description}</p>                        
                             </div>
 
                             {/* Used Technologies */}
@@ -165,9 +165,9 @@ const ProjectItem = () => {
                             <div>
                                 <a className={item.status === "Completed" ? 'badge-blue' : item.status === "In Progress" ? 'badge-yellow' : 'badge-yellow'}>{item.status}</a>
                                 <div className='mt-2'>
-                                    <Link href={item.website} className='link-h3 my-1'>{item.name}</Link>
+                                    <Link href={item.article} className='link-h3 my-1'>{item.name}</Link>
                                 </div>
-                                <p className='p w-full'>{item.description}</p>                        
+                                <p className='p w-full line-clamp-3'>{item.description}</p>                        
                             </div>
 
                             {/* Used Technologies */}

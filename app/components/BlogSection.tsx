@@ -7,8 +7,8 @@ import BlogOther from './BlogElemet/BlogOther'
 const OtherArticles = [
     {
         id: 1, 
-        name:"Buddhist Philosophy", 
-        description:"แนวคิดพุทธศาสนาเกี่ยวกับเจตจำนงเสรีนั้นมีจริงหรือไม่ และถ้ามีจริง มีผลต่อการทำความเข้าใจเรื่องการกระทำของมนุษย์หรือไม่?", 
+        name:"พุทธศาสนาและเจตจำนงเสรีบางประการ", 
+        description:"แนวคิดพุทธศาสนาเกี่ยวกับเจตจำนงเสรีนั้นมีจริงหรือไม่ และถ้ามีจริง มีผลต่อการทำความเข้าใจเรื่องการกระทำของมนุษย์หรือไม่? แล้วถ้าเกิดพุทธศาสนาไม่มีเจตจำนงเสรี ผลของการรับผิดชอบเรื่องกรรมจะตกที่ใคร?", 
         badge:"Buddhist Philosophy",
         img:"/banner/buddhism.svg",
         link:"/blogs/other/buddhism-freewill"
@@ -73,7 +73,7 @@ const CodingArticles = [
 
 const BlogSection = () => {
   return (
-    <div className='lg:flex gap-8 mt-4 max-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>            
+    <div className='lg:flex gap-10 mt-4 max-w-screen items-start justify-center font-[family-name:var(--font-noto-sans)]'>            
             <div className='lg:w-1/2 mt-6'>
                 <p className='h1'>Coding Related Articles</p>
                 {CodingArticles.map((item) => (
@@ -87,7 +87,7 @@ const BlogSection = () => {
                             <div>
                                 <a className={item.badge === "UI Design" ? 'badge-blue' : item.badge === "Coding" ? 'badge-pink' : 'badge-yellow'}>{item.badge}</a>
                                 <p className='h3 my-1'>{item.name}</p>
-                                <p className='p w-full'>{item.description}</p>                        
+                                <p className='p w-full line-clamp-3'>{item.description}</p>                        
                             </div>
 
                             {/* Link to read more */}                    
@@ -113,7 +113,7 @@ const BlogSection = () => {
                 <p className='h1'>Other Articles</p>
                 {OtherArticles.map((item) => (
                 <div className='lg:flex flex-row justify-between gap-2 border-b-2 border-neutral-200 py-4' key={item.id}>  
-                    <div className='lg:hidden w-full h-32 mb-4 shadow-lg'>
+                    <div className='lg:hidden w-full h-32 mb-4'>
                         <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                     </div>                   
                     <div className='flex'>
@@ -122,26 +122,26 @@ const BlogSection = () => {
                             <div>
                                 <a className={item.badge === "UI Design" ? 'badge-blue' : item.badge === "Coding" ? 'badge-pink' : 'badge-yellow'}>{item.badge}</a>
                                 <p className='h3 my-1'>{item.name}</p>
-                                <p className='p'>{item.description}</p>                        
+                                <p className='p w-full line-clamp-3'>{item.description}</p>                        
                             </div>
 
                             {/* Link to read more */}                    
                             <div className='flex gap-4 mt-2'>                                    
                                 <Link
                                     className="flex items-center link gap-2"
-                                    href={item.link}
+                                    href={item.link}                                    
                                     >                                                
                                     Read More →               
                                 </Link>                   
                             </div>
                                 
                         </div>
-                        <div className='hidden lg:flex lg:w-1/4 ml-2 brightness-75'>
-                            <img src={item.img} className='rounded-lg h-full w-full object-cover'></img>
+                        <div className='hidden lg:flex lg:w-1/4 ml-2'>
+                            <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                         </div>
                     </div> 
                 </div>
-                ))}           
+                ))}          
                    
             </div>
         </div>

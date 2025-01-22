@@ -1,3 +1,4 @@
+import Author from '@/app/components/BlogElemet/Author'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -34,16 +35,7 @@ const BlogPortRemake = () => {
         </div>   
 
         {/* Author */}
-        <div className='blog-author'>
-          <p className='h3 mb-2'>Crafted by</p>
-          <div className='flex items-center'>
-            <Image src='/profile.png' alt='writer-img' width={64} height={64} className='rounded-full brightness-110'></Image>
-            <div className='ml-3'>
-              <p className='h4'>Dhanavadh Saito</p>
-              <Link href='/' className='link'>@dhanavadh</Link>
-            </div>
-          </div>            
-        </div>
+        <Author />
 
         {/* Reference */}
         <div className='h3 border-l-4 border-blue-500 pl-4'>

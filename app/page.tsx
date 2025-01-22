@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import ProjectGroup from './components/ProjectGroup';
 import LatestBlog from './components/LatestBlog';
+import Bio from './components/Bio';
 
 export default function Home() {
   return (
@@ -16,12 +17,7 @@ export default function Home() {
                     <p className='sub-title'>Dhanavadh Saito</p>
 
                     {/* Bio */}
-                    <div className='lg:mr-2'>
-                    <p className='p-title mt-6'>I’m a Japanese major with a strong passion for <a className='underlined-body'>web development</a> and <a className='underlined-body'>UI Design</a>. Coding excites me because it allows me to bring creative ideas to life while maintaining structure and organization, which I truly enjoy</p>
-                    <p className='p-title mt-3'>Outside of programming, one of my favorite hobbies is playing <a className='underlined-body'>Karuta</a>, a traditional Japanese card game. I’m also an active member of the Bangkok Karuta Club, where I get to engage with others who share this interest.</p>
-                    <p className='p-title mt-3'>Additionally, I have a growing interest in <a className='underlined-body'>religious studies</a> and <a className='underlined-body'>philosophy</a>, particularly Buddhist philosophy. I plan to include topics related to philosophy on this site, so you can get to know me better and see the various aspects of who I am.</p>
-                    <p className='p-title mt-3'>I’m always eager to explore new opportunities for learning and personal growth, <a className='underlined-body'>so feel free to reach out to me anytime!</a></p>
-                    </div>
+                    <Bio />
 
 
                     {/* Contact */}
@@ -92,7 +88,9 @@ export default function Home() {
                 </ul>
 
                 {/* Blogs */}
-                <p className='h3 my-4'>Latest Blogs</p>
+                <div className='my-4'>
+                    <Link href='/blogs' className='h3 link-noapply'>Latest Blogs</Link>
+                </div>
 
                 <LatestBlog />    
                 <Link href='/blogs' className='link'>See more →</Link>                           
