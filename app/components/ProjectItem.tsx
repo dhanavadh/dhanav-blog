@@ -164,7 +164,9 @@ const ProjectItem = () => {
                             {/* Main Project */}
                             <div>
                                 <a className={item.status === "Completed" ? 'badge-blue' : item.status === "In Progress" ? 'badge-yellow' : 'badge-yellow'}>{item.status}</a>
-                                <p className='h3 my-1'>{item.name}</p>
+                                <div className='mt-2'>
+                                    <Link href={item.website} className='link-h3 my-1'>{item.name}</Link>
+                                </div>
                                 <p className='p w-full'>{item.description}</p>                        
                             </div>
 
