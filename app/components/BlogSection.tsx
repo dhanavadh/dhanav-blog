@@ -36,7 +36,7 @@ const CodingArticles = [
     {
         id: 1, 
         name:"เมื่อผมเอา UX/UI Design Principles มาปรับปรุง Portfolio ของผม",
-        description:"จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง User Experience เลย มาสู่การรีเมคเว็บไซต์ของตัวเองให้เข้าถึง user ทุกคน ผมจึงรู้สึกว่าความรู้เรื่อง UX สำคัญมาก ๆ สำหรับนักพัฒนาเว็บ frontend",
+        description:"ความรู้เรื่อง User Experience นับว่าสำคัญมากสำหรับการพัฒนาเว็บไซต์ ผมจึงเอาความรู้เรื่อง UX/UI Design Principles มาปรับปรุง Portfolio ของตัวเอง",
         badge:"UI Design",
         img:"/banner/blog-1.svg",
         link:"/blogs/coding/port-redesign"
