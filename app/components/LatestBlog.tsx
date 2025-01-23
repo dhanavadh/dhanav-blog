@@ -34,7 +34,7 @@ const LatestBlog = () => {
     <div className=''>
         {Blog.map((item) => (
             <div className='flex max-h-1/2 relative my-4 -z[1] ' key={item.id}>
-            <img src={item.img} className='h-full w-full absolute object-cover -z-[1] brightness-[30%] rounded-xl'></img>                        
+            <img src={item.img} className='h-full w-full absolute object-cover -z-[1] brightness-[40%] rounded-xl'></img>                        
             <div className='mx-4 mt-6 w-full mb-4 -z'>            
                 <a className={item.badge === "UI Design" ? 'badge-blue' : item.badge === "Coding" ? 'badge-pink' : 'badge-yellow'}>{item.badge}</a>
                 <p className='h3 text-white mt-1'>{item.name}</p>            

@@ -10,6 +10,11 @@ const Skills = [
     {id: 1, name: 'UX Researching/UI Designing', description: 'Experienced in Figma and Adobe XD'},
     {id: 2, name: 'Fullstack Web Development', description: 'TypeScript, Node.js, TailwindCSS. Express.js are available'},
     {id: 3, name: 'Data Analytics', description: 'Tools like Python, Pandas, NumPy, and Matplotlib are my go-to for data analysis.'},
+]    
+const Language = [
+    {id: 1, name: 'Japanese', description: 'JLPT N2 Certified'},
+    {id: 2, name: 'English', description: 'Professional Working Proficiency'},
+    {id: 3, name: 'Thai', description: 'Native Speaking'},
     
 ]
 const Interests = [
@@ -89,18 +94,38 @@ const AboutMe = () => {
                 <li className='flex items-start px-4 py-2'>
                     <Image src='./icons/school_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
                     <div>
-                    <p className='h3'>3rd Year Student</p>
-                    <p className='p'>Faculty of Arts, Chulalongkorn University</p>
+                    <p className='h3'>Faculty of Arts, Chulalongkorn University</p>
+                    <p className='h5'>3rd Year Student</p>
                     <p className='p mt-2'>Majoring in Japanese Language, I find myself web developing when it was too late but it's possible so I started coding.</p>
                     </div>
 
                 </li>
+                {/* In-line Language */}
                 <li className='flex items-start px-4 py-2'>
                     <Image src='./icons/lang_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
                     <div>
                     <p className='h3 pb-1'>Japanese, Thai, English Available!</p>                
                     <p className='p mt-2'>N2 Certified for Japanese, Native Thai and, Professional Level English</p>
                     </div>
+
+                </li>
+                <li className='items-start px-4 py-2'>
+                    <div className='flex items-start'>
+                        <Image src='./icons/lang_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
+                        <div>
+                            <p className='h3 pb-1'>Language</p> 
+                            <div className=''>
+                                {Language.map((item) => (
+                                    <ul key={item.id} className='gap-2'>
+                                        <li className='list-item'>
+                                            <p className='h5 font-semibold mt-2 mb-1'> {item.name}</p>
+                                            <p className='p ml-4'>{item.description}</p>
+                                        </li>                                
+                                    </ul>
+                                ))}      
+                            </div>    
+                        </div>  
+                    </div>                
 
                 </li>
                 <li className='items-start px-4 py-2'>
