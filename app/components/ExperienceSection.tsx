@@ -42,7 +42,7 @@ const Certificates = [
         duration: "December, 2024", 
         link: "https://coursera.org/share/6040fdabffa0fce42dcf50fe9ea1eb52", 
         img: './Hackathon/1734420054083-4f0b50e9-38e9-4022-b96f-5ebf8c01b375_1.jpg',
-        description: "I completed the Google Foundations of User Experience (UX) Design course on Coursera. The course covered the basics of UX design, including user research, prototyping, and usability testing." 
+        description: "Completed in the second course of the Google UX Design Professional Certificate. In this course, I learned how to empathize with users, define their needs, and ideate solutions to their problems." 
     },    
     {   id: "4", 
         name: "Build Wireframes and Low-Fidelity Prototypes", 
@@ -51,7 +51,7 @@ const Certificates = [
         duration: "December, 2024", 
         link: "https://coursera.org/share/d4ab1d73ae1af8f3eb6dc53d0d40505e", 
         img: './Hackathon/1734420054083-4f0b50e9-38e9-4022-b96f-5ebf8c01b375_1.jpg',
-        description: "I completed the Google Foundations of User Experience (UX) Design course on Coursera. The course covered the basics of UX design, including user research, prototyping, and usability testing." 
+        description: "The 3rd course of the Google UX Design Professional Certificate. In this course, I learned how to create wireframes and low-fidelity prototypes using Figma." 
     },    
     {   id: "5", 
         name: "JLPT N2", 
@@ -60,7 +60,7 @@ const Certificates = [
         duration: "January, 2024", 
         link: "./certificate/JLPT2-2023-RE-600p.png", 
         img: './Hackathon/1734420054083-4f0b50e9-38e9-4022-b96f-5ebf8c01b375_1.jpg',
-        description: "I completed the Google Foundations of User Experience (UX) Design course on Coursera. The course covered the basics of UX design, including user research, prototyping, and usability testing." 
+        description: "Certified that I have passed the Japanese-Language Proficiency Test (JLPT) N2 level. Business-level proficiency in Japanese." 
     },    
 ]
 

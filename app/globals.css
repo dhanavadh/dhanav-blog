@@ -37,16 +37,19 @@ body {
 
 /* Blog Heading */
 .blog-panel {
-  @apply mx-6 md:mx-32 font-[family-name:var(--font-noto-sans)];
+  @apply mx-6 md:mx-32 font-[family-name:var(--font-noto-sans)] flex flex-col items-center justify-center;
 }
 .blog-heading {
-  @apply mt-3 mb-5 border-l-4 border-blue-500 pl-4;
+  @apply mt-3 mb-5 border-l-4 border-blue-500 pl-4 min-w-full;
 }
 .blog-author {
-  @apply my-10 border-l-4 border-blue-500 pl-4;
+  @apply my-10 border-l-4 border-blue-500 pl-4 min-w-full;
 }
 .blog-reading{
   @apply p mb-1
+}
+.blog-reference {
+  @apply h3 border-l-4 border-blue-500 pl-4 min-w-full;
 }
 /* Blog Banner */
 .blog-banner {

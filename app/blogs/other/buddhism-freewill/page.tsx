@@ -61,7 +61,7 @@ const BlogBuddhism = () => {
   return (
     <div className='blog-panel'>
         {/* Banner */}
-        <div className='flex max-h-3/4 max-w-full relative -z-[1]'>
+        <div className='flex max-h-3/4 min-w-full relative -z-[1]'>
           <img src='/banner/buddhism.svg' className='blog-banner'></img>                        
           <div className='blog-banner-object'>            
             <p className='ref-image'>Image from @dhanavadh</p>            
@@ -75,7 +75,7 @@ const BlogBuddhism = () => {
           <p className='sub-title-article mt-2'>แนวคิดพุทธศาสนาเกี่ยวกับเจตจำนงเสรีนั้นมีจริงหรือไม่ และถ้ามีจริง มีผลต่อการทำความเข้าใจเรื่องการกระทำของมนุษย์หรือไม่?</p>          
         </div>                                     
         {/* Paragraph */}
-        <div>
+        <div className='max-w-[1000px]'>
           <div className='paragraph'>
             <p>หนึ่งในปัญหาที่เกิดการตั้งคำถามกับพุทธศาสนาคือเรื่อง เจตจำนงเสรี (free will) และ นิยัตินิยม (determinism) ประเด็นศึกษาดังกล่าวมีการศึกษาที่หลากหลายและนำเสนอในมุมมองที่แตกต่างกันไป การยกประเด็นศึกษาเรื่องเจตจำนงเสรีในพุทธศาสนานั้น อาจเป็นเนื่องมาจากที่ว่าพุทธศาสนาไม่ได้มีมุมมองหรือให้นิยมที่ชัดเจนว่าเป็นโลกทัศน์ที่มนุษย์มีเจตจำนงเสรี แต่ก็อาจมีหลักธรรมที่สามารถให้ข้อเสนอเกี่ยวกับเรื่องดังกล่าวได้ในหลายหลักธรรม (Nishant, pp.212) อย่างไรก็ดี ในการศึกษาครั้งนี้จะศึกษาโดยการยกตัวอย่างเหตุการณ์ที่ดูมีลักษณะแบบที่ถูกกำหนดมาแล้ว และหาช่องทางที่เป็นไปได้เพื่อตอบปัญหาเกี่ยวกับเจตจำนงเสรีในพุทธศาสนา</p>
           </div>   
@@ -148,7 +148,7 @@ const BlogBuddhism = () => {
         <Author />
 
         {/* Reference */}
-        <div className='h3 border-l-4 border-blue-500 pl-4'>
+        <div className='blog-reference'>
           <p className='h3'>Reference</p>
           {Reference.map((item) => (
             <ul className='p my-2 list-disc ml-4' key={item.id}>

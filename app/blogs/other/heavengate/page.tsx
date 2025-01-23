@@ -16,7 +16,7 @@ const BlogHeavengate = () => {
   return (
     <div className='blog-panel'>
         {/* Banner */}
-        <div className='flex max-h-3/4 max-w-full relative -z-[1]'>
+        <div className='flex max-h-3/4 min-w-full relative -z-[1]'>
           <img src='/banner/blog-3.svg' className='blog-banner'></img>                        
           <div className='blog-banner-object'>            
             <p className='ref-image'>Image from @dhanavadh</p>            
@@ -30,15 +30,17 @@ const BlogHeavengate = () => {
             <p className='sub-title-article mt-2'>Heaven’s Gate เป็นกลุ่มศาสนาเกิดใหม่ หรือ New Religion Movement และเป็นที่รู้จักอย่างกว้างขวางจากเหตุการณ์อัตวินิบาตกรรมหมู่ของกลุ่มคนที่มีความเชื่อทางศาสนาที่เมือง Rancho Santa Fe มลรัฐ California สหรัฐอเมริกา</p>          
         </div>                                     
         {/* Paragraph */}        
-        <div className='paragraph'>
-          <p></p>
-        </div>   
+        <div className='max-w-[1000px]'>
+            <div className='paragraph'>
+                <p>บทความยังไม่เผยแพร่</p>
+            </div>   
+        </div>
         
         {/* Author */}
         <Author />
 
         {/* Reference */}
-        <div className='h3 border-l-4 border-blue-500 pl-4'>
+        <div className='blog-reference'>
           <p className='h3'>Reference</p>
           {Reference.map((item) => (
             <ul className='p my-2 list-disc ml-4' key={item.id}>
