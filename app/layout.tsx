@@ -20,6 +20,11 @@ const SarabunRegular = localFont({
   variable: "--font-sarabun-regular",
   weight: "400",
 });
+const SarabunMedium = localFont({
+  src: "./fonts/Sarabun-Medium.ttf",
+  variable: "--font-sarabun-medium",
+  weight: "500",
+});
 
 export const metadata: Metadata = {
   title: "Dhanavadh Saito",
@@ -40,7 +45,7 @@ export default function RootLayout({
       <meta property="og:image" content="/banner-og.png" />
       <meta property="og:url" content="https://beta.dhanav.me/" />
       <body
-        className={`${NotoSans.variable} ${NotoSansJP.variable} ${SarabunRegular.variable} antialiased`}
+        className={`${NotoSans.variable} ${NotoSansJP.variable} ${SarabunRegular.variable} ${SarabunMedium.variable} antialiased`}
       >
         <Navbar />
         {children}

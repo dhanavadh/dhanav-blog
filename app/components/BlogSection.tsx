@@ -9,7 +9,7 @@ const OtherArticles = [
         id: 1, 
         name:"พุทธศาสนาและเจตจำนงเสรีบางประการ", 
         description:"แนวคิดพุทธศาสนาเกี่ยวกับเจตจำนงเสรีนั้นมีจริงหรือไม่ และถ้ามีจริง มีผลต่อการทำความเข้าใจเรื่องการกระทำของมนุษย์หรือไม่? แล้วถ้าเกิดพุทธศาสนาไม่มีเจตจำนงเสรี ผลของการรับผิดชอบเรื่องกรรมจะตกที่ใคร?", 
-        badge:"Buddhist Philosophy",
+        badge:"Philosophy",
         img:"/banner/buddhism.svg",
         link:"/blogs/other/buddhism-freewill"
     },
@@ -17,7 +17,7 @@ const OtherArticles = [
         id: 2, 
         name:"New Religion Movement – Heaven’s Gate",
         description:"Heaven’s Gate เป็นกลุ่มศาสนาเกิดใหม่ หรือ New Religion Movement และเป็นที่รู้จักอย่างกว้างขวางจากเหตุการณ์อัตวินิบาตกรรมหมู่ของกลุ่มคนที่มีความเชื่อทางศาสนาที่รัฐ California สหรัฐอเมริกา",
-        badge:"Religious philosophy",
+        badge:"Philosophy",
         img:"/banner/blog-3.svg",
         link:"/blogs/other/heavengate"
     },
@@ -82,7 +82,7 @@ const BlogSection = () => {
                         <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                     </div>                   
                     <div className='flex'>
-                        <div className='lg:w-3/4'>
+                        <div className='lg:w-3/4 pr-4'>
                             {/* Main Project */}
                             <div>
                                 <a className={item.badge === "UI Design" ? 'badge-blue' : item.badge === "Coding" ? 'badge-pink' : 'badge-yellow'}>{item.badge}</a>
@@ -117,7 +117,7 @@ const BlogSection = () => {
                         <img src={item.img} className='rounded-lg h-full w-full object-cover brightness-75'></img>
                     </div>                   
                     <div className='flex'>
-                        <div className='lg:w-3/4'>
+                        <div className='lg:w-3/4 pr-4'>
                             {/* Main Project */}
                             <div>
                                 <a className={item.badge === "UI Design" ? 'badge-blue' : item.badge === "Coding" ? 'badge-pink' : 'badge-yellow'}>{item.badge}</a>

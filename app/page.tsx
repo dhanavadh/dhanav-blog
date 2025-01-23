@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import LatestBlog from './components/LatestBlog';
 import Bio from './components/Bio';
+import Contact from './components/Contact';
 
 export default function Home() {
   return (
@@ -20,54 +21,7 @@ export default function Home() {
 
 
                     {/* Contact */}
-                    <p className='h3 mt-6 mb-2'>Reach me via</p>
-                    <div className='flex flex-col gap-1'>                    
-                        <Link
-                        className="flex items-center gap-2 link"
-                        href="mailto:dhanavadh@gmail.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >
-                        <Image
-                            aria-hidden
-                            src="icons/mail.svg"
-                            alt="mail"
-                            width={16}
-                            height={16}
-                        />
-                        dhanavadh@gmail.com
-                        </Link>
-                        <Link
-                        className="flex items-center gap-2 link"
-                        href="https://github.com/dhanavadh"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >
-                        <Image
-                            aria-hidden
-                            src="/github-mark.svg"
-                            alt="GitHub icon"
-                            width={16}
-                            height={16}
-                        />
-                        @dhanavadh
-                        </Link>
-                        <Link
-                        className="flex items-center gap-2 link"
-                        href="https://www.linkedin.com/in/dhanav/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >
-                        <Image
-                            aria-hidden
-                            src="/ln.svg"
-                            alt="LinkedIn icon"
-                            width={16}
-                            height={16}
-                        />
-                        @dhanav
-                        </Link>
-                    </div>
+                    <Contact />
             </div>
             {/* Skills */}
             <div className='lg:w-1/3 w-full'>                

@@ -5,19 +5,19 @@ import Image from 'next/image'
 const Blog = [
     {
         id:1,
+        name:"เมื่อผมเอา UX/UI Design Principles มาปรับปรุง Portfolio ของผม", 
+        description:"ความรู้เรื่อง User Experience นับว่าสำคัญมากสำหรับการพัฒนาเว็บไซต์ ผมจึงเอาความรู้เรื่อง UX/UI Design Principles มาปรับปรุง Portfolio ของตัวเอง", 
+        badge:"UI Design",
+        img:"/banner/blog-1.svg",
+        link:"/blogs/coding/port-redesign"
+    },
+    {
+        id:2,
         name:"Review พอร์ตโฟลิโอของผมที่สร้างแบบยังไม่รู้เรื่อง UX",
         description:"จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง UX เลย ผมจะพาไปดูว่ากว่าจะมาเป็นพอร์ตเวอร์ชั่นปัจจุบันนั้น ผมเคยปรับเปลี่ยนพอร์ตของตัวเองมายังไงบ้าง",
         badge:"UI Design",
         img:"/banner/webremake.svg",
         link:"/blogs/coding/recap-port"
-    },
-    {
-        id:2,
-        name:"เมื่อผมเอา UX/UI Design Principles มาปรับปรุง Portfolio ของผม", 
-        description:"ความรู้เรื่อง User Experience นับว่าสำคัญมากสำหรับการพัฒนาเว็บไซต์ ผมจึงเอาความรู้เรื่อง UX/UI Design Principles มาปรับปรุง Portfolio ของตัวเอง", 
-        badge:"UI Design",
-        img:"/banner/blog-1.svg",
-        link:"/blogs/other/buddhism-freewill"
     },
     // {
     //     id:3,
@@ -38,8 +38,8 @@ const LatestBlog = () => {
             <div className='mx-4 mt-6 w-full mb-4 -z'>            
                 <a className={item.badge === "UI Design" ? 'badge-blue' : item.badge === "Coding" ? 'badge-pink' : 'badge-yellow'}>{item.badge}</a>
                 <p className='h3 text-white mt-1'>{item.name}</p>            
-                <p className='p-white mb-2 line-clamp-3'>{item.description}</p>   
-                <Link href={item.link} className='link-white'>อ่านต่อ →</Link>         
+                <p className='p-white mt-1 mb-2 line-clamp-3'>{item.description}</p>   
+                <Link href={item.link} className='link-white font-medium'>อ่านต่อ →</Link>         
             </div>
         </div> 
         ))}        
