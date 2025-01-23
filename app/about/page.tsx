@@ -109,7 +109,7 @@ const AboutMe = () => {
                     </div>
 
                 </li>
-                <li className='items-start px-4 py-2'>
+                {/* <li className='items-start px-4 py-2'>
                     <div className='flex items-start'>
                         <Image src='./icons/lang_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
                         <div>
@@ -127,7 +127,7 @@ const AboutMe = () => {
                         </div>  
                     </div>                
 
-                </li>
+                </li> */}
                 <li className='items-start px-4 py-2'>
                     <div className='flex items-start'>
                         <Image src='./icons/star_w.svg' alt='logo' width={32} height={32} className='mr-4 hover:gray-200'/>
