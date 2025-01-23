@@ -3,7 +3,7 @@ import React from 'react'
 
 const Jobs = [
     {
-        id: 1, name:"Fullstack Web Developer/Data Analyst", description:"I worked part-time as a Contact Center Agent for nearly a year, engaging with customers through the social media platforms of AIS and ACC.", 
+        id: 1, name:"Fullstack Web Developer/Data Analyst", description:"I'm working as a part-time fullstack developer. Main role is to maintenance the current website and conduct research about Google Ads and predict the outcomes of the ads proficiency.", 
         role:"Part-time",
         year:"Currently since October, 2024",
         corp:"ICON ROOF CO., LTD."

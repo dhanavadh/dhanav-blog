@@ -3,9 +3,6 @@ import Link from 'next/link'
 import React from 'react'
 import Bio from '../components/Bio'
 
-const bio = `I’m a Japanese major with a passion for web development and UI design. I love coding because it lets me bring ideas to life while keeping things organized and structured, which I really enjoy.`
-const bio2 = `Outside of programming, I love playing karuta, a traditional Japanese card game. I’m also a member of the Bangkok Karuta Club. I’m always looking for new opportunities to learn and grow, so feel free to reach out to me!`
-
 const Skills = [
     {id: 1, name: 'UX Researching/UI Designing', description: 'Experienced in Figma and Adobe XD'},
     {id: 2, name: 'Fullstack Web Development', description: 'TypeScript, Node.js, TailwindCSS. Express.js are available'},
@@ -39,9 +36,9 @@ const AboutMe = () => {
                     <Bio />
 
                     {/* Contact */}
-                    <div className='flex gap-4 flex-col md:flex-row'>
+                    <div className='flex gap-6 flex-col md:flex-row mt-6'>
                         <div>
-                            <p className='h3 mt-6 mb-2'>Reach me via</p>
+                            <p className='h3'>Reach me via</p>
                             <div className='flex flex-col gap-1'>                    
                                 <Link
                                 className="flex items-center gap-2 link"
@@ -91,7 +88,7 @@ const AboutMe = () => {
                             </div>
                         </div>
                         <div>
-                            <p className='h3 mt-6 mb-2'>Attachements</p>
+                            <p className='h3'>Attachement</p>
                             <div className='flex flex-col gap-1'>                    
                                 <Link
                                 className="flex items-center gap-2 link"

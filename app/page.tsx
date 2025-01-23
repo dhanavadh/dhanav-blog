@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import ProjectGroup from './components/ProjectGroup';
 import LatestBlog from './components/LatestBlog';
 import Bio from './components/Bio';
 
