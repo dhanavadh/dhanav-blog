@@ -11,8 +11,8 @@ export default function Home() {
             <div className='py-2 lg:w-2/3 w-full mb-4'> 
                     
                     {/* Heading */}
-                    <p className='text-7xl font-bold text-blue-500'>Hello !</p>       
-                    <p className='text-6xl font-bold mb-2'>it's Teru</p>
+                    <p className='heading'>Hello !</p>       
+                    <p className='sub-heading mb-2'>it's Teru</p>
                     <p className='sub-title'>Dhanavadh Saito</p>
 
                     {/* Bio */}

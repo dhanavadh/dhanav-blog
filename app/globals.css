@@ -7,14 +7,6 @@ body {
   color: #0a0a0a;
   background: #fafafa;
 }
-
-.heading {
-  @apply text-4xl font-medium text-white underline-offset-4 underline decoration-4  decoration-blue-500;
-}
-.sub-heading {
-  @apply text-2xl font-normal text-gray-600
-}
-
 .underlined-body-1 {
   @apply underline underline-offset-4 decoration-4 decoration-blue-200;
 }
@@ -71,15 +63,7 @@ body {
   @apply max-h-min rounded-lg;
 }
 
-
-
-
-
-
-
-
-
-
+/* Link Section */
 .link-title {
   @apply h4
   hover:underline-offset-8 hover:underline decoration-4  decoration-blue-500;
@@ -120,12 +104,17 @@ body {
 }
 
 
-.main-title {
-  @apply text-7xl font-medium; 
+/* Typo & Text Classes */
+
+.heading {
+  @apply text-7xl font-semibold text-blue-500; 
+}
+.sub-heading {
+  @apply text-5xl font-semibold text-neutral-700; 
 }
 
 .title {
-  @apply text-4xl font-medium; 
+  @apply text-4xl font-medium text-neutral-700; 
 }
 
 .sub-title {
