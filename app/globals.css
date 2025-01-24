@@ -27,6 +27,9 @@ body {
 .h2-blog {
   @apply text-2xl font-medium font-[family-name:var(--font-noto-sans)] mb-2 mx-2 lg:mx-32;
 }
+.h3-blog {
+  @apply text-xl font-medium font-[family-name:var(--font-noto-sans)] mb-2 mx-2 lg:mx-32;
+}
 .image-description {
   @apply text-base leading-loose tracking-normal mt-1 text-center font-[family-name:var(--font-sarabun-regular)] mx-2 lg:mx-32;
 }

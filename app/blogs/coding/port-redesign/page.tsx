@@ -17,7 +17,11 @@ const BlogPortRemake = () => {
     <div className='blog-panel'>
         {/* Banner */}
         <div className='flex max-h-3/4 min-w-full relative -z-[1]'>
-          <img src='/banner/blog-1.svg' className='blog-banner'></img>                        
+          {/* <img src='/banner/blog-1.svg' className='blog-banner'></img>                         */}
+          <video width="full" autoPlay loop muted preload='auto' playsInline className='blog-banner'>
+              <source src="/content/port-redesign/blog-preview.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           <div className='blog-banner-object'>            
             <p className='ref-image'>Image from @dhanavadh</p>            
           </div>
@@ -290,6 +294,112 @@ const BlogPortRemake = () => {
           <div className='paragraph'>
             <p>จากตัวอย่างข้างบนนั้นคือ navbar ที่รองรับ responsive design ครับ และเมื่อ user เอาเมาส์ไปชี้ที่แต่ละหัวข้อ ก็มี action ตอบรับกลับมาเพื่อให้ user รู้ว่ากำลังทำอะไรอยู่ จากในคลิปคือ เมื่อชี้ที่หัวข้อ blog หัวข้ออื่นก็จะมี text ที่สีจางลง เพื่อเน้นให้ user รู้ว่ากำลังจะไปหน้า blog นะ ประมาณนี้ครับ</p>
           </div> 
+
+          <div className='h1-blog'>
+            <p>A/B Testing</p>
+          </div>   
+          <div className='paragraph-next-to-heading'>
+            <p>กว่าจะมาเป็น final product ผมต้องจัดการกับ components ค่อนข้างเยอะเลยครับ ตอนร่าง wireframe เราร่างไปอีกแบบนึง พอมาลองมาเขียนจริงก็มีปรับแก้ไปหลายครั้งครับ ไม่ว่าจะตั้งแต่ เลือก theme หรือ จะในหน้า projects จะวางข้อมูลแบบไหนถึงจะเวิคกว่า รวมไปถึงรายละเอียดเล็ก ๆ น้อย ๆ แต่ก็น่าสนใจ ครับ</p>
+          </div> 
+          <div className='h2-blog'>
+            <p>เรื่องของสี</p>
+          </div>   
+          <div className='paragraph-next-to-heading'>
+            <p>ตอนแรกผมสร้างเว็บมาเป็นรูปแบบ dark mode ครับ ทำเสร็จสรรพ ลองเอาไปให้เพื่อน ๆ หลาย ๆ คนเทส พบว่ามีปัญหาเรื่องความสบายตาครับ คือในโปรเจคนี้มีบทความให้อ่านด้วย หากจะต้องอ่านข้อมูลด้วยพื้นหลังสีดำ ตัดกับข้อความสีขาว เพื่อน ๆ หลาย ๆ คนรู้สึกว่าเกิดความไม่สบายตาครับ เลยทำให้ผมลองเปลี่ยนมาใช้สีโทนสว่างแทนครับ</p>
+          </div> 
+          <div className='blog-image-div'>
+            <img src='/content/port-redesign/fe23rd2qd2.png' className='blog-image-object'></img>
+            <p className='image-description'>หน้า Article ในเว็บรูปแบบ dark mode</p>
+          </div>
+          <div className='paragraph'>
+            <p>คือ เรื่องของ dark mode หรือ โหมดปกติ มันเป็นเรื่องความชอบของแต่ละคนครับ แต่ผมมานึกถึงไว้ก่อนว่า user ของเราจะเป็นใครก็ได้ งั้นผมทำเป็นสีขาวก่อน ไว้ dark mode ค่อยทำต่อยอดในอนาคตครับ</p>
+          </div>
+          <div className='blog-image-div'>
+            <img src='/content/port-redesign/3re2d23542ew2q3rf.png' className='blog-image-object'></img>
+            <p className='image-description'>หน้า Article ในเว็บรูปแบบที่ปรับปรุงใหม่ครับ</p>
+          </div>
+          <div className='paragraph'>
+            <p>จากภาพด้านบนเป็น บล็อกเวอร์ชั่นล่าสุดครับ นอกจากปรับสีแล้ว ผมปรับขนาดความกว้างของ ตัว paragraph ไว้ด้วยครับ เพราะ จุดโฟกัสของตามนุษย์ไม่ได้กว้างขนาดนั้น หากจะต้องมานั่งอ่านบทความที่ ความกว้างของ paragraph กว้างเกินไป อาจส่งผลให้ user เหนื่อยสายตาที่จะต้องกวาดตามอง</p>
+          </div>
+          <div className='paragraph'>
+            <p>สังเกตเพิ่มเติม ในส่วนบทความผมใช้ตัวอักษรแบบมี loop เพื่อให้ อ่านได้ง่ายครับ หากเราจะใช้ typeface แบบไม่มี loop ก็อาจจะส่งผลแย่ต่อผู้อ่านครับ อารมณ์เดียวกับใช้ comic sans กับทั้งพารากราฟครับ</p>
+          </div>
+
+          <div className='h2-blog'>
+            <p>ใช้สีจัดการกับ Visual Hierarchy</p>
+          </div>   
+          <div className='paragraph-next-to-heading'>
+            <p>ในลิสต์รายละเอียดเกี่ยวกับโปรเจค ในตอนแรก ผมใช้แค่ text size กับปรับให้เป็นตัวหนาเท่านั้น (อันที่ 2) แต่ก็ยังรู้สึกว่า มันยังดูเด่น ๆ อยู่ ทางแก้ของผมคือ ตัว body text จะถูกปรับให้จางกว่าตัว title/heading ครับ</p>
+          </div> 
+
+          <div className='blog-image-div'>
+            <img src='/content/port-redesign/f34rijo0fj34.png' className='blog-image-object h-[400px]'></img>
+            <p className='image-description'>ภาพเปรียบเทียบการใช้สีกับ Visual Hierarchy</p>
+          </div>
+          <div className='paragraph'>
+            <p>อย่างตัวอย่างด้านบนนี้ จะเห็นได้ว่า อันหนึ่งจะดูข้อมูลได้ง่ายกว่า และไม่ได้ดูว่าทุกอย่างมันดูสำคัญเท่ากันหมด นั่นเป็นเพราะผมใช้สีเข้ามาช่วยในเรื่องของ visual hierarchy ครับ หากใน Figma บางคนอาจจะมีสี Primary และถ้าอยากได้สีไว้ใช้กับ body text ก็อาจจะปรับ HSL ในส่วน Lightness ครับ</p>
+          </div>          
+          <div className='blog-image-div'>
+            <img src='/content/port-redesign/v5344egr3423.png' className='blog-image-object h-[300px]'></img>
+            <p className='image-description'>ภาพหลังจากที่แก้ไขแล้ว</p>
+          </div>
+          <div className='paragraph'>
+            <p>หลังจากที่ผมใช้สีเข้ามาช่วยจัดลำดับความสำคัญแล้ว ก็อาจจะช่วยให้ user สามารถดูหน้าเว็บได้สบายตามากขึ้นครับ</p>
+          </div>
+          <div className='h2-blog'>
+            <p>Banner ในหน้า blog</p>
+          </div>   
+          <div className='paragraph-next-to-heading'>
+            <p>ตอนนั้นผมยังเลือกไม่ถูกครับว่า ในหน้า blog เราจะใส่ list แบบไหนดี ผมเลยลองสามแบบครับ แบบที่ 1 เป็น object รูปภาพแบนเนอร์ไปเลย แบบที่ 2 คือ มี title กับ detail และแบบที่ 3 คือ มีภาพอยู่ด้านท้ายครับ</p>
+          </div> 
+          <div className='blog-image-div'>
+            <img src='/content/port-redesign/dasf2324q13rwq.png' className='blog-image-object'></img>
+            <p className='image-description'>ภาพเปรียบเทียบการเลือกใช้ list</p>
+          </div>
+          <div className='h3-blog'>
+            <p>แบบที่ 1 ฝั่งซ้าย</p>
+          </div>   
+          <div className='paragraph-next-to-heading'>
+            <p>การใช้ภาพ หรือของที่ high-contrast นั้นจะดึงดูด user แต่ก็มีข้อเสียด้วยเหมือนกัน คือเราไม่ควรใช้จนมากเกินไป อย่างในบางครั้ง banner ก็ถูกใช้กับ ads การใช้รูปภาพที่บ่อยและเยอะเกินไป อาจทำให้ความสำคัญของ component นั้น ๆ ถูกลดความสำคัญลง (Jenifer, pp.134)</p>
+          </div> 
+          <div className='paragraph'>
+            <p>อีกทั้ง การใช้รูปเป็นแบบทั้งก้อน stack กันหลาย ๆ ชั้น ผมอยากให้ลองจินตนาการว่าทั้งสองฝั่งเป็นแบบนี้ เราจะพบว่า แทบไม่มีพื้นที่โล่ง ๆ ให้กับ user การ clustering หรือ crowding อาจทำให้ user เกิดความอึดอัด ซึ่งอาจส่งผลไม่ดีกับ user (Jenifer, pp.492)</p>
+          </div>
+          <div className='h3-blog'>
+            <p>แบบที่ 2 ฝั่งขวา</p>
+          </div>   
+          <div className='paragraph-next-to-heading'>
+            <p>ไม่มีภาพเลย ก็ไม่ดึงดูดให้ user สนใจ component นั้น ๆ เนื่องจากเราอยากให้ user เข้ามาอ่านบทความเรา การใช้ภาพมาช่วย draw attention จาก user นั้น ก็อาจจะดีกว่าไม่มีอะไรใด ๆ เลย</p>
+          </div> 
+          <div className='paragraph'>
+            <p>หลังจากตัดสินใจได้ผมจึงเลือกแบบที่สาม และปรับ margin ระหว่าง text และ image กับ line clamp ให้เหลือเพียง 3 บรรทัดครับ ลองดูผลลัพธ์ด้านล่างนี้ครับ</p>
+          </div>
+          <div className='blog-image-div'>
+            <img src='/content/port-redesign/mfdw2r3e4.png' className='blog-image-object'></img>
+            <p className='image-description'>ผลลัพธ์ที่ได้หลังจากลองเปรียบเทียบกันแล้วครับ</p>
+          </div>          
+
+          <div className='h1-blog'>
+            <p>การเลือกใช้คำ</p>
+          </div>   
+          <div className='paragraph-next-to-heading'>
+            <p>การเลือกใช้คำ ก็เป็นอีกเรื่องสำคัญอีกเรื่องหนึ่งในกระบวนการ UX ครับ เราจะสื่อสาร ถ่ายทอดข้อมูลที่เรามีออกไปให้ user ของเราอย่างไรให้เกิด impression ที่ดีและมีประสิทธิภาพ อย่างตามที่ผมได้พูดไปในส่วนของ titled section</p>
+          </div> 
+          <div className='blog-image-div'>
+            <img src='/content/port-redesign/320u89eq3qdw.png' className='blog-image-object h-[300px]'></img>
+          </div>
+          <div className='paragraph'>
+            <p>อย่างในส่วนที่บอกว่าผมพูดภาษาอะไรได้บ้าง ผมมี 2 ตัวเลือก คือ แบบด้านบน กับแบบด้านล่างที่เป็นลิสต์ หลังจากการพิจารณาโดยที่ว่า ผมอยากให้ user เห็นแล้วรู้เรื่องทันที ผมจึงใช้แบบแรกครับ </p>
+          </div>
+          <div className='paragraph'>
+            <p>สองอันนี้เป็นอันที่ผมคิดไม่ตกจริง ๆ ว่าจะเอาแบบไหนดี แต่ที่ไม่เลือกแบบที่สองเพราะ ผมไม่อยากทำเป็นลิสต์ครับ มันใช้พื้นที่ อยากให้ user ไม่ต้องเสียเวลากวาดสายตาลงมาทีละอัน</p>
+          </div>
+
+
+          
+
+
+
 
 
         </div>     
