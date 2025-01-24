@@ -340,7 +340,7 @@ const BlogPortRemake = () => {
             <p>อย่างตัวอย่างด้านบนนี้ จะเห็นได้ว่า อันหนึ่งจะดูข้อมูลได้ง่ายกว่า และไม่ได้ดูว่าทุกอย่างมันดูสำคัญเท่ากันหมด นั่นเป็นเพราะผมใช้สีเข้ามาช่วยในเรื่องของ visual hierarchy ครับ หากใน Figma บางคนอาจจะมีสี Primary และถ้าอยากได้สีไว้ใช้กับ body text ก็อาจจะปรับ HSL ในส่วน Lightness ครับ</p>
           </div>          
           <div className='blog-image-div'>
-            <img src='/content/port-redesign/v5344egr3423.png' className='blog-image-object w-[300px]'></img>
+            <img src='/content/port-redesign/v5344egr3423.png' className='blog-image-object w-lg'></img>
             <p className='image-description'>ภาพหลังจากที่แก้ไขแล้ว</p>
           </div>
           <div className='paragraph'>
@@ -386,7 +386,7 @@ const BlogPortRemake = () => {
             <p>การเลือกใช้คำ ก็เป็นอีกเรื่องสำคัญอีกเรื่องหนึ่งในกระบวนการ UX ครับ เราจะสื่อสาร ถ่ายทอดข้อมูลที่เรามีออกไปให้ user ของเราอย่างไรให้เกิด impression ที่ดีและมีประสิทธิภาพ อย่างตามที่ผมได้พูดไปในส่วนของ titled section</p>
           </div> 
           <div className='blog-image-div'>
-            <img src='/content/port-redesign/320u89eq3qdw.png' className='blog-image-object w-[500px]'></img>
+            <img src='/content/port-redesign/320u89eq3qdw.png' className='blog-image-object w-lg'></img>
           </div>
           <div className='paragraph'>
             <p>อย่างในส่วนที่บอกว่าผมพูดภาษาอะไรได้บ้าง ผมมี 2 ตัวเลือก คือ แบบด้านบน กับแบบด้านล่างที่เป็นลิสต์ หลังจากการพิจารณาโดยที่ว่า ผมอยากให้ user เห็นแล้วรู้เรื่องทันที ผมจึงใช้แบบแรกครับ </p>
