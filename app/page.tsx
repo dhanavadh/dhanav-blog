@@ -42,7 +42,7 @@ export default function Home() {
 
                 {/* Blogs */}
                 <div className='my-4'>
-                    <Link href='/blogs' className='h3 link-noapply'>Latest Blogs</Link>
+                    <Link href='/blogs' className='h3 link-noapply'>Recommended Blogs</Link>
                 </div>
 
                 <LatestBlog />    
