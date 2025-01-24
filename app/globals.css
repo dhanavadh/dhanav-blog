@@ -31,7 +31,7 @@ body {
   @apply text-xl font-medium font-[family-name:var(--font-noto-sans)] mb-2 mx-2 lg:mx-32;
 }
 .image-description {
-  @apply text-base leading-loose tracking-normal mt-1 text-center font-[family-name:var(--font-sarabun-regular)] mx-2 lg:mx-32;
+  @apply text-base leading-loose tracking-normal mt-1 text-center font-[family-name:var(--font-sarabun-regular)] mx-2 mb-2 lg:mx-32;
 }
 .ref-image {
   @apply text-base leading-loose tracking-normal text-white  mb-2 text-end;
