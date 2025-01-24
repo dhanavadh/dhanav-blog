@@ -134,7 +134,7 @@ const BlogPortRemake = () => {
           </div>
 
           <div className='flex justify-center'>
-            <video width="720" autoPlay loop controls>
+            <video width="720" autoPlay loop preload="none">
               <source src="/content/port-redesign/navbar.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
