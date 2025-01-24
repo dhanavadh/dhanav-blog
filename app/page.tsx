@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 export default function Home() {
   return (
     <div className='head-page'>    
-        <div className='lg:flex flex-row items-start gap-6'>
+        <div className='lg:flex flex-row items-start gap-8'>
             {/* Info */}
             <div className='py-2 lg:w-2/3 w-full mb-4'> 
                     
