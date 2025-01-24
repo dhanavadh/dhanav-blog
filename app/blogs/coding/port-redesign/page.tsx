@@ -333,7 +333,7 @@ const BlogPortRemake = () => {
           </div> 
 
           <div className='blog-image-div'>
-            <img src='/content/port-redesign/f34rijo0fj34.png' className='blog-image-object h-[400px]'></img>
+            <img src='/content/port-redesign/f34rijo0fj34.png' className='blog-image-object w-lg'></img>
             <p className='image-description'>ภาพเปรียบเทียบการใช้สีกับ Visual Hierarchy</p>
           </div>
           <div className='paragraph'>
