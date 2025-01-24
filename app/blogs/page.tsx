@@ -23,7 +23,7 @@ const Blogs = () => {
                         width={18}
                         height={18}
                     />
-                <p className='text-lg font-bold'>Note</p>
+                <p className='text-lg font-medium'>Note</p>
                 </div>
                 <p className='text-base'>Currently, contents are mainly written in Thai 🇹🇭</p>
             </div>  

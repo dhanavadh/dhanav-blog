@@ -122,8 +122,8 @@ const BlogPortRemake = () => {
           </div>
 
           <div className='blog-image-div'>
-                <img src='/content/port-redesign/IA-1.svg' className='blog-image-object'></img>
-                <p className='image-description'>IA ที่ผมวางไว้แบบคร่าว ๆ ครับ</p>
+            <img src='/content/port-redesign/IA-1.svg' className='blog-image-object'></img>
+            <p className='image-description'>IA ที่ผมวางไว้แบบคร่าว ๆ ครับ</p>
           </div>
 
           <div className='paragraph'>
@@ -131,6 +131,13 @@ const BlogPortRemake = () => {
           </div>
           <div className='paragraph'>
             <p>ส่วนที่ผมเพิ่มมาใหม่จากพอร์ตเดิมคือ ส่วนของ Blogs เพราะผมรู้สึกว่าอยากให้คนเข้ามาอ่านงานเขียนของผม และถือโอกาสเก็บไว้เป็น showcase ของผมได้ครับ</p>
+          </div>
+
+          <div className='flex justify-center'>
+            <video width="720" autoPlay loop controls>
+              <source src="/content/port-redesign/navbar.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
 
         </div>     
