@@ -49,7 +49,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <Dialog open={isOpen} onClose={() => setIsOpen(false)} className="relative z-50">
-        <div className="fixed inset-0 flex w-screen items-start justify-center backdrop-blur-3xl font-[family-name:var(--font-noto-sans)]">
+        <div className="fixed inset-0 flex w-screen items-start justify-center backdrop-blur-3xl bg-neutral-200/50 font-[family-name:var(--font-noto-sans)]">
           <DialogPanel className="flex flex-col w-screen px-6 md:px-32">
             <div className="flex justify-between items-center py-2">                
                 <Link href='/' className="h3" onClick={() => setIsOpen(false)}>Dhanavadh Saito</Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
                 <Link
                 key={index.name}
                 href={index.href}
-                className={`nav-mobile ${hoveredIndex !== null && hoveredIndex !== index ? 'hovered' : ''} py-2 p`}
+                className={`nav-mobile ${hoveredIndex !== null && hoveredIndex !== index ? 'hovered' : ''} py-2 font-medium`}
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
                 onClick={() => setIsOpen(false)}>

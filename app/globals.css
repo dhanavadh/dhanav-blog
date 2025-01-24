@@ -102,11 +102,11 @@ body {
 /* NavBar Mobile */
 .nav-mobile.hovered {
   transition-duration: 300ms;
-  color: #5c5c5c;  
+  color: #737373;  
 }
 .nav-mobile {
   transition-duration: 300ms;
-  color: #0a0a0a;
+  color: black;
 }
 
 
