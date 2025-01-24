@@ -26,7 +26,7 @@ const BlogPortRemake = () => {
         {/* Heading */}
         <div className='blog-heading'>
             <p className='blog-reading'>N/A minutes Reading</p>
-          <p className='title'>เมื่อผมเอา UX/UI Design Principles มาปรับปรุง Portfolio ของผม</p>
+          <p className='title'>เมื่อผมเอาความรู้ UX/UI มาปรับปรุง Portfolio ของผม</p>
           <p className='sub-title-article mt-2'>จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง User Experience เลย มาสู่การรีเมคเว็บไซต์ของตัวเองให้เข้าถึง user ทุกคน ผมจึงรู้สึกว่าความรู้เรื่อง UX สำคัญมาก ๆ สำหรับนักพัฒนาเว็บ frontend</p>          
         </div>                                     
         {/* Paragraph */}   
@@ -168,7 +168,7 @@ const BlogPortRemake = () => {
             <p>การจัดการ layout ของแต่ละหน้าก็เหมือนเป็นการออกแบบของเราที่จะดึงดูดผู้ใช้อย่างไร แล้วเราจะออกแบบยังไงกันล่ะ visual hierarchy, visual flow หรือ focal point จะเข้ามาช่วยเราในส่วนนี้ครับ</p>
           </div>  
 
-          <div className='h1-blog'>
+          <div className='h2-blog'>
             <p>Visual Hierarchy สำคัญอย่างไร?</p>
           </div>   
           <div className='paragraph-next-to-heading'>
@@ -197,7 +197,7 @@ const BlogPortRemake = () => {
             <p>อย่างในหน้า blogs ผมก็ได้ทำการแบ่งหัวข้อบทความ เป็นสอง column โดยที่ในแต่ละคอลัมน์มีขนาดเท่ากัน การแบ่งแบบนี้คือ ทำให้ user เห็นว่าสองคอลัมน์นี้ มีความสำคัญพอ ๆ กัน เป็น alternative choice ให้ user สามารถเลือกได้ตามความสนใจของตนเอง</p>
           </div>  
 
-          <div className='h1-blog'>
+          <div className='h2-blog'>
             <p>Visual Flow?</p>
           </div>   
           <div className='paragraph-next-to-heading'>
@@ -215,7 +215,7 @@ const BlogPortRemake = () => {
             <p>ในส่วนถัดไปผมขอยกตัวอย่างการใช้ Design Pattern ที่ผมเอามาใช้ในโปรเจคนี้กันนะครับ</p>
           </div>  
 
-          <div className='h1-blog'>
+          <div className='h2-blog'>
             <p>Visual Framework</p>
           </div>   
           <div className='paragraph-next-to-heading'>
@@ -243,7 +243,7 @@ const BlogPortRemake = () => {
             <p>ส่วน Title ผมก็ทำให้เหมือนกันทั้งสามหน้าครับ ทั้งหน้า Projects, Blogs, และ Experience และ element รองลงมาผมก็แบ่งให้เป็น 2 คอลัมน์เหมือนกัน เพื่อคงความ consistency ไว้ครับ และเพื่อให้ user เกิดความชินกับ layout ที่ผมได้วางเอาไว้ครับ พูดอีกอย่างเหมือนให้เขารู้คาแรคเตอร์ของผมครับ</p>
           </div> 
 
-          <div className='h1-blog'>
+          <div className='h2-blog'>
             <p>Titled Section</p>
           </div>   
           <div className='paragraph-next-to-heading'>

@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Blog = [
     {
         id:1,
-        name:"เมื่อผมเอา UX/UI Design Principles มาปรับปรุง Portfolio ของผม", 
+        name:"เมื่อผมเอาความรู้ UX/UI มาปรับปรุง Portfolio ของผม", 
         description:"ความรู้เรื่อง User Experience นับว่าสำคัญมากสำหรับการพัฒนาเว็บไซต์ ผมจึงเอาความรู้เรื่อง UX/UI Design Principles มาปรับปรุง Portfolio ของตัวเอง", 
         badge:"UI Design",
         img:"/banner/blog-1.svg",

@@ -35,7 +35,7 @@ const CodingArticles = [
     
     {
         id: 1, 
-        name:"เมื่อผมเอา UX/UI Design Principles มาปรับปรุง Portfolio ของผม",
+        name:"เมื่อผมเอาความรู้ UX/UI มาปรับปรุง Portfolio ของผม",
         description:"ความรู้เรื่อง User Experience นับว่าสำคัญมากสำหรับการพัฒนาเว็บไซต์ ผมจึงเอาความรู้เรื่อง UX/UI Design Principles มาปรับปรุง Portfolio ของตัวเอง",
         badge:"UI Design",
         img:"/banner/blog-1.svg",
@@ -86,7 +86,9 @@ const BlogSection = () => {
                             {/* Main Project */}
                             <div>
                                 <a className={item.badge === "UI Design" ? 'badge-blue' : item.badge === "Coding" ? 'badge-pink' : 'badge-yellow'}>{item.badge}</a>
-                                <p className='h3 my-1'>{item.name}</p>
+                                <div className='mt-2'>
+                                    <Link href={item.link} className='link-h3 my-1'>{item.name}</Link>
+                                </div>
                                 <p className='p w-full line-clamp-3'>{item.description}</p>                        
                             </div>
 
@@ -121,7 +123,9 @@ const BlogSection = () => {
                             {/* Main Project */}
                             <div>
                                 <a className={item.badge === "UI Design" ? 'badge-blue' : item.badge === "Coding" ? 'badge-pink' : 'badge-yellow'}>{item.badge}</a>
-                                <p className='h3 my-1'>{item.name}</p>
+                                <div className='mt-2'>
+                                    <Link href={item.link} className='link-h3 my-1'>{item.name}</Link>
+                                </div>
                                 <p className='p w-full line-clamp-3'>{item.description}</p>                        
                             </div>
 
