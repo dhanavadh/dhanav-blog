@@ -40,7 +40,7 @@ const BlogPortRemake = () => {
 
           {/* Video */}
           <div className='flex flex-col justify-center items-center'>
-            <video width="900" autoPlay loop muted preload='auto'>
+            <video width="900" autoPlay loop muted preload='auto' playsInline>
               <source src="/content/port-redesign/blog-preview.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -280,7 +280,7 @@ const BlogPortRemake = () => {
 
 
           <div className='flex flex-col justify-center items-center'>
-            <video width="900" autoPlay loop muted preload='auto'>
+            <video width="900" autoPlay loop muted preload='auto' playsInline>
               <source src="/content/port-redesign/navbar.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
