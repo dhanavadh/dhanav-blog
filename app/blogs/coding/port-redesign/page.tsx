@@ -6,9 +6,14 @@ import React from 'react'
 const Reference = [
     {
         id: 1,
-        name: 'N/A',
-        link: '/'
+        name: 'Tidwell, J. (2010). Designing interfaces: Patterns for Effective Interaction Design. “O’Reilly Media, Inc.”',
+        link: 'https://www.oreilly.com/library/view/designing-interfaces-2nd/9781449379711/'
     },    
+    {
+        id: 2,
+        name: 'Interaction Design Foundation - IxDF. (2016, August 30). What are the Gestalt Principles?. Interaction Design Foundation - IxDF.”',
+        link: 'https://www.interaction-design.org/literature/topics/gestalt-principles'
+    },        
 
 ]
 
