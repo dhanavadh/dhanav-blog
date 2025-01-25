@@ -34,7 +34,7 @@ const ProjectOf2025 = [
         status:"Completed",
         img: "./banner/blog-1.svg",
         description:"I have been using my old portfolio for a long time. I decided to remake it with the adaptation of UI design principles. ",
-        technologies: "Next.js, TailwindCSS, Heroicons, Editorjs",
+        technologies: "Next.js, TailwindCSS",
         github: "https://github.com/dhanavadh/dhanav-main-blog",
         website: "/",
         article: "/blogs/coding/port-redesign"
