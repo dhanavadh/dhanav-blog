@@ -45,7 +45,7 @@ const CodingArticles = [
     {
         id: 2, 
         name:"Review พอร์ตโฟลิโอของผมที่สร้างแบบยังไม่รู้เรื่อง UX",
-        description:"จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง UX เลย ผมจะพาไปดูว่ากว่าจะมาเป็นพอร์ตเวอร์ชั่นปัจจุบันนั้น ผมเคยปรับเปลี่ยนพอร์ตของตัวเองมายังไงบ้าง",
+        description:"เคยไหมครับที่เรียนไปสองปีแล้ว เหลืออีกสองปีก็จะเรียนจบ แต่ยังไม่รู้เลยว่าเราเรียนอะไรไปแล้วบ้าง เราเหลืออะไรที่ยังต้องเรียนอีก ยังลงได้อีกกี่หน่วยกิต วิชาบังคับเอกเรียนครบหรือยัง และคำถามอื่น ๆ ตามมากันหมด",
         badge:"UI Design",
         img:"/banner/webremake.svg",
         link:"/blogs/coding/recap-port"
@@ -53,6 +53,15 @@ const CodingArticles = [
     },
     {
         id: 3, 
+        name:"ใบฟ้า – แอปช่วยจัดตารางเรียน",
+        description:"จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง User Experience เลย มาสู่การรีเมคเว็บไซต์ของตัวเองให้เข้าถึง user ทุกคน ผมจึงรู้สึกว่าความรู้เรื่อง UX สำคัญมาก ๆ สำหรับนักพัฒนาเว็บ frontend",
+        badge:"UX Research",
+        img:"/content/blueprint-proj/IMG_20250125_0001.jpeg",
+        link:"/blogs/coding/blueprint-project"
+        
+    },
+    {
+        id: 4, 
         name:"สำรวจหน้าบ้านของเว็บไซต์ Artsgoz",
         description:"จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง User Experience เลย มาสู่การรีเมคเว็บไซต์ของตัวเองให้เข้าถึง user ทุกคน ผมจึงรู้สึกว่าความรู้เรื่อง UX สำคัญมาก ๆ สำหรับนักพัฒนาเว็บ frontend",
         badge:"Coding",
@@ -61,9 +70,9 @@ const CodingArticles = [
         
     },
     {
-        id: 4, 
-        name:"Drawback ของการสร้าง backend server ด้วย free service",
-        description:"จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง User Experience เลย มาสู่การรีเมคเว็บไซต์ของตัวเองให้เข้าถึง user ทุกคน ผมจึงรู้สึกว่าความรู้เรื่อง UX สำคัญมาก ๆ สำหรับนักพัฒนาเว็บ frontend",
+        id: 5, 
+        name:"Artsgoz Backend Server – พรีวิว",
+        description:"บทความนี้จะพาดูเทคโนโลยีที่ใช้ในการสร้างระบบหลังบ้านของเว็บ artsgoz พร้อมพาดู drawback ของการสร้าง backend server ด้วย free service",
         badge:"Coding",
         img:"/banner/artsgoz-backend.jpeg",
         link:"/blogs/coding/artsgoz-backend"
@@ -85,7 +94,7 @@ const BlogSection = () => {
                         <div className='lg:w-3/4 pr-4'>
                             {/* Main Project */}
                             <div>
-                                <a className={item.badge === "UI Design" ? 'badge-blue' : item.badge === "Coding" ? 'badge-pink' : 'badge-yellow'}>{item.badge}</a>
+                                <a className={item.badge === "UI Design" ? 'badge-blue' : item.badge === "Coding" ? 'badge-pink' : 'badge-blue'}>{item.badge}</a>
                                 <div className='mt-2'>
                                     <Link href={item.link} className='link-h3 my-1'>{item.name}</Link>
                                 </div>

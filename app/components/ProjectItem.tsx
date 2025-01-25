@@ -43,12 +43,12 @@ const ProjectOf2025 = [
         id: 2,
         name:"ใบฟ้า – แอปช่วยจัดตารางเรียน",
         status:"In Progress",
-        img: "./banner/blog-4.svg",
+        img: "./content/blueprint-proj/IMG_20250125_0001.jpeg",
         description:"The goal of this project is to design an app and a responsive website that help Arts students manage their curriculum because now students are managing their curriculum on paper.",
         technologies: "N/A",
-        github: "/noentry",
-        website: "/noentry",
-        article: "/noentry"
+        github: "/blogs/coding/blueprint-project",
+        website: "/blogs/coding/blueprint-project",
+        article: "/blogs/coding/blueprint-project"
     },
     {
         id: 3,
