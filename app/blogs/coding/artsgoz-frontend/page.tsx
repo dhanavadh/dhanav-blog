@@ -6,8 +6,8 @@ import React from 'react'
 const Reference = [
     {
         id: 1,
-        name: 'N/A',
-        link: '/'
+        name: 'GitRepo: artsgoz-frontend',
+        link: 'https://github.com/dhanavadh/Artsgoz-frontend'
     },    
 
 ]
@@ -29,7 +29,7 @@ const BlogArtsgozFE = () => {
 
         {/* Heading */}
         <div className='blog-heading'>
-            <p className='blog-reading'>N/A minutes Reading</p>
+            <p className='blog-reading'>8 minutes Reading</p>
           <p className='title'>สำรวจหน้าบ้านของเว็บไซต์ Artsgoz</p>
           <p className='sub-title-article mt-2'>ผมจะพาชมครับว่ากว่าจะมาเป็นเว็บไซต์ กอศ อันใหม่ ผมต้องทำการบ้านยังไงบ้าง เว็บ artsgoz อาจนับว่าเป็น debut project ของผมเลยก็ว่าได้ครับ ทุกวันนี้ยังมีการปรับปรุงอยู่เรื่อย ๆ ครับ</p>          
         </div>                                     

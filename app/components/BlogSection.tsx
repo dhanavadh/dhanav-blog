@@ -66,7 +66,7 @@ const CodingArticles = [
         description:"จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง User Experience เลย มาสู่การรีเมคเว็บไซต์ของตัวเองให้เข้าถึง user ทุกคน ผมจึงรู้สึกว่าความรู้เรื่อง UX สำคัญมาก ๆ สำหรับนักพัฒนาเว็บ frontend",
         badge:"Coding",
         img:"/banner/artsgoz-backend.jpeg",
-        link:"/blogs/coding/artsgoz-backend-drawback"
+        link:"/blogs/coding/artsgoz-backend"
         
     },
 ]

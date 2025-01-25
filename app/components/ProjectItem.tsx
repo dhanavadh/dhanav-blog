@@ -23,7 +23,7 @@ const ProjectOf2024 = [
         technologies: "Express.js, AWS S3, MongoDB",
         github: "https://github.com/artsgoz/artsgoz-backend",
         website: "https://artsgoz.netlify.app/",
-        article: "/blogs/coding/artsgoz-backend-drawback"
+        article: "/blogs/coding/artsgoz-backend"
     }
 ]
 
@@ -58,7 +58,7 @@ const ProjectOf2025 = [
         description:"Maintenance the website with latest web technologies for the best experience of clients and the efficiency of SEO management.",
         technologies: "Next.js, TailwindCSS",
         github: "/noentry",
-        website: "https://iconroof.dhanav.me/",
+        website: "https://xn--72ca6bng5c5ell7l.com/",
         article: "/noentry"
     }
 ]
