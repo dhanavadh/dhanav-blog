@@ -29,9 +29,14 @@ const AboutMe = () => {
             <div className='lg:w-2/3 w-full mb-4'> 
                     
                     {/* Heading */}
-                    <p className='text-body mb-2'>About Me</p>       
-                    <p className='title'>Dhanavadh Saito</p>
-                    <p className='sub-title'>ธนวัฒน์ ซาอิโตะ</p>     
+                    <div className='flex items-center gap-4'>
+                        <img src='/profile.jpg' className='w-24 h-24 rounded-full'></img>
+                        <div>
+                            <p className='text-body mb-2'>About Me</p>       
+                            <p className='title'>Dhanavadh Saito</p>
+                            <p className='sub-title'>ธนวัฒน์ ซาอิโตะ</p>  
+                        </div>   
+                    </div>
 
                     {/* Bio */}
                     <Bio />
