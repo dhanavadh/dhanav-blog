@@ -42,6 +42,12 @@ const BlueprintProject = () => {
         </div>                                     
         {/* Paragraph */}        
         <div className='max-w-[1000px]'>
+            <div className='paragraph'>
+                <div className='pl-4 border-l-4 border-yellow-500'>
+                    <p className='font-[family-name:var(--font-sarabun-medium)]'>หมายเหตุ</p>
+                    <p>โปรเจคนี้กำลังอยู่ในระหว่างการจัดทำนะครับ</p>
+                </div>
+            </div>
           <div className='paragraph'>
             <p>เคยไหมครับที่เรียนไปสองปีแล้ว เหลืออีกสองปีก็จะเรียนจบ แต่ยังไม่รู้เลยว่าเราเรียนอะไรไปแล้วบ้าง เราเหลืออะไรที่ยังต้องเรียนอีก ยังลงได้อีกกี่หน่วยกิต วิชาบังคับเอกเรียนครบหรือยัง และคำถามอื่น ๆ ตามมากันหมด</p>
           </div>

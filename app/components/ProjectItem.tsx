@@ -57,9 +57,9 @@ const ProjectOf2025 = [
         img: "./banner/iconroof.png",
         description:"Maintenance the website with latest web technologies for the best experience of clients and the efficiency of SEO management.",
         technologies: "Next.js, TailwindCSS",
-        github: "/noentry",
+        github: "https://github.com/dhanavadh/iconroof",
         website: "https://xn--72ca6bng5c5ell7l.com/",
-        article: "/noentry"
+        article: "https://xn--72ca6bng5c5ell7l.com/"
     }
 ]
 

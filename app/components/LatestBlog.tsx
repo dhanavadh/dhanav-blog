@@ -12,21 +12,23 @@ const Blog = [
         link:"/blogs/coding/port-redesign"
     },
     {
-        id:2,
-        name:"Review พอร์ตโฟลิโอของผมที่สร้างแบบยังไม่รู้เรื่อง UX",
-        description:"จากคนที่สร้างเว็บโดยที่ใช้ความรู้สึกโดยไม่มีความรู้เรื่อง UX เลย ผมจะพาไปดูว่ากว่าจะมาเป็นพอร์ตเวอร์ชั่นปัจจุบันนั้น ผมเคยปรับเปลี่ยนพอร์ตของตัวเองมายังไงบ้าง",
-        badge:"UI Design",
-        img:"/banner/webremake.svg",
-        link:"/blogs/coding/recap-port"
+        id: 2, 
+        name:"ใบฟ้า – แอปช่วยจัดตารางเรียน",
+        description:"เคยไหมครับที่เรียนไปสองปีแล้ว เหลืออีกสองปีก็จะเรียนจบ แต่ยังไม่รู้เลยว่าเราเรียนอะไรไปแล้วบ้าง เราเหลืออะไรที่ยังต้องเรียนอีก ยังลงได้อีกกี่หน่วยกิต วิชาบังคับเอกเรียนครบหรือยัง และคำถามอื่น ๆ ตามมากันหมด",
+        badge:"UX Research",
+        img:"/content/blueprint-proj/IMG_20250125_0001.jpeg",
+        link:"/blogs/coding/blueprint-project"
+        
     },
-    // {
-    //     id:3,
-    //     name:"日本における就職活動", 
-    //     description:"現在、日本の就職活動、いわゆる「就活」についていえば、多くの学生がインターンシップに参加することがよく見られ、卒業後すぐに働く学生もよく見られる。だが、タイの状況を見ると、学生の就活に対する関心は日本ほど高くないように思われる。", 
-    //     badge:"Japanese Culture",
-    //     img:"/banner/blog-2.svg",
-    //     link:"/blogs/other/shukatsu"
-    // },
+    {
+        id: 3, 
+        name:"สำรวจหน้าบ้านของเว็บไซต์ Artsgoz",
+        description:"ผมจะพาชมครับว่ากว่าจะมาเป็นเว็บไซต์ กอศ อันใหม่ ผมต้องทำการบ้านยังไงบ้าง เว็บ artsgoz อาจนับว่าเป็น debut project ของผมเลยก็ว่าได้ครับ ทุกวันนี้ยังมีการปรับปรุงอยู่เรื่อย ๆ ครับ",
+        badge:"Coding",
+        img:"/banner/artsgoz.png",
+        link:"/blogs/coding/artsgoz-frontend"
+        
+    },
 ]
 
 const LatestBlog = () => {
@@ -34,9 +36,9 @@ const LatestBlog = () => {
     <div className=''>
         {Blog.map((item) => (
             <div className='flex max-h-1/2 relative my-4 -z[1] ' key={item.id}>
-            <img src={item.img} className='h-full w-full absolute object-cover -z-[1] brightness-[40%] rounded-xl'></img>                        
+            <img src={item.img} className='h-full w-full absolute object-cover -z-[1] brightness-[30%] rounded-xl'></img>                        
             <div className='mx-4 mt-6 w-full mb-4 -z'>            
-                <a className={item.badge === "UI Design" ? 'badge-blue' : item.badge === "Coding" ? 'badge-pink' : 'badge-yellow'}>{item.badge}</a>
+                <a className={item.badge === "UI Design" ? 'badge-blue' : item.badge === "Coding" ? 'badge-pink' : 'badge-blue'}>{item.badge}</a>
                 <p className='h3 text-white mt-1'>{item.name}</p>            
                 <p className='p-white mt-1 mb-2 line-clamp-3'>{item.description}</p>   
                 <Link href={item.link} className='link-white font-medium'>อ่านต่อ →</Link>         
