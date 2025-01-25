@@ -22,7 +22,7 @@ const ProjectOf2024 = [
         description:"Experienced in creating backend server for Arts student. Using MongoDB and AWS S3 for the first time. The server is used to store articles and professors’ name.",
         technologies: "Express.js, AWS S3, MongoDB",
         github: "https://github.com/artsgoz/artsgoz-backend",
-        website: "https://artsgoz.netlify.app/",
+        website: "https://www.arts.chula.ac.th/goz/",
         article: "/blogs/coding/artsgoz-backend"
     }
 ]
