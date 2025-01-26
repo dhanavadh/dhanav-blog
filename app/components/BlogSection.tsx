@@ -13,14 +13,14 @@ const OtherArticles = [
         img:"/banner/buddhism.svg",
         link:"/blogs/other/buddhism-freewill"
     },
-    {
-        id: 2, 
-        name:"New Religion Movement – Heaven’s Gate",
-        description:"Heaven’s Gate เป็นกลุ่มศาสนาเกิดใหม่ หรือ New Religion Movement และเป็นที่รู้จักอย่างกว้างขวางจากเหตุการณ์อัตวินิบาตกรรมหมู่ของกลุ่มคนที่มีความเชื่อทางศาสนาที่รัฐ California สหรัฐอเมริกา",
-        badge:"Philosophy",
-        img:"/banner/blog-3.svg",
-        link:"/blogs/other/heavengate"
-    },
+    // {
+    //     id: 2, 
+    //     name:"New Religion Movement – Heaven’s Gate",
+    //     description:"Heaven’s Gate เป็นกลุ่มศาสนาเกิดใหม่ หรือ New Religion Movement และเป็นที่รู้จักอย่างกว้างขวางจากเหตุการณ์อัตวินิบาตกรรมหมู่ของกลุ่มคนที่มีความเชื่อทางศาสนาที่รัฐ California สหรัฐอเมริกา",
+    //     badge:"Philosophy",
+    //     img:"/banner/blog-3.svg",
+    //     link:"/blogs/other/heavengate"
+    // },
     {
         id: 3, 
         name:"日本における就職活動", 
