@@ -1,3 +1,4 @@
+"use client"
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -5,6 +6,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react";
+import NewNavbar from "./components/NewNavBar";
+import { usePathname } from "next/navigation";
 
 const NotoSans = localFont({
   src: "./fonts/NotoSansThai.ttf",
@@ -27,17 +30,22 @@ const SarabunMedium = localFont({
   weight: "500",
 });
 
-export const metadata: Metadata = {
-  title: "Dhanavadh Saito",
-  description: "An arts student who has interest in web development. I’m always eager to explore new opportunities for learning and personal growth, so feel free to reach out to me anytime!",
-  keywords: "Dhanavadh, Saito, Arts, arts chula, aksorn, dhanavadh saito, intern, internship, port, portfolio, ธนวัฒน์, ธนวัฒน์ ซาอิโตะ, ซาอิโตะ, นิสิต, นิสิตอักษร, อักษร, อักษร จุฬา ",
-};
+// export const metadata: Metadata = {
+//   title: "Dhanavadh Saito",
+//   description: "An arts student who has interest in web development. I’m always eager to explore new opportunities for learning and personal growth, so feel free to reach out to me anytime!",
+//   keywords: "Dhanavadh, Saito, Arts, arts chula, aksorn, dhanavadh saito, intern, internship, port, portfolio, ธนวัฒน์, ธนวัฒน์ ซาอิโตะ, ซาอิโตะ, นิสิต, นิสิตอักษร, อักษร, อักษร จุฬา ",
+// };
+
+
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const pathName = usePathname();
+  const header = pathName === "/" ? <NewNavbar /> : <Navbar />;
+
   return (
     <html lang="en">      
       <meta property="og:title" content="Dhanavadh Saito - A UX Designer &amp; Front-end Developer Blog" />
@@ -48,7 +56,7 @@ export default function RootLayout({
       <body
         className={`${NotoSans.variable} ${NotoSansJP.variable} ${SarabunRegular.variable} ${SarabunMedium.variable} antialiased`}
       >
-        <Navbar />
+        {header}
         {children}
         <SpeedInsights />
         <Analytics />

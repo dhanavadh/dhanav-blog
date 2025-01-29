@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --swiper-navigation-color: #fafafa;
+  --swiper-pagination-color: #fafafa;
+}
 
 body {
   color: #0a0a0a;
@@ -89,6 +93,10 @@ body {
   @apply p-white
   hover:underline-offset-4 hover:underline decoration-4  decoration-neutral-300;
 }
+.link-noapply-color {
+  @apply 
+  hover:underline-offset-4 hover:underline decoration-4  decoration-neutral-300;
+}
 .link-noapply {
   @apply
   hover:underline-offset-8 hover:underline decoration-4 decoration-blue-500;
@@ -100,6 +108,15 @@ body {
 .nav-link {
   transition-duration: 300ms;
   color: #0a0a0a;
+}
+
+.nav-link-main.hovered {
+  transition-duration: 300ms;
+  color: #a3a3a3;  
+}
+.nav-link-main {
+  transition-duration: 300ms;
+  color: #fafafa;
 }
 
 /* NavBar Mobile */
@@ -197,4 +214,27 @@ body {
   border-radius: 100px;       /* roundness of the scroll thumb */
   border: 1px solid #a3a3a3;  /* creates padding around scroll thumb */
   
+}
+
+
+/* Slider Section */
+.slider-core {
+  @apply min-h-screen flex items-end text-white
+}
+.slider-title-section {
+  @apply text-3xl font-medium font-[family-name:var(--font-noto-sans)]
+}
+.subtitle-section {
+  @apply text-xl font-normal font-[family-name:var(--font-noto-sans)] my-2 tracking-wide line-clamp-3
+}
+.text-area-padding {
+  @apply p-6 lg:px-14 lg:py-10 lg:w-4/6
+}
+
+
+.navbar {
+  @apply flex justify-between px-6 md:px-32 h-12 w-full fixed top-0 left-0 right-0 z-10
+}
+.navbar-active {
+  @apply bg-neutral-50/75 flex justify-between px-6 md:px-32 h-12 w-full fixed top-0 left-0 right-0 z-10 backdrop-blur-3xl
 }
