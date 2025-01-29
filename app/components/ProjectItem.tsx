@@ -59,7 +59,7 @@ const ProjectOf2025 = [
         technologies: "Next.js, TailwindCSS",
         github: "https://github.com/dhanavadh/iconroof",
         website: "https://xn--72ca6bng5c5ell7l.com/",
-        article: "https://xn--72ca6bng5c5ell7l.com/"
+        article: "/blogs/other/iconroof"
     }
 ]
 
