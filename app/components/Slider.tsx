@@ -21,7 +21,7 @@ const Slider = () => {
         keyboard={true}    
         centeredSlides={true}
         autoplay={{
-          delay: 4000,
+          delay: 8000,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination, Navigation]}
