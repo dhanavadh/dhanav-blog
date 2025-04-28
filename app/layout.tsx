@@ -46,6 +46,7 @@ export default function RootLayout({
 }>) {
   const pathName = usePathname();
   const header = pathName === "/" ? <NewNavbar /> : <Navbar />;
+  const footer = pathName === "/" ? null : <Footer />;
 
   return (
     <html lang="en">  
@@ -76,8 +77,8 @@ export default function RootLayout({
         {children}
         <SpeedInsights />
         <Analytics />
-        {/* <Footer /> */}
-        <NewFooter />
+        {footer}
+        {/* <NewFooter /> */}
       </body>
     </html>
   );
