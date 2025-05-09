@@ -21,7 +21,7 @@ const Slider = () => {
         keyboard={true}    
         centeredSlides={true}
         autoplay={{
-          delay: 10000,
+          delay: 8000,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination, Navigation]}
@@ -29,23 +29,6 @@ const Slider = () => {
       >
 
         {/* Parent Please Clone From This */}
-        <SwiperSlide>
-            <div className='slider-core'>   
-                     
-                <video width="full" autoPlay loop muted preload='auto' playsInline className='absolute z-[-1] w-full h-full object-cover brightness-50'>
-                    <source src="/content/kansai-cp/kansai.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
-                {/* <img src='/banner/blog-1.svg/' className='flex absolute z-[-1] w-full h-full object-cover brightness-50'></img>                 */}
-                <div className='text-area-padding'>
-                    <div className='flex gap-2'>
-                        <Link href='/blogs/other/kansai-cp' className='slider-title-section link-white'>รีวิวไปแลกเปลี่ยนที่โอซาก้า 2025→</Link>
-                    </div>
-                    <p className='subtitle-section'>แลกเปลี่ยนที่โอซาก้าในปี 2025 เปิดโลกผมให้กว้างขึ้น มาฟังเรื่องของผมกันครับ</p>
-                </div>
-            </div>
-        </SwiperSlide> 
-
         <SwiperSlide>
             <div className='slider-core'>   
                      
