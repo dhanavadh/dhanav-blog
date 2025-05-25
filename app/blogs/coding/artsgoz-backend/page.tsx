@@ -27,7 +27,7 @@ const BlogArtsgozBE = () => {
     <div className='blog-panel'>
         {/* Banner */}
         <div className='flex max-h-3/4 min-w-full relative -z-[1]'>
-          <img src='/banner/artsgoz-backend.jpeg' className='blog-banner'></img>                        
+          <img src='http://stageengine.iconroof.co.th/public/asset/pers/banner/artsgoz-backend.jpeg' className='blog-banner'></img>                        
           <div className='blog-banner-object'>            
             <p className='ref-image'>Image from @dhanavadh</p>            
           </div>
@@ -51,7 +51,7 @@ const BlogArtsgozBE = () => {
             <p>เทคโนโลยีที่ใช้หลัก ๆ คือ Express.js สำหรับสร้าง route ไว้ยิง API, MongDB เป็นตัวเก็บพวก non-relational document database และ AWS S3 เป็น cloud storage ไว้เก็บพวก static file เช่น รูปภาพ ประมาณนี้ครับ ส่วนระบบ Auth ใช้ jsonwebtoken กับ firebase เป็นตัวเข้าสู่ระบบโดยใช้บัญชีกูเกิลครับ </p>
           </div>  
           <div className='blog-image-div'>
-                <img src='/content/artsgoz/mongo.svg' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/artsgoz/mongo.svg' className='blog-image-object'></img>
                 <p className='image-description'>MongoDB/AWS S3</p>
           </div>
           <div className='h1-blog'>

@@ -28,7 +28,7 @@ const BlueprintProject = () => {
     <div className='blog-panel'>
         {/* Banner */}
         <div className='flex max-h-3/4 min-w-full relative -z-[1]'>
-          <img src='/content/blueprint-proj/IMG_20250125_0001.jpeg' className='blog-banner'></img>                        
+          <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/blueprint-proj/IMG_20250125_0001.jpeg' className='blog-banner'></img>                        
           <div className='blog-banner-object'>            
             <p className='ref-image'>Image from @dhanavadh</p>            
           </div>
@@ -72,7 +72,7 @@ const BlueprintProject = () => {
             <p>แต่ละหลักสูตร แต่ละเอกก็มีวิชาบังคับเอก วิชาเลือกเอก วิชาบังคับโท วิชาเลือกโท แตกต่างกันออกไป ซึ่งฟังมาถึงตอนนี้ อาจจะดูว่าอะไรหลายอย่างมันวุ่นวายใช่ไหมครับ คำตอบคือใช่ครับ ลองดูภาพด้านล่างอาจจะพอช่วยให้เข้าใจมากขึ้นครับ</p>
           </div>
           <div className='blog-image-div'>
-                <img src='/content/blueprint-proj/c32rd23edqj09.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/blueprint-proj/c32rd23edqj09.png' className='blog-image-object'></img>
                 <p className='image-description'>ตารางหลักสูตรอักษรศาสตร์บัณฑิต ปี 2561 <a href='https://www.arts.chula.ac.th/th/ba-education/ba-2561/' target='blank' className='link-inline'>(https://www.arts.chula.ac.th/th/ba-education/ba-2561/)</a></p>
           </div>
           <div className='paragraph'>
@@ -89,7 +89,7 @@ const BlueprintProject = () => {
             <p>พอเกิดปัญหาแบบนี้ ปอมก็เสนอไอเดียขึ้นมาว่า งั้นเราไม่ทำแอปที่ช่วยจัดการหลักสูตรให้นิสิตไปเลยล่ะ แบบ กรอกรหัสนิสิตเข้าไป ละก็เด้งขึ้นมาเลยว่าจะเลือกเอกอะไร สมมติถ้าเลือกเอกญี่ปุ่น ก็จะมีลิสต์โชว์ให้เลยว่าในปีนี้ ๆ ต้องเรียนอันนี้นะ และแนะนำว่าควรลง GenEd เทอมไหน แบบนี้จะเวิคไหม เพราะปัจจุบันก็ไม่ได้มีใครทำแอปจัดการหลักสูตรสำเร็จรูป มีแต่ช่วยจัดตารางเรียนแบบเป็นเทอม ๆ เช่น <a href='https://cugetreg.com/S/courses' target='blank' className='link-inline'>CU Get Reg</a></p>
           </div>
           <div className='blog-image-div'>
-                <img src='/content/blueprint-proj/f234fcews423.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/blueprint-proj/f234fcews423.png' className='blog-image-object'></img>
                 <p className='image-description'>หน้าเว็บไซต์ CU Get Reg</p>
           </div>
           <div className='paragraph'>
@@ -115,7 +115,7 @@ const BlueprintProject = () => {
             <p>process ที่เรารู้ ๆ ในการทำงาน ux กันก็คือ เริ่มที่ empathize define ideate prototype test ประมาณนี้ใช่ไหมครับ เราก็ใช้ design thinking framework นี้มาปรับใช้กับงานของเรากันครับ อีกทั้งในแต่ละกระบวนการยังมีรายละเอียดปลีกย่อยลงไปอีก</p>
           </div>
           <div className='blog-image-div'>
-                <img src='/content/blueprint-proj/Bspp2VGtYAc9QSnkYJizWZ1v5ZdpDfAhNRoiu9Ch.webp' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/blueprint-proj/Bspp2VGtYAc9QSnkYJizWZ1v5ZdpDfAhNRoiu9Ch.webp' className='blog-image-object'></img>
                 <p className='image-description'>ภาพจาก Interaction Design Foundation : Design Thinking</p>
           </div>
           <div className='paragraph'>
@@ -172,7 +172,7 @@ const BlueprintProject = () => {
             <p>ระหว่างที่รอปอมสร้าง persona ผมก็ลองสร้าง persona ขึ้นมา และลองทำ user journey และกำหนด problem statement หลังจากนั้นก็ลอง identify user’s task ดูโดยการเขียน storyboard ดูครับ ซึ่งอันนี้มันข้ามขั้นไปแล้ว ซึ่งผมก็ลองวาดเล่น ๆ ดูครับ ส่วนที่ใช้งานจริง ๆ ผมก็ต้องมานั่งดูนั่งพิจารณากับปอมอีกทีนึงครับ</p>
           </div>
           <div className='blog-image-div'>
-                <img src='/content/blueprint-proj/IMG_20250125_0001.jpeg' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/blueprint-proj/IMG_20250125_0001.jpeg' className='blog-image-object'></img>
                 <p className='image-description'>ภาพ storyboard ที่ผมเขียนลองเล่น ๆ</p>
           </div>
             <div className='paragraph'>

@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/app/layout":["static/media/acc6ec0e633ba252-s.p.ttf","static/media/778f495e32d80ede-s.p.ttf","static/media/66598d6d44228c48-s.p.ttf","static/media/acd57112361b53c6-s.p.ttf"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';

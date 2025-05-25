@@ -25,7 +25,7 @@ const Blog = [
         description:"แนวคิดพุทธศาสนาเกี่ยวกับเจตจำนงเสรีนั้นมีจริงหรือไม่ และถ้ามีจริง มีผลต่อการทำความเข้าใจเรื่องการกระทำของมนุษย์หรือไม่?",
         badge:"Philosophy",
         link:"/blogs/other/buddhism-freewill",
-        img:"/banner/buddhism.svg"
+        img:"http://stageengine.iconroof.co.th/public/asset/pers/banner/buddhism.svg"
     },
 ]
 

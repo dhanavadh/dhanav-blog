@@ -15,7 +15,7 @@ const AuthorWithPom = () => {
                 </div>
             </div>            
             <div className='flex items-center'>
-                <Image src='/banner/blog-3.svg' alt='writer-img' width={64} height={64} className='rounded-full brightness-110'></Image>
+                <Image src='http://stageengine.iconroof.co.th/public/asset/pers/banner/blog-3.svg' alt='writer-img' width={64} height={64} className='rounded-full brightness-110'></Image>
                 <div className='ml-3'>
                 <p className='h4'>Natnaree K.</p>
                 <p>ปอม</p>

@@ -5,7 +5,7 @@ const notFound = () => {
     <div className='mx-6 md:mx-32 font-[family-name:var(--font-noto-sans)]'>
         {/* Banner */}
         <div className='flex max-h-3/4 max-w-full relative -z-[1]'>
-          <img src='/banner/blog-3.svg' className='h-full w-full absolute object-cover -z-[1] brightness-75 rounded-b-xl'></img>                        
+          <img src='http://stageengine.iconroof.co.th/public/asset/pers/banner/blog-3.svg' className='h-full w-full absolute object-cover -z-[1] brightness-75 rounded-b-xl'></img>                        
           <div className='mx-6 mt-48 md:mt-64 w-full'>            
             <p className='ref-image'>Image from @dhanavadh</p>            
           </div>

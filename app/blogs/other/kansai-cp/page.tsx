@@ -43,7 +43,7 @@ const KansaiReview = () => {
         <div className='flex max-h-3/4 min-w-full relative -z-[1]'>
           {/* <img src='/banner/blog-1.svg' className='blog-banner'></img>                         */}
           <video width="full" autoPlay loop muted preload='auto' playsInline className='blog-banner'>
-              <source src="/content/kansai-cp/kansai.mp4" type="video/mp4" />
+              <source src="http://stageengine.iconroof.co.th/public/asset/pers/content/kansai-cp/kansai.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           <div className='blog-banner-object'>            
@@ -88,7 +88,7 @@ const KansaiReview = () => {
             <p>ตอนที่มาช่วงแรก ๆ เห็นว่าธีมของโปรแกรมนี้จะเน้นเกี่ยวกับ SDGs ตอนแรกที่ได้ยินคิดว่าค่อนข้างน่าเบื่อ แต่พอเรียนจนครบโปรแกรมแล้ว ตัวผมกลับรู้สึกว้าวมากกับสิ่งที่ได้เรียนไป SDGs มันไม่ใช่แค่เป้าหมายอะไรธรรมดา ๆ มันอยู่รอบตัวเราหมด แต่มันอยู่ที่ว่าเราจะเข้าใจและนำมาปรับใช้กับชีวิตได้อย่างไร</p>
           </div>  
           <div className='blog-image-div'>
-                <img src='/content/kansai-cp/image-1.png' className='blog-image-object h-[500px]'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/kansai-cp/image-1.png' className='blog-image-object h-[500px]'></img>
                 <p className='image-description'>Hiroshima Peace Memorial Park</p>
           </div>
 
@@ -96,7 +96,7 @@ const KansaiReview = () => {
             <p>นอกจากเรียน SDGs ในห้องเรียนแล้วนั้น ทางโครงการได้ให้เราไปศึกษาในพื้นที่จริงด้วยครับ ทั้งได้ไปเจอโฮสต์แฟมิลี่ ไปเที่ยวตามสถานที่ท่องเที่ยวเพื่อดูปัญหา Overtourism หรือพาไปดูโรงเรียนประถมเพื่อศึกษาการเรียนความเป็นอยู่ อาหารการกินของเด็ก ๆ ครับ</p>
           </div>  
           <div className='blog-image-div'>
-                <img src='/content/kansai-cp/image-2.png' className='blog-image-object h-[500px]'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/kansai-cp/image-2.png' className='blog-image-object h-[500px]'></img>
                 <p className='image-description'>Kokuyo Hows Park</p>
           </div>
           
@@ -114,14 +114,14 @@ const KansaiReview = () => {
 
 
           <div className='blog-image-div'>
-                <img src='/content/kansai-cp/image-3.png' className='blog-image-object h-[500px]'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/kansai-cp/image-3.png' className='blog-image-object h-[500px]'></img>
                 <p className='image-description'>นี่คือวิวจากห้องพักผมครับ พระอาทิตย์ตกสวยมาก✨</p>
           </div>
           <div className='paragraph'>
             <p>แต่เมื่อพูดถึงตอนที่เราใช้ชีวิตในวันหยุด แน่นอนสำหรับผมคือเข้าในเมืองบ่อยมากครับ (ไป Umeda ครับ) ค่ารถไฟจากที่พักไปถึงอุเมดะไปกลับก็ประมาณสองพันเยน ถือว่าค่อนข้างแพงทีเดียวครับสำหรับการเข้าเมืองต่อครั้งครับ หากใครที่จะไปและมีแพลนจะเข้าเมืองบ่อย ๆ อย่างผมไปทุกวันหลังเลิกเรียน แนะนำว่าให้ซื้อ 定期券 ไว้จะดีกว่าครับ</p>
           </div>
           <div className='blog-image-div'>
-                <img src='/content/kansai-cp/image-4.jpeg' className='blog-image-object h-[500px]'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/kansai-cp/image-4.jpeg' className='blog-image-object h-[500px]'></img>
                 <p className='image-description'>Grand Green Osaka Umekita</p>
           </div>
 
@@ -136,7 +136,7 @@ const KansaiReview = () => {
           </div>
 
           <div className='blog-image-div'>
-                <img src='/content/kansai-cp/image-5.jpeg' className='blog-image-object h-[500px]'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/kansai-cp/image-5.jpeg' className='blog-image-object h-[500px]'></img>
                 <p className='image-description'>Chayamachi – Umeda, Osaka</p>
           </div>
 
@@ -147,7 +147,7 @@ const KansaiReview = () => {
             <p>44 วันสำหรับผมถือว่ากำลังพอดีครับ แต่พอช่วงที่ใกล้จะกลับเราก็สนิทกับเพื่อน ๆ มากขึ้น พอจะกลับประเทศนั้นกลายเป็นรู้สึกเหงานิด ๆ ที่จะไม่ได้เจอเพื่อน ๆ เหมือนเดิมแล้ว ก็ค่อนข้างเศร้าเหมือนกันครับ แต่ชีวิตเราก็ต้องดำเนินต่อ 555 สักวันอาจจะมีโอกาสได้พบกัน</p>
           </div>  
           <div className='blog-image-div'>
-                <img src='/content/kansai-cp/image-6.png' className='blog-image-object h-[500px]'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/kansai-cp/image-6.png' className='blog-image-object h-[500px]'></img>
                 <p className='image-description'>วันสุดท้ายที่ต้องกลับไทย</p>
           </div>
 

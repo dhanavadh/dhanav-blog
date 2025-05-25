@@ -22,7 +22,7 @@ const BlogUXImplement = () => {
     <div className='blog-panel'>
         {/* Banner */}
         <div className='flex min-h-3/4 min-w-full relative -z-[1]'>
-          <img src='/banner/webremake.svg' className='blog-banner'></img>                        
+          <img src='http://stageengine.iconroof.co.th/public/asset/pers/banner/webremake.svg' className='blog-banner'></img>                        
           <div className='blog-banner-object'>            
             <p className='ref-image'>Image from @dhanavadh</p>            
           </div>
@@ -53,7 +53,7 @@ const BlogUXImplement = () => {
 
               {/* Image Class */}
               <div className='blog-image-div'>
-                <img src='/content/recap-port/img-3.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/recap-port/img-3.png' className='blog-image-object'></img>
                 <p className='image-description'>ภาพเว็บไซต์แรกของผม</p>
               </div>
 
@@ -72,7 +72,7 @@ const BlogUXImplement = () => {
 
               {/* Image Class */}
               <div className='blog-image-div'>
-                <img src='/content/recap-port/img-12.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/recap-port/img-12.png' className='blog-image-object'></img>
                 <p className='image-description'>ภาพแสดงให้เห็นถึงการไม่ใช้ Hierarchy เข้ามาจัดการกับความสำคัญของข้อความ</p>
               </div>
 
@@ -85,7 +85,7 @@ const BlogUXImplement = () => {
 
               {/* Image Class */}
               <div className='blog-image-div'>
-                <img src='/content/recap-port/img-8.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/recap-port/img-8.png' className='blog-image-object'></img>
                 <p className='image-description'>ภาพแสดงให้เห็นถึงการไม่ใช้ Hierarchy เข้ามาจัดการกับความสำคัญของข้อความ</p>
               </div>
 
@@ -105,7 +105,7 @@ const BlogUXImplement = () => {
 
               {/* Image Class */}
               <div className='blog-image-div'>
-                <img src='/content/recap-port/img-9.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/recap-port/img-9.png' className='blog-image-object'></img>
                 <p className='image-description'>ภาพแสดงให้เห็นถึงการ typeface แบบ monospaced ทั้งหน้า</p>
               </div>
 
@@ -125,7 +125,7 @@ const BlogUXImplement = () => {
 
               {/* Image Class */}
               <div className='blog-image-div'>
-                <img src='/content/recap-port/img-7.png' className='max-h-3xl rounded-lg'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/recap-port/img-7.png' className='max-h-3xl rounded-lg'></img>
                 <p className='image-description'>Color Contrast ที่ไม่ตอบโจทย์เรื่อง Accessibility</p>
               </div>
 
@@ -138,7 +138,7 @@ const BlogUXImplement = () => {
 
               {/* Image Class */}
               <div className='blog-image-div'>
-                <img src='/content/recap-port/img-1.png' className='max-h-3xl rounded-lg'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/recap-port/img-1.png' className='max-h-3xl rounded-lg'></img>
                 <p className='image-description'>WCAG Accessibility Criteria: Adobe Color Contrast Checker</p>
               </div>
 
@@ -152,7 +152,7 @@ const BlogUXImplement = () => {
               
               {/* Image Class */}
               <div className='blog-image-div'>
-                <img src='/content/recap-port/img-4.png' className='max-h-3xl rounded-lg'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/recap-port/img-4.png' className='max-h-3xl rounded-lg'></img>
                 <p className='image-description'>เว็บไซต์อันที่สอง</p>
               </div>
 

@@ -19,7 +19,7 @@ const BlogArtsgozFE = () => {
         <div className='flex max-h-3/4 min-w-full relative -z-[1]'>
           {/* <img src='/banner/artsgoz.png' className='blog-banner'></img>                         */}
           <video width="full" autoPlay loop muted preload='auto' playsInline className='blog-banner'>
-              <source src="/content/artsgoz/artsgoz.mp4" type="video/mp4" />
+              <source src="http://stageengine.iconroof.co.th/public/asset/pers/content/artsgoz/artsgoz.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           <div className='blog-banner-object'>            
@@ -41,7 +41,7 @@ const BlogArtsgozFE = () => {
 
           <div className='flex flex-col justify-center items-center'>
             <video width="900" autoPlay loop muted preload='auto' playsInline>
-              <source src="/content/artsgoz/artsgoz.mp4" type="video/mp4" />
+              <source src="http://stageengine.iconroof.co.th/public/asset/pers/content/artsgoz/artsgoz.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <p className='image-description'>เว็บไซต์ Artsgoz ปัจจุบันครับ ✨</p>
@@ -58,7 +58,7 @@ const BlogArtsgozFE = () => {
             <p>ตอนผมอยู่ปี 2 ผมได้เข้าไปทำคณะกรรมการนิสิต ในฝ่ายสื่อและประชาสัมพันธ์ ผมเลยได้ดูแลสื่อของ กอศ และผมเห็นว่าเว็บมันร้าง ไม่ค่อยมีใครใช้ คอนเท้นก็ไม่อัปเดต ผมเลยเสนอทางคณะกรรมการไปว่าจะรีเมคเว็บใหม่ ใช้ React นะ อะไรก็ว่าไป </p>
           </div>
           <div className='blog-image-div'>
-                <img src='/content/artsgoz/img-1.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/artsgoz/img-1.png' className='blog-image-object'></img>
                 <p className='image-description'>เว็บไซต์เก่าของ artsgoz</p>
           </div>
           <div className='paragraph'>
@@ -76,7 +76,7 @@ const BlogArtsgozFE = () => {
           </div>
 
           <div className='blog-image-div'>
-                <img src='/content/artsgoz/img-2.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/artsgoz/img-2.png' className='blog-image-object'></img>
                 <p className='image-description'>เว็บไซต์ปัจจุบัน</p>
           </div>
 
@@ -95,14 +95,14 @@ const BlogArtsgozFE = () => {
           </div>
 
           <div className='blog-image-div'>
-                <img src='/content/artsgoz/img-3.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/artsgoz/img-3.png' className='blog-image-object'></img>
                 <p className='image-description'>Prototype ตัวแรก</p>
           </div>
           <div className='paragraph'>
             <p>ตัวเว็บไซต์ก่อนที่จะมาเป็นตัวปัจจุบันครับ คือตามที่ผมได้เขียนไปในตอนต้นว่า ผมในตอนนั้นไม่ได้มีความรู้เรื่อง ux เลย การสร้างอะไรออกมาก็เกิดจากสิ่งที่เรียกว่า “ก็มันเป็นแบบนี้” มาซะส่วนใหญ่</p>
           </div>        
           <div className='blog-image-div'>
-                <img src='/content/artsgoz/img-4.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/artsgoz/img-4.png' className='blog-image-object'></img>
                 <p className='image-description'>Prototype ตัวแรก</p>
           </div>
           <div className='paragraph'>
@@ -122,7 +122,7 @@ const BlogArtsgozFE = () => {
             <p>ต้องเล่าอย่างนี้ก่อนครับ ในระบบ reg จุฬา เวลาเรา query หาวิชาที่จะลงทะเบียนเรียน เราจะไม่เห็นชื่อเต็มอาจารย์ จะเห็นเป็นชื่อตัวอักษร 3 หลักครับ เช่น HKS, ATR แล้วทีนี้ นิสิตอยากรู้ว่าอาจารย์หรือสตาฟท่านไหนสอนก็จะมาค้นหาชื่อย่อในเว็บกอศครับ</p>
           </div>
           <div className='blog-image-div'>
-                <img src='/content/artsgoz/img-5.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/artsgoz/img-5.png' className='blog-image-object'></img>
                 <p className='image-description'>หน้าค้นหาชื่ออาจารย์</p>
           </div>
           <div className='paragraph'>
@@ -136,7 +136,7 @@ const BlogArtsgozFE = () => {
           </div>
 
           <div className='blog-image-div'>
-                <img src='/content/artsgoz/img-6.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/artsgoz/img-6.png' className='blog-image-object'></img>
                 <p className='image-description'>ยอด query จาก search console</p>
           </div>
           <div className='h2-blog'>
@@ -146,7 +146,7 @@ const BlogArtsgozFE = () => {
             <p>อาจมีเสียงบอกว่า เว็บเก่าก็ทำได้ ไม่เห็นมีความจำเป็นต้องเปลี่ยนเลย จริง ๆ เว็บเก่ามีแค่สตาฟเท่านั้นที่สามารถเขียนบทความได้ครับ แต่เว็บใหม่ เพียงนิสิตล็อกอินเข้ามา ก็สามารถเขียนบทความได้แล้วครับ</p>
           </div>
           <div className='blog-image-div'>
-                <img src='/content/artsgoz/img-7.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/artsgoz/img-7.png' className='blog-image-object'></img>
                 <p className='image-description'>หน้าบทความ</p>
           </div>
           

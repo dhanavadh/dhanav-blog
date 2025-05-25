@@ -26,7 +26,7 @@ const BlogPortRemake = () => {
           {/* <img src='/banner/blog-1.svg' className='blog-banner'></img>                         */}
             <Suspense fallback={<VideoSkeleton />}>
             <video width="full" autoPlay loop muted preload='auto' playsInline className='blog-banner'>
-              <source src="/content/port-redesign/blog-preview.mp4" type="video/mp4" />
+              <source src="http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/blog-preview.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             </Suspense>
@@ -53,7 +53,7 @@ const BlogPortRemake = () => {
           {/* Video */}
           <div className='flex flex-col justify-center items-center'>
             <video width="900" autoPlay loop muted preload='auto' playsInline>
-              <source src="/content/port-redesign/blog-preview.mp4" type="video/mp4" />
+              <source src="http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/blog-preview.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <p className='image-description'>ตัวอย่างเว็บไซต์ portfolio ใหม่ครับ ✨</p>
@@ -94,7 +94,7 @@ const BlogPortRemake = () => {
           </div>          
 
           <div className='blog-image-div'>
-                <img src='/content/port-redesign/213172f1-12ce-4eac-97f7-cd1d1e48a18e.png' className='blog-image-object h-[500px]'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/213172f1-12ce-4eac-97f7-cd1d1e48a18e.png' className='blog-image-object h-[500px]'></img>
                 <p className='image-description'>ตัวอย่างการจัดการ text ที่ไม่เหมาะสมกับอุปกรณ์ที่ user ใช้งาน</p>
           </div>
           <div className='paragraph'>
@@ -117,7 +117,7 @@ const BlogPortRemake = () => {
 
 
           <div className='blog-image-div'>
-                <img src='/content/port-redesign/93e4a9b8-0381-430b-b67d-7311e094e114.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/93e4a9b8-0381-430b-b67d-7311e094e114.png' className='blog-image-object'></img>
                 <p className='image-description'>เว็บพอร์ตใหม่ที่ผมทำขึ้นครับ✨</p>
           </div>
           <div className='paragraph'>
@@ -138,7 +138,7 @@ const BlogPortRemake = () => {
           </div>
 
           <div className='blog-image-div'>
-            <img src='/content/port-redesign/IA-1.svg' className='blog-image-object'></img>
+            <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/IA-1.svg' className='blog-image-object'></img>
             <p className='image-description'>IA ที่ผมวางไว้แบบคร่าว ๆ ครับ</p>
           </div>
 
@@ -188,7 +188,7 @@ const BlogPortRemake = () => {
           </div> 
 
           <div className='blog-image-div'>
-                <img src='/content/port-redesign/93e4a9b8-0381-430b-b67d-7311e094e114.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/93e4a9b8-0381-430b-b67d-7311e094e114.png' className='blog-image-object'></img>
                 <p className='image-description'>เว็บพอร์ตใหม่ที่ผมทำขึ้นครับ✨</p>
           </div>
           
@@ -202,7 +202,7 @@ const BlogPortRemake = () => {
             <p>Heading ข้างบน ผมมีการใช้ ขนาดตัวอักษรที่ใหญ่กว่าเพื่อดึงดูดสายตาผู้ใช้งาน ในหัวข้อ Reach me via ผมก็ใช้ขนาดของฟอนต์ที่ต่างกันออกไปเพื่อให้ user แยกออกว่าอะไรเป็นหัวข้อ อะไรเป็น subset สิ่งนี้ก็อาจเรียกว่าเป็นการใช้ visual hierarchy มาช่วยจัดการลำดับความสำคัญของข้อมูล</p>
           </div>            
           <div className='blog-image-div'>
-                <img src='/content/port-redesign/dsad2131244e32ed2e312ed1.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/dsad2131244e32ed2e312ed1.png' className='blog-image-object'></img>
                 <p className='image-description'>ตัวอย่างหน้า blogs</p>
           </div>
           <div className='paragraph'>
@@ -217,7 +217,7 @@ const BlogPortRemake = () => {
           </div> 
 
           <div className='blog-image-div'>
-                <img src='/content/port-redesign/e-7408e9a02891.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/e-7408e9a02891.png' className='blog-image-object'></img>
                 <p className='image-description'>ตัวอย่างการใช้สีชี้นำให้ user ทำตาม flow ที่เราตั้งไว้</p>
           </div>
           <div className='paragraph'>
@@ -240,14 +240,14 @@ const BlogPortRemake = () => {
             <p>ลองมาดูตัวอย่างการปรับใช้ visual framework ของผมนะครับ</p>
           </div> 
           <div className='blog-image-div'>
-                <img src='/content/port-redesign/423rdewd32ew2d2.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/423rdewd32ew2d2.png' className='blog-image-object'></img>
                 <p className='image-description'>ตัวอย่างหน้า Projects ที่กำหนด patterns ให้เหมือนกันทุก ๆ หน้า</p>
           </div>
           <div className='paragraph'>
             <p>ผมกำหนดขนาด margin แกน x หรือ ฝั่งซ้ายขวาไว้ที่ 8 rem สำหรับหน้าจอที่ขนาด min-width: 1024px ครับ หากขนาด device เล็กกว่านั้นผมจะปรับมาใช้เป็น 1.5 rem ครับ ส่วน margin top อยู่ที่ 4 rem ครับ และผมปรับแบบนี้ไว้กับทุก ๆ หน้าเพื่อคงความ consistency ไว้ครับ</p>
           </div> 
           <div className='blog-image-div'>
-                <img src='/content/port-redesign/h98r32j92jd2309.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/h98r32j92jd2309.png' className='blog-image-object'></img>
                 <p className='image-description'>ตัวอย่างหน้า Experience ที่กำหนด patterns ให้เหมือนกันทุก ๆ หน้า</p>
           </div>
 
@@ -282,7 +282,7 @@ const BlogPortRemake = () => {
           </div>          
 
           <div className='blog-image-div'>
-                <img src='/content/port-redesign/32eh1u82378.png' className='blog-image-object'></img>
+                <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/32eh1u82378.png' className='blog-image-object'></img>
                 <p className='image-description'>Navbar ในขนาด desktop</p>
           </div>
 
@@ -293,7 +293,7 @@ const BlogPortRemake = () => {
 
           <div className='flex flex-col justify-center items-center'>
             <video width="900" autoPlay loop muted preload='auto' playsInline>
-              <source src="/content/port-redesign/navbar.mp4" type="video/mp4" />
+              <source src="http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/navbar.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <p className='image-description'>Navbar แบบ popup สำหรับ mobile screen</p>
@@ -316,14 +316,14 @@ const BlogPortRemake = () => {
             <p>ตอนแรกผมสร้างเว็บมาเป็นรูปแบบ dark mode ครับ ทำเสร็จสรรพ ลองเอาไปให้เพื่อน ๆ หลาย ๆ คนเทส พบว่ามีปัญหาเรื่องความสบายตาครับ คือในโปรเจคนี้มีบทความให้อ่านด้วย หากจะต้องอ่านข้อมูลด้วยพื้นหลังสีดำ ตัดกับข้อความสีขาว เพื่อน ๆ หลาย ๆ คนรู้สึกว่าเกิดความไม่สบายตาครับ เลยทำให้ผมลองเปลี่ยนมาใช้สีโทนสว่างแทนครับ</p>
           </div> 
           <div className='blog-image-div'>
-            <img src='/content/port-redesign/fe23rd2qd2.png' className='blog-image-object'></img>
+            <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/fe23rd2qd2.png' className='blog-image-object'></img>
             <p className='image-description'>หน้า Article ในเว็บรูปแบบ dark mode</p>
           </div>
           <div className='paragraph'>
             <p>คือ เรื่องของ dark mode หรือ โหมดปกติ มันเป็นเรื่องความชอบของแต่ละคนครับ แต่ผมมานึกถึงไว้ก่อนว่า user ของเราจะเป็นใครก็ได้ งั้นผมทำเป็นสีขาวก่อน ไว้ dark mode ค่อยทำต่อยอดในอนาคตครับ</p>
           </div>
           <div className='blog-image-div'>
-            <img src='/content/port-redesign/3re2d23542ew2q3rf.png' className='blog-image-object'></img>
+            <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/3re2d23542ew2q3rf.png' className='blog-image-object'></img>
             <p className='image-description'>หน้า Article ในเว็บรูปแบบที่ปรับปรุงใหม่ครับ</p>
           </div>
           <div className='paragraph'>
@@ -341,14 +341,14 @@ const BlogPortRemake = () => {
           </div> 
 
           <div className='blog-image-div'>
-            <img src='/content/port-redesign/f34rijo0fj34.png' className='blog-image-object w-lg'></img>
+            <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/f34rijo0fj34.png' className='blog-image-object w-lg'></img>
             <p className='image-description'>ภาพเปรียบเทียบการใช้สีกับ Visual Hierarchy</p>
           </div>
           <div className='paragraph'>
             <p>อย่างตัวอย่างด้านบนนี้ จะเห็นได้ว่า อันหนึ่งจะดูข้อมูลได้ง่ายกว่า และไม่ได้ดูว่าทุกอย่างมันดูสำคัญเท่ากันหมด นั่นเป็นเพราะผมใช้สีเข้ามาช่วยในเรื่องของ visual hierarchy ครับ หากใน Figma บางคนอาจจะมีสี Primary และถ้าอยากได้สีไว้ใช้กับ body text ก็อาจจะปรับ HSL ในส่วน Lightness ครับ</p>
           </div>          
           <div className='blog-image-div'>
-            <img src='/content/port-redesign/v5344egr3423.png' className='blog-image-object w-lg'></img>
+            <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/v5344egr3423.png' className='blog-image-object w-lg'></img>
             <p className='image-description'>ภาพหลังจากที่แก้ไขแล้ว</p>
           </div>
           <div className='paragraph'>
@@ -361,7 +361,7 @@ const BlogPortRemake = () => {
             <p>ตอนนั้นผมยังเลือกไม่ถูกครับว่า ในหน้า blog เราจะใส่ list แบบไหนดี ผมเลยลองสามแบบครับ แบบที่ 1 เป็น object รูปภาพแบนเนอร์ไปเลย แบบที่ 2 คือ มี title กับ detail และแบบที่ 3 คือ มีภาพอยู่ด้านท้ายครับ</p>
           </div> 
           <div className='blog-image-div'>
-            <img src='/content/port-redesign/dasf2324q13rwq.png' className='blog-image-object'></img>
+            <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/dasf2324q13rwq.png' className='blog-image-object'></img>
             <p className='image-description'>ภาพเปรียบเทียบการเลือกใช้ list</p>
           </div>
           <div className='h3-blog'>
@@ -383,7 +383,7 @@ const BlogPortRemake = () => {
             <p>หลังจากตัดสินใจได้ผมจึงเลือกแบบที่สาม และปรับ margin ระหว่าง text และ image กับ line clamp ให้เหลือเพียง 3 บรรทัดครับ ลองดูผลลัพธ์ด้านล่างนี้ครับ</p>
           </div>
           <div className='blog-image-div'>
-            <img src='/content/port-redesign/mfdw2r3e4.png' className='blog-image-object'></img>
+            <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/mfdw2r3e4.png' className='blog-image-object'></img>
             <p className='image-description'>ผลลัพธ์ที่ได้หลังจากลองเปรียบเทียบกันแล้วครับ</p>
           </div>          
 
@@ -394,7 +394,7 @@ const BlogPortRemake = () => {
             <p>การเลือกใช้คำ ก็เป็นอีกเรื่องสำคัญอีกเรื่องหนึ่งในกระบวนการ UX ครับ เราจะสื่อสาร ถ่ายทอดข้อมูลที่เรามีออกไปให้ user ของเราอย่างไรให้เกิด impression ที่ดีและมีประสิทธิภาพ อย่างตามที่ผมได้พูดไปในส่วนของ titled section</p>
           </div>           
           <div className='blog-image-div'>
-            <img src='/content/port-redesign/320u89eq3qdw.png' className='blog-image-object w-lg'></img>
+            <img src='http://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/320u89eq3qdw.png' className='blog-image-object w-lg'></img>
           </div>
           <div className='paragraph'>
             <p>อย่างในส่วนที่บอกว่าผมพูดภาษาอะไรได้บ้าง ผมมี 2 ตัวเลือก คือ แบบด้านบน กับแบบด้านล่างที่เป็นลิสต์ หลังจากการพิจารณาโดยที่ว่า ผมอยากให้ user เห็นแล้วรู้เรื่องทันที ผมจึงใช้แบบแรกครับ </p>

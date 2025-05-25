@@ -17,7 +17,7 @@ const IconroofPage = () => {
     <div className='blog-panel'>
         {/* Banner */}
         <div className='flex max-h-3/4 min-w-full relative -z-[1]'>
-          <img src='/banner/iconroof.png' className='blog-banner'></img>                        
+          <img src='http://stageengine.iconroof.co.th/public/asset/pers/banner/iconroof.png' className='blog-banner'></img>                        
           <div className='blog-banner-object'>            
             <p className='ref-image'>Image from @dhanavadh</p>            
           </div>
