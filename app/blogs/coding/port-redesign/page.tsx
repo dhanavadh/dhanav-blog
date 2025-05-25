@@ -1,7 +1,8 @@
 import Author from '@/app/components/BlogElemet/Author'
+import VideoSkeleton from '@/app/components/VideoSkeleton'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { Suspense } from 'react'
 
 const Reference = [
     {
@@ -23,10 +24,12 @@ const BlogPortRemake = () => {
         {/* Banner */}
         <div className='flex max-h-3/4 min-w-full relative -z-[1]'>
           {/* <img src='/banner/blog-1.svg' className='blog-banner'></img>                         */}
-          <video width="full" autoPlay loop muted preload='auto' playsInline className='blog-banner'>
+            <Suspense fallback={<VideoSkeleton />}>
+            <video width="full" autoPlay loop muted preload='auto' playsInline className='blog-banner'>
               <source src="/content/port-redesign/blog-preview.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            </Suspense>
           <div className='blog-banner-object'>            
             <p className='ref-image'>Image from @dhanavadh</p>            
           </div>

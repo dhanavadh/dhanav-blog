@@ -35,8 +35,7 @@ const IconroofPage = () => {
                 <div className='pl-4 border-l-4 border-yellow-500'>
                     <p className='font-[family-name:var(--font-sarabun-medium)]'>หมายเหตุ</p>
                     <p>โปรเจคนี้กำลังอยู่ในระหว่างการจัดทำนะครับ สามารถดูเว็บ production และ staging environment ได้ที่ลิงก์ด้านล่างนี้นะครับ</p>
-                    <a href='https://xn--72ca6bng5c5ell7l.com/' target='_blank' className='link-inline mr-4'>Production Website</a>
-                    <a href='https://iconroof.dhanav.me/' target='_blank' className='link-inline'>Pre-Production</a>
+                    <a href='https://iconroof.co.th/' target='_blank' className='link-inline mr-4'>Production Website</a>                  
                 </div>
             </div>
           <div className='paragraph'>
