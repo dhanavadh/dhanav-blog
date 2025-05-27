@@ -9,17 +9,18 @@ import 'swiper/css/navigation';
 import Link from 'next/link';
 import VideoSkeleton from './VideoSkeleton';
 
-function getVideoSrc(): Promise<string[]> {
-    // Replace with your logic to get multiple video source URLs
-    return Promise.resolve([
-        'https://stageengine.iconroof.co.th/public/asset/pers/content/kansai-cp/kansai.mp4',
-        'https://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/blog-preview.mp4',
-        'https://stageengine.iconroof.co.th/public/asset/pers/content/blueprint-proj/IMG_20250125_0001.jpeg',
-        'https://stageengine.iconroof.co.th/public/asset/pers/content/artsgoz/artsgoz.mp4',
-        'https://stageengine.iconroof.co.th/public/asset/pers/banner/buddhism.svg',
-        'https://stageengine.iconroof.co.th/public/asset/pers/banner/webremake.svg',
-        
-    ]);
+async function getVideoSrc(): Promise<string[]> {
+  // Replace with your logic to get multiple video source URLs
+  // Simulate async loading (e.g., fetching from API or loading links)
+  await new Promise((resolve) => setTimeout(resolve, 500)); // simulate network delay
+  return [
+    'https://stageengine.iconroof.co.th/public/asset/pers/content/kansai-cp/kansai.mp4',
+    'https://stageengine.iconroof.co.th/public/asset/pers/content/port-redesign/blog-preview.mp4',
+    'https://stageengine.iconroof.co.th/public/asset/pers/content/blueprint-proj/IMG_20250125_0001.jpeg',
+    'https://stageengine.iconroof.co.th/public/asset/pers/content/artsgoz/artsgoz.mp4',
+    'https://stageengine.iconroof.co.th/public/asset/pers/banner/buddhism.svg',
+    'https://stageengine.iconroof.co.th/public/asset/pers/banner/webremake.svg',
+  ];
 }
 const Slider = () => {
   const [srcArr, setSrcArr] = useState<string[]>([]);
