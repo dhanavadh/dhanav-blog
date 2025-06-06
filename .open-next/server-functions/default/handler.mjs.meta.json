@@ -3835,12 +3835,12 @@
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
-      "bytes": 5582,
+    ".open-next/server-functions/default/.next/server/app/blogs/page_client-reference-manifest.js": {
+      "bytes": 6164,
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/blogs/page_client-reference-manifest.js": {
+    ".open-next/server-functions/default/.next/server/app/about/page_client-reference-manifest.js": {
       "bytes": 6164,
       "imports": [],
       "format": "cjs"
@@ -3850,8 +3850,13 @@
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/about/page_client-reference-manifest.js": {
-      "bytes": 6164,
+    ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
+      "bytes": 5582,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/blogs/coding/port-redesign/page_client-reference-manifest.js": {
+      "bytes": 6357,
       "imports": [],
       "format": "cjs"
     },
@@ -3865,28 +3870,8 @@
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page_client-reference-manifest.js": {
-      "bytes": 6325,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/blogs/other/kansai-cp/page_client-reference-manifest.js": {
-      "bytes": 6331,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page_client-reference-manifest.js": {
-      "bytes": 6333,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/blogs/other/iconroof/page_client-reference-manifest.js": {
-      "bytes": 6325,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/blogs/other/buddhism-freewill/page_client-reference-manifest.js": {
-      "bytes": 6379,
+    ".open-next/server-functions/default/.next/server/app/blogs/coding/blueprint-project/page_client-reference-manifest.js": {
+      "bytes": 6385,
       "imports": [],
       "format": "cjs"
     },
@@ -3895,13 +3880,8 @@
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/blogs/coding/port-redesign/page_client-reference-manifest.js": {
-      "bytes": 6357,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/blogs/coding/blueprint-project/page_client-reference-manifest.js": {
-      "bytes": 6385,
+    ".open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page_client-reference-manifest.js": {
+      "bytes": 6325,
       "imports": [],
       "format": "cjs"
     },
@@ -3910,8 +3890,28 @@
       "imports": [],
       "format": "cjs"
     },
+    ".open-next/server-functions/default/.next/server/app/blogs/other/iconroof/page_client-reference-manifest.js": {
+      "bytes": 6325,
+      "imports": [],
+      "format": "cjs"
+    },
     ".open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-backend/page_client-reference-manifest.js": {
       "bytes": 6373,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/blogs/other/kansai-cp/page_client-reference-manifest.js": {
+      "bytes": 6331,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/blogs/other/buddhism-freewill/page_client-reference-manifest.js": {
+      "bytes": 6379,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page_client-reference-manifest.js": {
+      "bytes": 6333,
       "imports": [],
       "format": "cjs"
     },
@@ -3949,14 +3949,14 @@
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/experience/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/blogs/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/page_client-reference-manifest.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/about/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/about/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/[...not_found]/page_client-reference-manifest.js",
@@ -3964,9 +3964,14 @@
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/[...not_found]/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/about/page_client-reference-manifest.js",
+          "path": ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/about/page_client-reference-manifest.js"
+          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/blogs/coding/port-redesign/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/coding/port-redesign/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/projects/2024/artsgoz-frontend/page_client-reference-manifest.js",
@@ -3979,29 +3984,9 @@
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/projects/2024/artsgoz-backend/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page_client-reference-manifest.js",
+          "path": ".open-next/server-functions/default/.next/server/app/blogs/coding/blueprint-project/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/blogs/other/kansai-cp/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/kansai-cp/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/blogs/other/iconroof/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/iconroof/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/blogs/other/buddhism-freewill/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/buddhism-freewill/page_client-reference-manifest.js"
+          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/coding/blueprint-project/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/blogs/coding/recap-port/page_client-reference-manifest.js",
@@ -4009,14 +3994,9 @@
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/coding/recap-port/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/blogs/coding/port-redesign/page_client-reference-manifest.js",
+          "path": ".open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/coding/port-redesign/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/blogs/coding/blueprint-project/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/coding/blueprint-project/page_client-reference-manifest.js"
+          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-frontend/page_client-reference-manifest.js",
@@ -4024,9 +4004,29 @@
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-frontend/page_client-reference-manifest.js"
         },
         {
+          "path": ".open-next/server-functions/default/.next/server/app/blogs/other/iconroof/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/iconroof/page_client-reference-manifest.js"
+        },
+        {
           "path": ".open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-backend/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-backend/page_client-reference-manifest.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/blogs/other/kansai-cp/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/kansai-cp/page_client-reference-manifest.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/blogs/other/buddhism-freewill/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/buddhism-freewill/page_client-reference-manifest.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page_client-reference-manifest.js"
         }
       ],
       "format": "cjs"
@@ -11398,47 +11398,6 @@
       ],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/[...not_found]/page.js": {
-      "bytes": 3111,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
-          "kind": "require-call",
-          "original": "next/dist/compiled/next-server/app-page.runtime.prod.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/action-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/action-async-storage.external.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/work-async-storage.external.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/work-unit-async-storage.external.js"
-        },
-        {
-          "path": "path",
-          "kind": "require-call",
-          "external": true
-        },
-        {
-          "path": "url",
-          "kind": "require-call",
-          "external": true
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/webpack-runtime.js",
-          "kind": "require-call",
-          "original": "../../webpack-runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
     ".open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-backend/page.js": {
       "bytes": 9742,
       "imports": [
@@ -11562,6 +11521,88 @@
       ],
       "format": "cjs"
     },
+    ".open-next/server-functions/default/.next/server/app/[...not_found]/page.js": {
+      "bytes": 3111,
+      "imports": [
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
+          "kind": "require-call",
+          "original": "next/dist/compiled/next-server/app-page.runtime.prod.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/action-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/action-async-storage.external.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/work-async-storage.external.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/work-unit-async-storage.external.js"
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "url",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/webpack-runtime.js",
+          "kind": "require-call",
+          "original": "../../webpack-runtime.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-frontend/page.js": {
+      "bytes": 22213,
+      "imports": [
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
+          "kind": "require-call",
+          "original": "next/dist/compiled/next-server/app-page.runtime.prod.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/action-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/action-async-storage.external.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/work-async-storage.external.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/work-unit-async-storage.external.js"
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "url",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/webpack-runtime.js",
+          "kind": "require-call",
+          "original": "../../../../webpack-runtime.js"
+        }
+      ],
+      "format": "cjs"
+    },
     ".open-next/server-functions/default/.next/server/app/blogs/coding/port-redesign/page.js": {
       "bytes": 57275,
       "imports": [
@@ -11644,90 +11685,8 @@
       ],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page.js": {
-      "bytes": 4941,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
-          "kind": "require-call",
-          "original": "next/dist/compiled/next-server/app-page.runtime.prod.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/action-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/action-async-storage.external.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/work-async-storage.external.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/work-unit-async-storage.external.js"
-        },
-        {
-          "path": "path",
-          "kind": "require-call",
-          "external": true
-        },
-        {
-          "path": "url",
-          "kind": "require-call",
-          "external": true
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/webpack-runtime.js",
-          "kind": "require-call",
-          "original": "../../../../webpack-runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
     ".open-next/server-functions/default/.next/server/app/blogs/other/buddhism-freewill/page.js": {
       "bytes": 39021,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
-          "kind": "require-call",
-          "original": "next/dist/compiled/next-server/app-page.runtime.prod.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/action-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/action-async-storage.external.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/work-async-storage.external.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/work-unit-async-storage.external.js"
-        },
-        {
-          "path": "path",
-          "kind": "require-call",
-          "external": true
-        },
-        {
-          "path": "url",
-          "kind": "require-call",
-          "external": true
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/webpack-runtime.js",
-          "kind": "require-call",
-          "original": "../../../../webpack-runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-frontend/page.js": {
-      "bytes": 22213,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
@@ -11808,8 +11767,8 @@
       ],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page.js": {
-      "bytes": 10922,
+    ".open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page.js": {
+      "bytes": 4941,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
@@ -11890,47 +11849,6 @@
       ],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/page.js": {
-      "bytes": 107638,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
-          "kind": "require-call",
-          "original": "next/dist/compiled/next-server/app-page.runtime.prod.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/action-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/action-async-storage.external.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/work-async-storage.external.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/work-unit-async-storage.external.js"
-        },
-        {
-          "path": "path",
-          "kind": "require-call",
-          "external": true
-        },
-        {
-          "path": "url",
-          "kind": "require-call",
-          "external": true
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/webpack-runtime.js",
-          "kind": "require-call",
-          "original": "../webpack-runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
     ".open-next/server-functions/default/.next/server/app/projects/2024/artsgoz-backend/page.js": {
       "bytes": 2485,
       "imports": [
@@ -11972,8 +11890,90 @@
       ],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/projects/page.js": {
-      "bytes": 9724,
+    ".open-next/server-functions/default/.next/server/app/page.js": {
+      "bytes": 107638,
+      "imports": [
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
+          "kind": "require-call",
+          "original": "next/dist/compiled/next-server/app-page.runtime.prod.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/action-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/action-async-storage.external.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/work-async-storage.external.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/work-unit-async-storage.external.js"
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "url",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/webpack-runtime.js",
+          "kind": "require-call",
+          "original": "../webpack-runtime.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page.js": {
+      "bytes": 10922,
+      "imports": [
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
+          "kind": "require-call",
+          "original": "next/dist/compiled/next-server/app-page.runtime.prod.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/action-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/action-async-storage.external.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/work-async-storage.external.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/work-unit-async-storage.external.js"
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "url",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/webpack-runtime.js",
+          "kind": "require-call",
+          "original": "../../../../webpack-runtime.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/blogs/page.js": {
+      "bytes": 10875,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
@@ -12013,8 +12013,8 @@
       ],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/blogs/page.js": {
-      "bytes": 10875,
+    ".open-next/server-functions/default/.next/server/app/projects/page.js": {
+      "bytes": 9724,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
@@ -12210,11 +12210,6 @@
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/favicon.ico/route.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/[...not_found]/page.js",
-          "kind": "require-call",
-          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/[...not_found]/page.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-backend/page.js",
           "kind": "require-call",
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-backend/page.js"
@@ -12230,6 +12225,16 @@
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/coding/blueprint-project/page.js"
         },
         {
+          "path": ".open-next/server-functions/default/.next/server/app/[...not_found]/page.js",
+          "kind": "require-call",
+          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/[...not_found]/page.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-frontend/page.js",
+          "kind": "require-call",
+          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-frontend/page.js"
+        },
+        {
           "path": ".open-next/server-functions/default/.next/server/app/blogs/coding/port-redesign/page.js",
           "kind": "require-call",
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/coding/port-redesign/page.js"
@@ -12240,19 +12245,9 @@
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/coding/recap-port/page.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page.js",
-          "kind": "require-call",
-          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/blogs/other/buddhism-freewill/page.js",
           "kind": "require-call",
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/buddhism-freewill/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-frontend/page.js",
-          "kind": "require-call",
-          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-frontend/page.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/blogs/other/iconroof/page.js",
@@ -12260,9 +12255,9 @@
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/iconroof/page.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page.js",
+          "path": ".open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page.js",
           "kind": "require-call",
-          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page.js"
+          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/experience/page.js",
@@ -12270,24 +12265,29 @@
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/experience/page.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/page.js",
-          "kind": "require-call",
-          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/page.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/projects/2024/artsgoz-backend/page.js",
           "kind": "require-call",
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/projects/2024/artsgoz-backend/page.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/projects/page.js",
+          "path": ".open-next/server-functions/default/.next/server/app/page.js",
           "kind": "require-call",
-          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/projects/page.js"
+          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/page.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page.js",
+          "kind": "require-call",
+          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/blogs/page.js",
           "kind": "require-call",
           "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/blogs/page.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/projects/page.js",
+          "kind": "require-call",
+          "original": "/Users/dhanavadhsaito/Documents/GitHub/dhanav-blog/.open-next/server-functions/default/.next/server/app/projects/page.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/projects/2024/artsgoz-frontend/page.js",
@@ -14862,53 +14862,53 @@
         ".open-next/server-functions/default/.next/server/app/experience/page_client-reference-manifest.js": {
           "bytesInOutput": 6582
         },
-        ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
-          "bytesInOutput": 6362
-        },
         ".open-next/server-functions/default/.next/server/app/blogs/page_client-reference-manifest.js": {
+          "bytesInOutput": 6959
+        },
+        ".open-next/server-functions/default/.next/server/app/about/page_client-reference-manifest.js": {
           "bytesInOutput": 6959
         },
         ".open-next/server-functions/default/.next/server/app/[...not_found]/page_client-reference-manifest.js": {
           "bytesInOutput": 6292
         },
-        ".open-next/server-functions/default/.next/server/app/about/page_client-reference-manifest.js": {
-          "bytesInOutput": 6959
+        ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
+          "bytesInOutput": 6362
+        },
+        ".open-next/server-functions/default/.next/server/app/blogs/coding/port-redesign/page_client-reference-manifest.js": {
+          "bytesInOutput": 7175
         },
         ".open-next/server-functions/default/.next/server/app/projects/2024/artsgoz-frontend/page_client-reference-manifest.js": {
           "bytesInOutput": 7122
         },
         ".open-next/server-functions/default/.next/server/app/projects/2024/artsgoz-backend/page_client-reference-manifest.js": {
-          "bytesInOutput": 7119
-        },
-        ".open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page_client-reference-manifest.js": {
-          "bytesInOutput": 7138
-        },
-        ".open-next/server-functions/default/.next/server/app/blogs/other/kansai-cp/page_client-reference-manifest.js": {
-          "bytesInOutput": 7145
-        },
-        ".open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page_client-reference-manifest.js": {
-          "bytesInOutput": 7148
-        },
-        ".open-next/server-functions/default/.next/server/app/blogs/other/iconroof/page_client-reference-manifest.js": {
-          "bytesInOutput": 7138
-        },
-        ".open-next/server-functions/default/.next/server/app/blogs/other/buddhism-freewill/page_client-reference-manifest.js": {
-          "bytesInOutput": 7201
-        },
-        ".open-next/server-functions/default/.next/server/app/blogs/coding/recap-port/page_client-reference-manifest.js": {
-          "bytesInOutput": 7159
-        },
-        ".open-next/server-functions/default/.next/server/app/blogs/coding/port-redesign/page_client-reference-manifest.js": {
-          "bytesInOutput": 7176
+          "bytesInOutput": 7120
         },
         ".open-next/server-functions/default/.next/server/app/blogs/coding/blueprint-project/page_client-reference-manifest.js": {
           "bytesInOutput": 7208
         },
+        ".open-next/server-functions/default/.next/server/app/blogs/coding/recap-port/page_client-reference-manifest.js": {
+          "bytesInOutput": 7159
+        },
+        ".open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page_client-reference-manifest.js": {
+          "bytesInOutput": 7138
+        },
         ".open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-frontend/page_client-reference-manifest.js": {
           "bytesInOutput": 7201
         },
+        ".open-next/server-functions/default/.next/server/app/blogs/other/iconroof/page_client-reference-manifest.js": {
+          "bytesInOutput": 7138
+        },
         ".open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-backend/page_client-reference-manifest.js": {
           "bytesInOutput": 7194
+        },
+        ".open-next/server-functions/default/.next/server/app/blogs/other/kansai-cp/page_client-reference-manifest.js": {
+          "bytesInOutput": 7145
+        },
+        ".open-next/server-functions/default/.next/server/app/blogs/other/buddhism-freewill/page_client-reference-manifest.js": {
+          "bytesInOutput": 7201
+        },
+        ".open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page_client-reference-manifest.js": {
+          "bytesInOutput": 7148
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.js": {
           "bytesInOutput": 34082
@@ -16914,9 +16914,6 @@
         ".open-next/server-functions/default/.next/server/app/favicon.ico/route.js": {
           "bytesInOutput": 235611
         },
-        ".open-next/server-functions/default/.next/server/app/[...not_found]/page.js": {
-          "bytesInOutput": 3969
-        },
         ".open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-backend/page.js": {
           "bytesInOutput": 14383
         },
@@ -16926,41 +16923,44 @@
         ".open-next/server-functions/default/.next/server/app/blogs/coding/blueprint-project/page.js": {
           "bytesInOutput": 49644
         },
+        ".open-next/server-functions/default/.next/server/app/[...not_found]/page.js": {
+          "bytesInOutput": 3969
+        },
+        ".open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-frontend/page.js": {
+          "bytesInOutput": 35752
+        },
         ".open-next/server-functions/default/.next/server/app/blogs/coding/port-redesign/page.js": {
           "bytesInOutput": 96583
         },
         ".open-next/server-functions/default/.next/server/app/blogs/coding/recap-port/page.js": {
           "bytesInOutput": 49510
         },
-        ".open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page.js": {
-          "bytesInOutput": 6623
-        },
         ".open-next/server-functions/default/.next/server/app/blogs/other/buddhism-freewill/page.js": {
           "bytesInOutput": 70903
-        },
-        ".open-next/server-functions/default/.next/server/app/blogs/coding/artsgoz-frontend/page.js": {
-          "bytesInOutput": 35753
         },
         ".open-next/server-functions/default/.next/server/app/blogs/other/iconroof/page.js": {
           "bytesInOutput": 10284
         },
-        ".open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page.js": {
-          "bytesInOutput": 17749
+        ".open-next/server-functions/default/.next/server/app/blogs/other/heavengate/page.js": {
+          "bytesInOutput": 6624
         },
         ".open-next/server-functions/default/.next/server/app/experience/page.js": {
           "bytesInOutput": 9139
         },
-        ".open-next/server-functions/default/.next/server/app/page.js": {
-          "bytesInOutput": 157333
-        },
         ".open-next/server-functions/default/.next/server/app/projects/2024/artsgoz-backend/page.js": {
           "bytesInOutput": 3299
         },
-        ".open-next/server-functions/default/.next/server/app/projects/page.js": {
-          "bytesInOutput": 11443
+        ".open-next/server-functions/default/.next/server/app/page.js": {
+          "bytesInOutput": 157333
+        },
+        ".open-next/server-functions/default/.next/server/app/blogs/other/shukatsu/page.js": {
+          "bytesInOutput": 17749
         },
         ".open-next/server-functions/default/.next/server/app/blogs/page.js": {
           "bytesInOutput": 15727
+        },
+        ".open-next/server-functions/default/.next/server/app/projects/page.js": {
+          "bytesInOutput": 11443
         },
         ".open-next/server-functions/default/.next/server/app/projects/2024/artsgoz-frontend/page.js": {
           "bytesInOutput": 3305
