@@ -18,6 +18,7 @@ function getVideoSrc(): Promise<string[]> {
         'https://stageengine.iconroof.co.th/public/asset/pers/content/artsgoz/artsgoz.mp4',
         'https://stageengine.iconroof.co.th/public/asset/pers/banner/buddhism.svg',
         'https://stageengine.iconroof.co.th/public/asset/pers/banner/webremake.svg',
+        'http://stageengine.iconroof.co.th/public/asset/pers/content/uxintrain/uxui.mp4',
         
     ]);
 }
@@ -32,6 +33,7 @@ const Slider = () => {
   const src4 = srcArr[3];
   const src5 = srcArr[4];
   const src6 = srcArr[5];
+  const src7 = srcArr[6];
 
   return (
     <>  
@@ -45,12 +47,33 @@ const Slider = () => {
         keyboard={true}    
         centeredSlides={true}
         autoplay={{
-          delay: 10000,
+          delay: 12000,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper font-[family-name:var(--font-noto-sans)]"
       >
+
+        <SwiperSlide>
+            <div className='slider-core'>   
+            <div className="absolute z-[-1] w-full h-full">
+              {src1 ? (
+                <video width="full" autoPlay loop muted preload='auto' playsInline className='w-full h-full object-cover brightness-50'>
+                <source src={src7} type="video/mp4" />
+                Your browser does not support the video tag.
+                </video>
+              ) : (
+                <VideoSkeleton />
+              )}
+            </div>
+            <div className='text-area-padding'>
+                    <div className='flex gap-2'>
+                        <Link href='/blogs/other/uxintrain' className='slider-title-section link-white'>User Experience ในสถานีรถไฟของญี่ปุ่น→</Link>
+                    </div>
+                    <p className='subtitle-section'>รถไฟสำหรับประเทศญี่ปุ่นนั้นถือเป็นการเดินทางที่สำคัญเลยก็ว่าได้ และ UX เข้ามามีบทบาทอย่างไรกับการให้บริการรถไฟ?</p>
+            </div>
+            </div>
+        </SwiperSlide> 
 
         <SwiperSlide>
             <div className='slider-core'>   
