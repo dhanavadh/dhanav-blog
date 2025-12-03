@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+body {
+	font-family: 'Georgia', serif;
+	font-size: 16px;
+	line-height: 20px;
+	background-color: #fafaf9;
+}
+
+.link {
+	@apply flex items-center gap-2 hover:underline;
+}
+
+.paragraph {
+	@apply flex flex-col gap-2 leading-7;
+}
