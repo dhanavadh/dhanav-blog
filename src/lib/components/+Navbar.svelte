@@ -5,7 +5,7 @@
 </script>
 
 
-<nav class="flex w-full justify-between max-w-md mx-auto p-6 sticky top-0 bg-stone-50">
+<nav class="flex w-full justify-between max-w-lg mx-auto p-6 sticky top-0 bg-stone-50">
 		<a href="/" class="link">
 			<img src={favicon} alt="Logo" width="16" height="16" />
 			<p class="hidden sm:flex">Dhanavadh S.</p></a

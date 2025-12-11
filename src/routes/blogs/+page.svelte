@@ -1,4 +1,4 @@
-<section class="flex flex-col w-full max-w-md mx-auto p-6 mt-12 min-h-screen gap-6">
+<section class="flex flex-col w-full max-w-lg mx-auto p-6 mt-12 min-h-screen gap-6">
 	<div>	
 		<p class="text-stone-400 mb-2">Latest Update: Dec 5, 2025</p>
 		<h1 class="text-4xl text-stone-600">Blogs</h1>

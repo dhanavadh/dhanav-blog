@@ -1,4 +1,4 @@
-<section class="flex flex-col w-full max-w-md mx-auto p-6 mt-12 min-h-screen gap-6">
+<section class="flex flex-col w-full max-w-lg mx-auto p-6 mt-12 min-h-screen gap-6">
 	<div>
 		<span class="flex flex-col gap-2 items-start mb-3">
 			<div class="flex gap-2 mb-1">
@@ -7,7 +7,7 @@
 			</div>
 			<p class="text-stone-400">Fri Dec 5, 2025</p>
 		</span>
-		<h1 class="text-4xl text-stone-600">พุทธศาสนาและเจตจำนงเสรีบางประการ</h1>
+		<h1 class="text-4xl text-green-900">พุทธศาสนาและเจตจำนงเสรีบางประการ</h1>
 	</div>
 	<div class="paragraph pb-12">
 		
@@ -20,7 +20,7 @@
 		<p>
 			เมื่อเราลองพิจารณาเหตุการณ์ที่ว่า
 		</p>
-		<p class="p-4 border-l-4">
+		<p class="p-4 border-l-4 border-green-900">
 			มีสงครามและมีการเกณฑ์ทหารเพื่อไปทำสงคราม และในสงครามนั้นมีการฆ่าล้างเผ่าพันธุ์เกิดขึ้น ทหารที่ถูกเกณฑ์ไปทั้งหมดถูกสั่งให้ทำการฆ่าผู้คน หากมีทหารที่ไม่ไปเกณฑ์ และทำตามคำสั่งจะถูกฆ่าเช่นเดียวกัน
 		</p>
 		<p>

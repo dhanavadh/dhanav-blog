@@ -1,4 +1,4 @@
-<section class="flex flex-col w-full max-w-md mx-auto p-6 mt-12 min-h-screen gap-6">
+<section class="flex flex-col w-full max-w-lg mx-auto p-6 mt-12 min-h-screen gap-6">
 	<div>
 		<span class="flex flex-col gap-2 items-start mb-3">
 			<div class="flex gap-2 mb-1">
