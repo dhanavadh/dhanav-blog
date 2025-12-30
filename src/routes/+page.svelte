@@ -1,3 +1,7 @@
+<script>
+	import Message from '$lib/components/+Message.svelte';
+</script>
+
 <section class="flex flex-col w-full max-w-lg mx-auto p-6 mt-12 min-h-screen gap-6">
 	<div class="paragraph">
 		<h1 class="text-4xl">Dhanavadh Saito</h1>
@@ -25,17 +29,28 @@
 			<li class="flex pt-2 pb-4 border-b border-stone-300">
 				<div class="flex flex-col">
 					<p class="text-xs text-stone-400 rounded-full border w-fit px-1.5 mb-1">Thai</p>
-					<a href="/blogs" class="link"><h1 class="text-lg">Attending Exchange Student at Osaka, Japan</h1></a>
-					<p class="text-stone-500 line-clamp-2 mt-1 text-sm">Additionally, I have a growing interest in religious studies and philosophy, particularly Buddhist philosophy. I plan to include topics related to philosophy on this site, so you can get to know me better and see the various aspects of who I am.</p>
+					<a href="/blogs" class="link"
+						><h1 class="text-lg">Attending Exchange Student at Osaka, Japan</h1></a
+					>
+					<p class="text-stone-500 line-clamp-2 mt-1 text-sm">
+						Additionally, I have a growing interest in religious studies and philosophy,
+						particularly Buddhist philosophy. I plan to include topics related to philosophy on this
+						site, so you can get to know me better and see the various aspects of who I am.
+					</p>
 				</div>
-			</li>				
+			</li>
 			<li class="flex pt-2 pb-4 border-b border-stone-300">
 				<div class="flex flex-col">
 					<p class="text-xs text-stone-400 rounded-full border w-fit px-1.5 mb-1">Thai</p>
-					<a href="/blogs/2025" class="link"><h1 class="text-lg font-looped">รีวิวไปแลกเปลี่ยนที่โอซาก้า 2025</h1></a>
-					<p class="text-stone-500 line-clamp-2 mt-1 font-looped text-sm">โดยที่ประชาชนแห่งสหประชาชาติได้ยืนยันอีกครั้งไว้ในกฎบัตรถึงศรัทธาในสิทธิมนุษยชนขั้นพื้นฐาน</p>
+					<a href="/blogs/2025" class="link"
+						><h1 class="text-lg font-looped">รีวิวไปแลกเปลี่ยนที่โอซาก้า 2025</h1></a
+					>
+					<p class="text-stone-500 line-clamp-2 mt-1 font-looped text-sm">
+						โดยที่ประชาชนแห่งสหประชาชาติได้ยืนยันอีกครั้งไว้ในกฎบัตรถึงศรัทธาในสิทธิมนุษยชนขั้นพื้นฐาน
+					</p>
 				</div>
-			</li>				
+			</li>
 		</ul>
 	</div>
 </section>
+<Message />
